@@ -1,0 +1,85 @@
+<div class="rectangle"></div>
+
+<div class="watch-back">
+  <div class="watch-face">
+    <div class="marker marker-top"></div>
+    <div class="marker marker-right"></div>
+    <div class="marker marker-bottom"></div>
+    <div class="marker marker-left"></div>
+  </div>
+</div>
+
+<style>
+  html {
+    margin: 0;
+    height: 100vh;
+    background-color: #D95F5B;
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
+
+  .rectangle,
+  .watch-back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .rectangle {
+    background-color: #282828;
+    width: 60px;
+    height: 220px;
+    border-radius: 50px;
+  }
+
+  .watch-back {
+    background-color: #282828;
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .watch-face {
+    background-color: #D95F5B;
+    width: 60px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .marker {
+    background-color: #282828;
+    position: absolute;
+    width: 10px;
+    height: 6px;
+  }
+
+  .marker-top {
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+  }
+
+  .marker-bottom {
+    bottom: 7px;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+  }
+
+  .marker-left {
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .marker-right {
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+</style>

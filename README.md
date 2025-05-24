@@ -1,7 +1,5 @@
 # CSSBattle Solutions
 
-![CSS](https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
-
 ## Overview
 
 This repository contains my solutions to various challenges on [CSSBattle](https://cssbattle.dev). Each solution replicates a given visual target using pure HTML and CSS. The goal is to match the shape and layout as closely as possible, often aiming for a 100% match.
