@@ -1,0 +1,12 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Mac OS metadata
+*.DS_Store
+
+# Log files
+*.log
