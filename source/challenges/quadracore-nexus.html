@@ -1,0 +1,68 @@
+<div class="diagonal-block diagonal-block-top-left"></div>
+<div class="diagonal-block diagonal-block-top-right"></div>
+<div class="diagonal-block diagonal-block-bottom-left"></div>
+<div class="diagonal-block diagonal-block-bottom-right"></div>
+<div class="center-block center-block-left"></div>
+<div class="center-block center-block-right"></div>
+<div class="center-block center-block-top"></div>
+<div class="center-block center-block-bottom"></div>
+
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #186d37;
+    position: relative;
+  }
+
+  .diagonal-block,
+  .center-block {
+    position: absolute;
+    background: #48bf7d;
+  }
+
+  .diagonal-block {
+    width: 100px;
+    height: 40px;
+  }
+
+  .center-block {
+    width: 20px;
+    height: 50px;
+  }
+
+  .diagonal-block-top-left {
+    transform: translate(85px, 85px) rotate(-45deg);
+  }
+
+  .diagonal-block-top-right {
+    transform: translate(85px, -85px) rotate(45deg);
+  }
+
+  .diagonal-block-bottom-left {
+    transform: translate(-85px, 85px) rotate(45deg);
+  }
+
+  .diagonal-block-bottom-right {
+    transform: translate(-85px, -85px) rotate(-45deg);
+  }
+
+  .center-block-left {
+    transform: translate(-60px, 0px);
+  }
+
+  .center-block-right {
+    transform: translate(60px, 0px);
+  }
+
+  .center-block-top {
+    transform: translate(0px, -60px) rotate(90deg);
+  }
+
+  .center-block-bottom {
+    transform: translate(0px, 60px) rotate(90deg);
+  }
+</style>
