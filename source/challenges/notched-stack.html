@@ -1,0 +1,53 @@
+<div class="stack">
+  <div class="blocks">
+    <div class="block block-margin"></div>
+    <div class="block"></div>
+    <div class="block block-margin"></div>
+  </div>
+  <div class="blocks-middle">
+    <div class="block"></div>
+    <div class="block block-margin"></div>
+    <div class="block"></div>
+  </div>
+  <div class="blocks">
+    <div class="block block-margin"></div>
+    <div class="block"></div>
+    <div class="block block-margin"></div>
+  </div>
+</div>
+<style>
+  body {
+    margin: 10px 0;
+    display: flex;
+    background: #6592cf;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .stack {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 280px;
+    gap: 20px;
+  }
+
+  .blocks,
+  .blocks-middle {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr 1fr;
+    flex: 1;
+  }
+
+  .blocks-middle {
+    grid-template-columns: 1fr 0.56fr 1fr;
+  }
+
+  .block {
+    background: #eeb850;
+  }
+
+  .block-margin {
+    margin: 5px 0;
+  }
+</style>
