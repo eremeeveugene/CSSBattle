@@ -1,0 +1,69 @@
+<div class="container">
+  <div class="petal petal-corner petal-top-left"></div>
+  <div class="petal petal-corner petal-top-right"></div>
+  <div class="petal petal-center"></div>
+  <div class="petal petal-corner petal-bottom-left"></div>
+  <div class="petal petal-corner petal-bottom-right"></div>
+</div>
+
+<style>
+  body {
+    background: #f4dcbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template:
+      "top-left    .    top-right" auto
+      ".           center .        " auto
+      "bottom-left .    bottom-right" auto
+      / auto auto auto;
+  }
+
+  .petal {
+    background: #d95362;
+  }
+
+  .petal-center {
+    grid-area: center;
+    width: 30px;
+    aspect-ratio: 1;
+  }
+
+  .petal-corner {
+    width: 60px;
+    aspect-ratio: 0.5;
+  }
+
+  .petal-top-left,
+  .petal-top-right {
+    align-self: end;
+  }
+
+  .petal-top-left {
+    grid-area: top-left;
+    border-top-right-radius: 100% 50%;
+    border-bottom-left-radius: 100% 50%;
+  }
+
+  .petal-top-right {
+    grid-area: top-right;
+    border-top-left-radius: 100% 50%;
+    border-bottom-right-radius: 100% 50%;
+  }
+
+  .petal-bottom-left {
+    grid-area: bottom-left;
+    border-top-left-radius: 100% 50%;
+    border-bottom-right-radius: 100% 50%;
+  }
+
+  .petal-bottom-right {
+    grid-area: bottom-right;
+    border-top-right-radius: 100% 50%;
+    border-bottom-left-radius: 100% 50%;
+  }
+</style>
