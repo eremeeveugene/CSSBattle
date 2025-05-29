@@ -1,0 +1,73 @@
+<div class="tree">
+  <div class="tree-canopy">
+    <div class="tree-trunk tree-trunk-top"></div>
+  </div>
+  <div class="tree-trunk-middle">
+    <div class="tree-trunk tree-trunk-corner tree-trunk-corner-left">
+      <div class="tree-trunk-background"></div>
+    </div>
+    <div class="tree-trunk tree-trunk-center"></div>
+    <div class="tree-trunk tree-trunk-corner">
+      <div class="tree-trunk-background"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  body {
+    background: #d2f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tree {
+    place-items: center;
+  }
+
+  .tree-canopy {
+    width: 120px;
+    aspect-ratio: 1;
+    background: #3f8090;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .tree-trunk {
+    background: #072949;
+  }
+
+  .tree-trunk-top {
+    width: 40px;
+    height: 60px;
+  }
+
+  .tree-trunk-middle {
+    display: flex;
+    height: 120px;
+  }
+
+  .tree-trunk-center {
+    width: 40px;
+  }
+
+  .tree-trunk-corner {
+    width: 60px;
+    overflow: hidden;
+  }
+
+  .tree-trunk-corner-left {
+    justify-items: end;
+    align-items: end;
+  }
+
+  .tree-trunk-background {
+    width: 500px;
+    aspect-ratio: 1;
+    background: #d2f8ff;
+    border-radius: 100%;
+    transform: translateY(-50%);
+  }
+</style>
