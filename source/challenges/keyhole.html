@@ -1,0 +1,54 @@
+<div class="circle">
+  <div class="circle-red">
+    <div class="circle-blue"></div>
+    <div class="rect-blue"></div>
+  </div>
+  <div class="rect-blue"></div>
+</div>
+<style>
+  body {
+    background: #23384b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .circle {
+    background: #d9d9d9;
+    width: 140px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-red {
+    background: #d36354;
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(20px);
+  }
+
+  .circle-blue {
+    background: #23384b;
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    transform: translateY(20px);
+  }
+
+  .rect-blue {
+    background: #23384b;
+    width: 30px;
+    height: 40px;
+  }
+</style>
