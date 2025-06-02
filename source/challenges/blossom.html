@@ -1,0 +1,54 @@
+<div class="leaf-grid">
+  <div class="leaf-column">
+    <div class="leaf-top-left"></div>
+    <div class="leaf-bottom-left"></div>
+  </div>
+  <div class="leaf-column">
+    <div class="leaf-top-right"></div>
+    <div class="leaf-bottom-right"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #998235;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leaf-grid {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    gap: 20px;
+  }
+
+  .leaf-column {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+  }
+
+  .leaf-top-left {
+    height: 100px;
+    background: #1a4341;
+    border-radius: 0 50px 0 50px;
+  }
+
+  .leaf-bottom-left {
+    height: 60px;
+    background: #f3ac3c;
+    border-radius: 0 50px 0 50px;
+  }
+
+  .leaf-top-right {
+    height: 60px;
+    background: #f3ac3c;
+    border-radius: 50px 0 50px 0;
+  }
+
+  .leaf-bottom-right {
+    height: 100px;
+    background: #1a4341;
+    border-radius: 50px 0 50px 0;
+  }
+</style>
