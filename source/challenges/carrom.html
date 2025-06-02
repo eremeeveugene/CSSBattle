@@ -1,0 +1,27 @@
+<div class="rectangles">
+  <div class="rectangle"></div>
+  <div class="rectangle"></div>
+  <div class="rectangle"></div>
+  <div class="rectangle"></div>
+</div>
+<style>
+  body {
+    display: flex;
+    background: #62374e;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rectangles {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px 200px;
+  }
+
+  .rectangle {
+    background: #fdc57b;
+    width: 50px;
+    aspect-ratio: 1;
+  }
+</style>
