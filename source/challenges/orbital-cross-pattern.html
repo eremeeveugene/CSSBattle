@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="circle top end"></div>
+  <div class="rect top"></div>
+  <div class="circle top"></div>
+
+  <div class="rect stretch"></div>
+  <div class="circle"></div>
+  <div class="rect stretch"></div>
+
+  <div class="circle end"></div>
+  <div class="rect"></div>
+  <div class="circle"></div>
+</div>
+
+<style>
+  body {
+    margin: 0;
+    background: #2d3464;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 20px;
+    width: 400px;
+  }
+
+  .circle {
+    width: 50px;
+    aspect-ratio: 1;
+    background: #c0d6e7;
+    border-radius: 50%;
+  }
+
+  .rect {
+    height: 50px;
+    aspect-ratio: 1;
+    background: #d95362;
+  }
+
+  .stretch {
+    width: 100%;
+  }
+
+  .top {
+    align-self: end;
+  }
+
+  .end {
+    justify-self: end;
+  }
+</style>
