@@ -14,6 +14,8 @@ The primary objective of this project is to practice and improve my CSS skills â
 
 - **[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)**: The markup language used to structure the challenges.
 - **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)**: The styling language used to visually replicate the target images in each challenge.
+- **[Puppeteer](https://pptr.dev/)**: Used for rendering HTML files in a headless browser during CI to verify visual correctness.
+- **[pixelmatch](https://github.com/mapbox/pixelmatch)**: A pixel-level image comparison library used to detect visual mismatches in challenge output.
 
 ## Tools
 
@@ -24,9 +26,11 @@ For developing and testing the solutions in this repository, I use the following
 
 ## Automation Jobs
 
-This repository includes an automation job defined in the `ui-visual-validation.yml` file to ensure the visual correctness of CSSBattle challenge solutions. The job runs automatically on every pull request and checks that each HTML file in the `source/challenges/` folder renders exactly as intended.
+This repository includes an automation job defined in the `ui-visual-validation.yml` file to ensure the visual correctness of CSSBattle challenge solutions. The job runs automatically on every pull request or push to the `develop` branch.
 
-For each challenge, a screenshot is generated using a headless browser and compared against a corresponding reference image located in the `ut-tests/expected-result/` folder. The generated screenshots are saved to `ut-tests/actual-result/`. If an expected image is missing or if a visual mismatch is detected, the job will fail. This helps maintain pixel-perfect rendering and prevents visual regressions.
+For each challenge, a screenshot is generated using a headless browser (via Puppeteer) and compared against a corresponding reference image located in the `ut-tests/expected-result/` folder using `pixelmatch`. The generated screenshots are saved to `ut-tests/actual-result/` during the CI run (but are not committed to the repository). If an expected image is missing, or if a visual mismatch **exceeding a small tolerance (up to 3 pixels)** is detected, the job will fail. This tolerance helps prevent false positives caused by rendering inconsistencies such as anti-aliasing or subpixel rounding.
+
+This ensures all challenge solutions remain pixel-perfect (or nearly so) over time and guards against unintended visual regressions during development.
 
 ## Live Challenge Viewer
 
