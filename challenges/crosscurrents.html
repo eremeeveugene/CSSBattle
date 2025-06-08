@@ -1,0 +1,76 @@
+<div class="content">
+  <div class="side side-top side-left">
+    <div class="island"></div>
+    <div class="circle"></div>
+    <div class="circle circle-flipped"></div>
+  </div>
+  <div class="side side-right">
+    <div class="island"></div>
+    <div class="circle circle-blue"></div>
+    <div class="circle circle-blue circle-flipped"></div>
+  </div>
+</div>
+
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    background: #243d83;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    width: 400px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+
+  .side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .side-left {
+    margin-left: -60px;
+  }
+
+  .side-right {
+    margin-left: 60px;
+  }
+
+  .side-top {
+    z-index: 1;
+  }
+
+  .circle {
+    position: absolute;
+    width: 160px;
+    height: 260px;
+    border: 50px solid #4a9a86;
+    border-radius: 200px;
+    transform: translate(0%, -115px);
+  }
+
+  .circle-flipped {
+    transform: translate(0%, 115px) rotate(180deg);
+  }
+
+  .circle-blue {
+    border-color: #243d83;
+  }
+
+  .island {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    background: #e3cc9e;
+  }
+
+  .island-left {
+    transform: translate(-30%, 0%);
+  }
+</style>

@@ -1,0 +1,42 @@
+<div class="archs">
+  <div class="arch top"></div>
+  <div class="arch bottom bottom-left"></div>
+  <div class="arch bottom bottom-right"></div>
+</div>
+
+<style>
+  body {
+    background: #62306d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .archs {
+    display: grid;
+    grid-template: 100px 100px / 100px 100px 100px;
+  }
+
+  .arch {
+    background: #f7ec7d;
+  }
+
+  .top {
+    grid-row: 1;
+    grid-column: 2;
+    border-radius: 50% 50% 0 0;
+  }
+
+  .bottom {
+    grid-row: 2;
+    border-radius: 0 0 50% 50%;
+  }
+
+  .bottom-left {
+    grid-column: 1;
+  }
+
+  .bottom-right {
+    grid-column: 3;
+  }
+</style>

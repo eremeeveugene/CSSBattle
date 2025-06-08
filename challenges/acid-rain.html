@@ -1,0 +1,45 @@
+<div class="drops">
+  <div class="drop yellow circle"></div>
+  <div class="drop green"></div>
+  <div class="drop yellow bottom"></div>
+</div>
+
+<style>
+  body {
+    margin: 0;
+    background: #0b2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .drops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .drop {
+    width: 120px;
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 100% 0 100% 100%;
+  }
+
+  .yellow {
+    background: #f3ac3c;
+  }
+
+  .green {
+    background: #998235;
+  }
+
+  .circle {
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+  }
+
+  .bottom {
+    transform: translate(-50%, 50%);
+  }
+</style>

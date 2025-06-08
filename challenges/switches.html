@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="ellipse ellipse-bottom">
+    <div class="circle"></div>
+  </div>
+  <div class="ellipse ellipse-top">
+    <div class="circle"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #62306d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 40px;
+  }
+
+  .ellipse {
+    height: 150px;
+    border-radius: 50px;
+    display: flex;
+  }
+
+  .ellipse-bottom {
+    background: #aa445f;
+    align-items: end;
+  }
+
+  .ellipse-top {
+    background: #e38f66;
+    align-items: start;
+    margin-top: 50px;
+  }
+
+  .circle {
+    width: 100px;
+    aspect-ratio: 1;
+    background: #f7ec7d;
+    border-radius: 50%;
+  }
+</style>

@@ -1,0 +1,50 @@
+<div class="circles circles-left">
+  <div class="circle circle-white"></div>
+  <div class="circle circle-black"></div>
+</div>
+<div class="circle circle-small circle-black"></div>
+<div class="circles circles-right">
+  <div class="circle circle-black"></div>
+  <div class="circle circle-white"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #f58220;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    place-items: center;
+  }
+
+  .circles {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .circles-left {
+    transform: translateX(-50%);
+  }
+
+  .circles-right {
+    transform: translateX(50%);
+  }
+
+  .circle {
+    aspect-ratio: 1;
+    border-radius: 100%;
+  }
+
+  .circle-small {
+    width: 80px;
+  }
+
+  .circle-white {
+    background: #ffffff;
+  }
+
+  .circle-black {
+    background: #282828;
+  }
+</style>
