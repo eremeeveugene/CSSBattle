@@ -10,3 +10,17 @@ Thumbs.db
 
 # Log files
 *.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Optional: if you use `.env` files for secrets
+.env
+.env.local
+
+# Ignore generated test outputs
+ut-tests/actual-result/

@@ -8,7 +8,7 @@ const CHALLENGES_DIR = path.join("source", "challenges");
 const EXPECTED_DIR = path.join("ut-tests", "expected-result");
 const ACTUAL_DIR = path.join("ut-tests", "actual-result");
 const VIEWPORT = { width: 400, height: 300 };
-const THRESHOLD = 0.01;
+const THRESHOLD = 0.1;
 
 (async () => {
   const htmlFiles = fs

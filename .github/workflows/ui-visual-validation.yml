@@ -8,6 +8,7 @@ on:
 
 jobs:
   pipeline:
+    name: UI Visual Validation
     runs-on: ubuntu-latest
 
     steps:
