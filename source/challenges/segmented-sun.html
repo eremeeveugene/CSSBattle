@@ -1,0 +1,55 @@
+<div class="circle">
+  <div class="top"></div>
+  <div class="left"></div>
+  <div class="middle"></div>
+  <div class="right"></div>
+  <div class="bottom"></div>
+</div>
+
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2eaa8;
+  }
+
+  .circle {
+    aspect-ratio: 1;
+    background: #ee7667;
+    border-radius: 50%;
+    display: grid;
+    grid: ". top ." 80px "left middle right" 40px ". bottom ." 80px / 70px 60px 70px;
+  }
+
+  .middle {
+    grid-area: middle;
+    background: #f2eaa8;
+  }
+
+  .top {
+    grid-area: top;
+  }
+
+  .bottom {
+    grid-area: bottom;
+  }
+
+  .left {
+    grid-area: left;
+  }
+
+  .right {
+    grid-area: right;
+  }
+
+  .top,
+  .bottom {
+    border-inline: 20px solid #f2eaa8;
+  }
+
+  .left,
+  .right {
+    border-block: 10px solid #f2eaa8;
+  }
+</style>
