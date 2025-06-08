@@ -1,0 +1,17 @@
+{
+  "name": "css-battle-validator",
+  "version": "1.0.0",
+  "description": "Visual validation and challenge viewer for CSS Battle solutions",
+  "scripts": {
+    "validate": "node .github/scripts/validate.js",
+    "generate": "node .github/scripts/generate-index.js"
+  },
+  "author": "Eugene Eremeev",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^22.15.0"
+  }
+}
