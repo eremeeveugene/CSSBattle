@@ -20,7 +20,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm install puppeteer pixelmatch pngjs fs-extra
+        run: npm install
 
       - name: Generate index.html
         run: node .github/scripts/generate-index.js
