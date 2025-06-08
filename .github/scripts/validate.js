@@ -23,7 +23,11 @@ const THRESHOLD = 0.01;
   await fs.ensureDir(EXPECTED_DIR);
   await fs.ensureDir(ACTUAL_DIR);
 
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    args: ["--no-sandbox"],
+    headless: true,
+  });
+
   const page = await browser.newPage();
   await page.setViewport(VIEWPORT);
 
