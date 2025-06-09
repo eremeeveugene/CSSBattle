@@ -75,6 +75,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Framed Rosette](https://cssbattle.dev/play/oAJaNdW4iLhnPkP2dKt1)
 - [Segmented Sun](https://cssbattle.dev/play/gjq9xO63UbMIoIpic7Fg)
 - [Router](https://cssbattle.dev/play/jMuBUSMPP6d2aWgFhtuc)
+- [Balanced](https://cssbattle.dev/play/227)
 
   </p>
 </details>
