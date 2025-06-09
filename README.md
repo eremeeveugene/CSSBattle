@@ -74,6 +74,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Orbital Cross Pattern](https://cssbattle.dev/play/YIf3c1ujLXToXVns07TQ)
 - [Framed Rosette](https://cssbattle.dev/play/oAJaNdW4iLhnPkP2dKt1)
 - [Segmented Sun](https://cssbattle.dev/play/gjq9xO63UbMIoIpic7Fg)
+- [Router](https://cssbattle.dev/play/jMuBUSMPP6d2aWgFhtuc)
 
   </p>
 </details>
