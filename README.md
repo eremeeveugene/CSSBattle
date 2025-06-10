@@ -77,6 +77,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Router](https://cssbattle.dev/play/jMuBUSMPP6d2aWgFhtuc)
 - [Balanced](https://cssbattle.dev/play/227)
 - [Printer](https://cssbattle.dev/play/um7i7cUKqD7IVLYsP486)
+- [Stylized Bridge](https://cssbattle.dev/play/rhgEVf1zxiUqU50PXgFU)
 
   </p>
 </details>
