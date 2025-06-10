@@ -80,6 +80,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Stylized Bridge](https://cssbattle.dev/play/rhgEVf1zxiUqU50PXgFU)
 - [Stylized Light Bulb Icon](https://cssbattle.dev/play/Jeqm4CNTOuY14H2IsD7R)
 - [Lock Up](https://cssbattle.dev/play/27)
+- [Smiley](https://cssbattle.dev/play/26)
 
   </p>
 </details>
