@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="container-top">
+    <div class="arch top"></div>
+    <div class="arch top"></div>
+  </div>
+  <div class="arch bottom"></div>
+</div>
+<style>
+  body {
+    background: #6592cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 100px;
+    place-items: center;
+  }
+
+  .container-top {
+    display: flex;
+    gap: 80px;
+  }
+
+  .arch {
+    width: 80px;
+    height: 40px;
+    border: 20px solid #060f55;
+  }
+
+  .top {
+    border-bottom: none;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+
+  .bottom {
+    border-top: none;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
+</style>
