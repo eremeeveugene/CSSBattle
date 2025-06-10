@@ -81,6 +81,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Stylized Light Bulb Icon](https://cssbattle.dev/play/Jeqm4CNTOuY14H2IsD7R)
 - [Lock Up](https://cssbattle.dev/play/27)
 - [Smiley](https://cssbattle.dev/play/26)
+- [Cups & Balls](https://cssbattle.dev/play/28)
 
   </p>
 </details>
