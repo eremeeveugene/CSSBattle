@@ -76,6 +76,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Segmented Sun](https://cssbattle.dev/play/gjq9xO63UbMIoIpic7Fg)
 - [Router](https://cssbattle.dev/play/jMuBUSMPP6d2aWgFhtuc)
 - [Balanced](https://cssbattle.dev/play/227)
+- [Printer](https://cssbattle.dev/play/um7i7cUKqD7IVLYsP486)
 
   </p>
 </details>
