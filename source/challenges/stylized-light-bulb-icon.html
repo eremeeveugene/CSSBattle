@@ -1,14 +1,26 @@
-<div class="circle bottom"></div>
-<div class="rect left"></div>
-<div class="rect right"></div>
-<div class="circle top"></div>
-<div class="rect middle"></div>
+<div class="container">
+  <div class="circle bottom"></div>
+  <div class="rect left"></div>
+  <div class="rect right"></div>
+  <div class="circle top"></div>
+  <div class="rect middle"></div>
+</div>
 <style>
   body {
     background: #5a9f48;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .container {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
   }
 
   .circle {

@@ -1,19 +1,30 @@
-<div class="circles circles-left">
-  <div class="circle circle-white"></div>
-  <div class="circle circle-black"></div>
-</div>
-<div class="circle circle-small circle-black"></div>
-<div class="circles circles-right">
-  <div class="circle circle-black"></div>
-  <div class="circle circle-white"></div>
+<div class="container">
+  <div class="circles circles-left">
+    <div class="circle circle-white"></div>
+    <div class="circle circle-black"></div>
+  </div>
+  <div class="circle circle-small circle-black"></div>
+  <div class="circles circles-right">
+    <div class="circle circle-black"></div>
+    <div class="circle circle-white"></div>
+  </div>
 </div>
 <style>
   body {
     margin: 0;
     background: #f58220;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 400px;
+    height: 300px;
     display: grid;
     grid-template-columns: auto 1fr auto;
     place-items: center;
+    overflow: hidden;
   }
 
   .circles {

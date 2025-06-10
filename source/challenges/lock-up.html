@@ -1,0 +1,42 @@
+<div class="circle">
+  <div class="quarter left"></div>
+  <div class="quarter right"></div>
+</div>
+
+<style>
+  body {
+    background: #e38f66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle {
+    background: #aa445f;
+    width: 140px;
+    padding: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .quarter {
+    border: 30px solid #f7ec7d;
+  }
+
+  .left {
+    grid-row: 2;
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 70px;
+  }
+
+  .right {
+    grid-column: 2;
+    border-bottom: none;
+    border-left: none;
+    border-top-right-radius: 70px;
+  }
+</style>
