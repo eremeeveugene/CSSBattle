@@ -1,0 +1,82 @@
+<div class="cap-section"></div>
+<div class="base-section">
+  <div class="base-left">
+    <div class="left-extension"></div>
+  </div>
+  <div class="base-center">
+    <div class="center-line"></div>
+  </div>
+  <div class="base-right">
+    <div class="right-extension"></div>
+  </div>
+</div>
+
+<style>
+  body {
+    background: #eeb850;
+    display: grid;
+    place-items: center;
+    align-content: center;
+  }
+
+  .cap-section {
+    width: 140px;
+    height: 40px;
+    background: #eeb850;
+    border: 20px solid #243d83;
+    border-bottom: none;
+  }
+
+  .base-section {
+    width: 300px;
+    height: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1.75fr 1fr;
+  }
+
+  .base-left,
+  .base-right {
+    display: flex;
+    align-items: end;
+  }
+
+  .base-left {
+    border: 20px solid #243d83;
+    border-right: none;
+    border-bottom: none;
+    justify-content: end;
+  }
+
+  .left-extension {
+    width: 20px;
+    height: 60px;
+    border: 20px solid #243d83;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .base-center {
+    display: grid;
+    align-items: end;
+  }
+
+  .center-line {
+    height: 60px;
+    border-top: 20px solid #243d83;
+  }
+
+  .base-right {
+    border: 20px solid #243d83;
+    border-left: none;
+    border-bottom: none;
+    justify-content: start;
+  }
+
+  .right-extension {
+    width: 20px;
+    height: 60px;
+    border: 20px solid #243d83;
+    border-left: none;
+    border-bottom: none;
+  }
+</style>
