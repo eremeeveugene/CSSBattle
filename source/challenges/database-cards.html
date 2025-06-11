@@ -1,0 +1,64 @@
+<div class="cards">
+  <div class="card">
+    <div class="circle"></div>
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="circle"></div>
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="circle"></div>
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+</div>
+<style>
+  body {
+    background: #eed9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards {
+    gap: 30px;
+    display: flex;
+  }
+
+  .card {
+    width: 60px;
+    height: 110px;
+    background: #66284a;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 15px 10px;
+  }
+
+  .circle {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #eed9d9;
+    justify-self: center;
+  }
+
+  .lines {
+    display: grid;
+    gap: 10px;
+  }
+
+  .line {
+    background: #eed9d9;
+    height: 10px;
+  }
+</style>
