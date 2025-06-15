@@ -88,6 +88,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Stacked Halves](https://cssbattle.dev/play/E9dPyo7ZbeuFZFaO1mIn)
 - [Golden Spiral Maze](https://cssbattle.dev/play/bT5gudVnaZSI0TN0lB5X)
 - [Interlocking Arcs](https://cssbattle.dev/play/l9SS8rYUPMpsxlekbWIL)
+- [Stripe Grid](https://cssbattle.dev/play/Qx1UkyqCHWB3kxPMHxHq)
 
   </p>
 </details>
