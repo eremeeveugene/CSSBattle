@@ -1,0 +1,51 @@
+<div class="green"></div>
+<div class="lime"></div>
+<div class="lines">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+<div class="circle"></div>
+<style>
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a4341;
+  }
+
+  .lines {
+    position: absolute;
+    display: grid;
+    gap: 20px;
+    width: 250px;
+    height: 100px;
+  }
+
+  .line {
+    background: #f3ac3c;
+  }
+
+  .lime {
+    position: absolute;
+    background: #1a4341;
+    width: 250px;
+    height: 140px;
+  }
+
+  .green {
+    position: absolute;
+    background: #998235;
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  .circle {
+    position: absolute;
+    width: 250px;
+    aspect-ratio: 1;
+    border: 10px solid #1a4341;
+    border-radius: 50%;
+  }
+</style>
