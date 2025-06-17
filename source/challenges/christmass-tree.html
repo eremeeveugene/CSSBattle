@@ -1,0 +1,34 @@
+<div class="triangle green"></div>
+<div class="triangle yellow"></div>
+<div class="triangle peach"></div>
+
+<style>
+  body {
+    background: #007065;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .triangle {
+    position: absolute;
+    border-bottom: 100px solid transparent;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-top: none;
+  }
+
+  .peach {
+    transform: translateY(-50px);
+    border-bottom-color: #ffeecf;
+  }
+
+  .yellow {
+    border-bottom-color: #f5c181;
+  }
+
+  .green {
+    transform: translateY(50px);
+    border-bottom-color: #00a79d;
+  }
+</style>
