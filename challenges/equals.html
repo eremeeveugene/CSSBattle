@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="half yellow"></div>
+  <div class="half orange"></div>
+</div>
+
+<style>
+  body {
+    background: #aa445f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  .half {
+    width: 100px;
+    height: 200px;
+  }
+
+  .yellow {
+    background: #f7ec7d;
+    border-radius: 100px 0 0 100px;
+  }
+
+  .orange {
+    background: #e38f66;
+    border-radius: 0 100px 100px 0;
+  }
+</style>
