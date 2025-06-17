@@ -1,0 +1,44 @@
+<div class="roof"></div>
+<div class="frame">
+  <div class="door"></div>
+</div>
+<div class="window"></div>
+<style>
+  body {
+    background: #6592cf;
+    display: grid;
+    place-items: center;
+    align-content: center;
+  }
+
+  .roof {
+    border-bottom: 100px solid #243d83;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  }
+
+  .window {
+    position: absolute;
+    background: #eeb850;
+    height: 10px;
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  .frame {
+    background: #243d83;
+    width: 150px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .door {
+    background: #eeb850;
+    height: 50px;
+    aspect-ratio: 1;
+    border-radius: 10px 10px 0 0;
+  }
+</style>
