@@ -70,6 +70,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Ice Cream](https://cssbattle.dev/play/35)
 - [Interleaved](https://cssbattle.dev/play/36)
 - [Tunnel](https://cssbattle.dev/play/37)
+- [Not Simply Square](https://cssbattle.dev/play/38)
 - [Balanced](https://cssbattle.dev/play/227)
 - [Another Tree](https://cssbattle.dev/play/228)
 - [Flower](https://cssbattle.dev/play/229)
