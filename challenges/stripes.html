@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <div class="circle left"></div>
+  <div class="circle right"></div>
+</div>
+<style>
+  body {
+    background: #1a4341;
+    display: grid;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .lines {
+    width: 300px;
+    display: grid;
+    gap: 20px;
+  }
+
+  .line {
+    background: #f3ac3c;
+    height: 20px;
+  }
+
+  .circle {
+    position: absolute;
+    background: #1a4341;
+    width: 299.5px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  .circle.left {
+    transform: translateX(-200px);
+  }
+
+  .circle.right {
+    transform: translateX(200px);
+  }
+</style>
