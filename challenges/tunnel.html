@@ -1,0 +1,40 @@
+<div class="outer-square">
+  <div class="middle-square">
+    <div class="inner-square"></div>
+  </div>
+</div>
+
+<style>
+  body {
+    background: #6592cf;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .outer-square {
+    width: 250px;
+    aspect-ratio: 1;
+    background: #243d83;
+    display: grid;
+    place-items: center;
+  }
+
+  .middle-square {
+    width: 150px;
+    aspect-ratio: 1;
+    background: #6592cf;
+    transform: rotate(15deg);
+    display: grid;
+    place-items: center;
+  }
+
+  .inner-square {
+    width: 75px;
+    aspect-ratio: 1;
+    background: #243d83;
+    transform: rotate(15deg);
+    display: grid;
+    place-items: center;
+  }
+</style>
