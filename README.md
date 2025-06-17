@@ -71,6 +71,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Interleaved](https://cssbattle.dev/play/36)
 - [Tunnel](https://cssbattle.dev/play/37)
 - [Not Simply Square](https://cssbattle.dev/play/38)
+- [Sunset Horizon](https://cssbattle.dev/play/39)
 - [Fox Head](https://cssbattle.dev/play/41)
 - [Wrench](https://cssbattle.dev/play/43)
 - [Stripes](https://cssbattle.dev/play/44)
