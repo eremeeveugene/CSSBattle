@@ -1,0 +1,66 @@
+<div class="container">
+  <div class="circle"></div>
+  <div class="circle-dark left"></div>
+  <div class="circle-dark right"></div>
+  <div class="line top"></div>
+  <div class="line"></div>
+  <div class="line bottom"></div>
+  <div class="line vertical"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circle {
+    position: absolute;
+    width: 150px;
+    aspect-ratio: 1;
+    background: #4f77ff;
+    border-radius: 50%;
+  }
+
+  .circle-dark {
+    position: absolute;
+    height: 177px;
+    width: 160px;
+    border: 10px solid #191919;
+    border-radius: 50%;
+  }
+
+  .circle-dark.left {
+    transform: translateX(-45px);
+  }
+
+  .circle-dark.right {
+    transform: translateX(45px);
+  }
+
+  .line {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    background: #191919;
+  }
+
+  .line.top {
+    transform: translateY(-40px);
+  }
+
+  .line.bottom {
+    transform: translateY(40px);
+  }
+
+  .line.vertical {
+    transform: rotate(90deg);
+  }
+</style>
