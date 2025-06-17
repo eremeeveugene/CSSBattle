@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="black"></div>
+  <div class="champagne"></div>
+  <div class="black"></div>
+  <div class="black"></div>
+  <div class="champagne"></div>
+  <div class="black"></div>
+</div>
+<style>
+  body {
+    background: #f4dcbf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 160px;
+    height: 60px;
+    background: #556d7f;
+    display: grid;
+    padding: 10px 20px;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .black {
+    background: #3c342a;
+  }
+
+  .champagne {
+    background: #f4dcbf;
+  }
+</style>

@@ -90,6 +90,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Interlocking Arcs](https://cssbattle.dev/play/l9SS8rYUPMpsxlekbWIL)
 - [Stripe Grid](https://cssbattle.dev/play/Qx1UkyqCHWB3kxPMHxHq)
 - [Cornerplay](https://cssbattle.dev/play/i2Xtvrnt48vJsZOEyL1G)
+- [Grid Core](https://cssbattle.dev/play/j8oIHllnFNB1EED2LAYL)
 
   </p>
 </details>
