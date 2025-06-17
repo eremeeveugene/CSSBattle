@@ -1,0 +1,64 @@
+<div class="core"></div>
+<div class="spike vertical"></div>
+<div class="spike diagonal-left"></div>
+<div class="spike diagonal-right"></div>
+<div class="spot medium"></div>
+<div class="spot small"></div>
+<div class="spot micro"></div>
+<style>
+  body {
+    background: #1a4341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .core {
+    width: 100px;
+    aspect-ratio: 1;
+    background: #f3ac3c;
+    border-radius: 50%;
+  }
+
+  .spike {
+    position: absolute;
+    background: #f3ac3c;
+    width: 180px;
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  .spike.vertical {
+    transform: translateY(-10px) rotate(90deg);
+  }
+
+  .spike.diagonal-left {
+    transform: translate(9px, 5px) rotate(30deg);
+  }
+
+  .spike.diagonal-right {
+    transform: translate(9px, -5px) rotate(-30deg);
+  }
+
+  .spot {
+    position: absolute;
+    background: #998235;
+    border-radius: 50%;
+    aspect-ratio: 1;
+  }
+
+  .spot.medium {
+    width: 30px;
+    transform: translate(-15px, -15px);
+  }
+
+  .spot.small {
+    width: 20px;
+    transform: translateY(25px);
+  }
+
+  .spot.micro {
+    width: 10px;
+    transform: translate(25px, -25px);
+  }
+</style>
