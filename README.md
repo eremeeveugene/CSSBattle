@@ -71,6 +71,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Interleaved](https://cssbattle.dev/play/36)
 - [Tunnel](https://cssbattle.dev/play/37)
 - [Not Simply Square](https://cssbattle.dev/play/38)
+- [Stay at Home](https://cssbattle.dev/play/49)
 - [Pastel Logo](https://cssbattle.dev/play/53)
 - [Windmill](https://cssbattle.dev/play/55)
 - [Earth](https://cssbattle.dev/play/59)
