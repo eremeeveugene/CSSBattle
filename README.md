@@ -72,6 +72,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Tunnel](https://cssbattle.dev/play/37)
 - [Not Simply Square](https://cssbattle.dev/play/38)
 - [Wrench](https://cssbattle.dev/play/43)
+- [Stripes](https://cssbattle.dev/play/44)
 - [Mountains](https://cssbattle.dev/play/46)
 - [Corona Virus](https://cssbattle.dev/play/47)
 - [Wash Your Hands](https://cssbattle.dev/play/48)
