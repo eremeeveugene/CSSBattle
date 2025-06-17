@@ -1,0 +1,52 @@
+<div class="windmill">
+  <div class="yellow top-left"></div>
+  <div class="blue top-right"></div>
+  <div class="blue bottom-left"></div>
+  <div class="yellow bottom-right"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .windmill {
+    width: 200px;
+    aspect-ratio: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .yellow {
+    background: #f9e492;
+    width: 100px;
+    height: 50px;
+  }
+
+  .blue {
+    width: 50px;
+    height: 100px;
+    background: #4f77ff;
+  }
+
+  .top-left {
+    border-radius: 100px 100px 0 0;
+    align-self: end;
+  }
+
+  .top-right {
+    border-radius: 0 100px 100px 0;
+  }
+
+  .bottom-left {
+    border-radius: 100px 0 0 100px;
+    justify-self: end;
+  }
+
+  .bottom-right {
+    border-radius: 0 0 100px 100px;
+  }
+</style>
