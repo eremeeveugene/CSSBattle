@@ -1,0 +1,66 @@
+<div class="container">
+  <div class="red left"></div>
+  <div class="red right"></div>
+  <div class="red">
+    <div class="blue circle leftc"></div>
+  </div>
+  <div class="red">
+    <div class="blue circle rightc"></div>
+  </div>
+  <div class="red">
+    <div class="blue left"></div>
+  </div>
+  <div class="red">
+    <div class="blue right"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #293462;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 100px;
+    height: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+  }
+
+  .red {
+    background: #fe5f55;
+    display: grid;
+  }
+
+  .left {
+    border-top-right-radius: 50px;
+  }
+
+  .right {
+    border-top-left-radius: 50px;
+  }
+
+  .blue {
+    background: #293462;
+  }
+
+  .circle {
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: 10px 5px;
+  }
+
+  .leftc {
+    align-self: end;
+    justify-self: end;
+  }
+
+  .rightc {
+    align-self: end;
+    justify-self: start;
+  }
+</style>
