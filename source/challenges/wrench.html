@@ -1,0 +1,30 @@
+<div class="part left"></div>
+<div class="part right"></div>
+<style>
+  body {
+    background: #6592cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .part {
+    width: 40px;
+    height: 182.9px;
+    border: 30px solid #243d83;
+  }
+
+  .part.left {
+    border-left: none;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transform: translate(15px, 1px);
+  }
+
+  .part.right {
+    border-right: none;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    transform: translate(-15px, 1px);
+  }
+</style>
