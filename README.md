@@ -67,6 +67,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Horizon](https://cssbattle.dev/play/30)
 - [Equals](https://cssbattle.dev/play/31)
 - [Christmass Tree](https://cssbattle.dev/play/34)
+- [Ice Cream](https://cssbattle.dev/play/35)
 - [Balanced](https://cssbattle.dev/play/227)
 - [Another Tree](https://cssbattle.dev/play/228)
 - [Flower](https://cssbattle.dev/play/229)
