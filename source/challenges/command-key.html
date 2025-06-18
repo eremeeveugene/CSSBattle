@@ -1,0 +1,78 @@
+<div class="command-key">
+  <div class="corner top-left"></div>
+  <div class="edge top"></div>
+  <div class="corner top-right"></div>
+  <div class="edge left"></div>
+  <div class="corner bottom-left"></div>
+  <div class="edge right"></div>
+  <div class="corner bottom-right"></div>
+  <div class="edge bottom"></div>
+</div>
+
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .command-key {
+    width: 190px;
+    aspect-ratio: 1;
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+    transform: translate(1px, -1px);
+  }
+
+  .corner {
+    border: 10px solid #5dbcf9;
+    border-radius: 50%;
+  }
+
+  .top-left {
+    border-bottom-right-radius: 0;
+  }
+
+  .top-right {
+    grid-column: 3;
+    border-bottom-left-radius: 0;
+  }
+
+  .bottom-left {
+    grid-row: 3;
+    border-top-right-radius: 0;
+  }
+
+  .bottom-right {
+    grid-row: 3;
+    grid-column: 3;
+    border-top-left-radius: 0;
+  }
+
+  .top {
+    border-bottom: 10px solid #5dbcf9;
+    grid-row: 1;
+    grid-column: 2;
+    align-self: end;
+  }
+
+  .left {
+    border-right: 10px solid #5dbcf9;
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .right {
+    border-left: 10px solid #5dbcf9;
+    grid-row: 2;
+    grid-column: 3;
+  }
+
+  .bottom {
+    border-top: 10px solid #5dbcf9;
+    grid-row: 3;
+    grid-column: 2;
+  }
+</style>
