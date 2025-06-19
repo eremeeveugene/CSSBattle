@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="circle left"></div>
+  <div class="circle right"></div>
+  <div class="line">
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+  </div>
+</div>
+
+<style>
+  body {
+    background: #5aa4b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    background: #fefeff;
+    width: 360px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle {
+    position: absolute;
+    width: 100px;
+    aspect-ratio: 1;
+    background: #5aa4b7;
+    border-radius: 50%;
+  }
+
+  .circle.left {
+    transform: translateX(-80px);
+  }
+
+  .circle.right {
+    transform: translateX(80px);
+  }
+
+  .line {
+    position: absolute;
+    background: #fefeff;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .rect {
+    width: 40px;
+    height: 20px;
+    background: #5aa4b7;
+  }
+</style>
