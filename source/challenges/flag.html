@@ -1,0 +1,30 @@
+<div class="flag">
+  <div class="blue vertical"></div>
+  <div class="blue horizontal"></div>
+</div>
+<style>
+  body {
+    background: #eeb850;
+    margin: 20px;
+  }
+
+  .flag {
+    width: 320px;
+    background: #fefeff;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: 50px 50px 60px 60px;
+  }
+
+  .blue {
+    background: #6592cf;
+  }
+
+  .blue.vertical {
+    grid-row: 1/-1;
+  }
+
+  .blue.horizontal {
+    grid-row: 3;
+  }
+</style>
