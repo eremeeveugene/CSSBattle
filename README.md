@@ -114,6 +114,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Mirrod E](https://cssbattle.dev/play/1mmGpHvUAIxTZ5xSLujV)
 - [Chain Link](https://cssbattle.dev/play/hdoPphAyR3NsSqNXGESO)
 - [Flag](https://cssbattle.dev/play/cWfGYKqrpqbCmDs1qoKx)
+- [Fish](https://cssbattle.dev/play/S9P3lP0F98oHl7y6Iq2U)
 
   </p>
 </details>
