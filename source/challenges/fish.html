@@ -1,0 +1,54 @@
+<div class="fish">
+  <div class="head">
+    <div class="eye"></div>
+  </div>
+  <div class="tail">
+    <div class="flin"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #6592cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head {
+    position: absolute;
+    background: #f7cb71;
+    width: 112px;
+    aspect-ratio: 1;
+    transform: translateX(-20px) rotate(45deg);
+    display: flex;
+    justify-content: start;
+    align-items: end;
+  }
+
+  .eye {
+    background: #fefeff;
+    width: 28px;
+    margin: 14px;
+    aspect-ratio: 1;
+  }
+
+  .tail {
+    position: absolute;
+    background: #f7cb71;
+    width: 80px;
+    aspect-ratio: 1;
+    transform: translateX(60px);
+  }
+
+  .flin {
+    border-right: 40px solid #6592cf;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+  }
+</style>
