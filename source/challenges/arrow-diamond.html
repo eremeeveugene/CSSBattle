@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="square">
+    <div class="inner"></div>
+  </div>
+  <div class="triangle"></div>
+</div>
+
+<style>
+  body {
+    background: #48bf7d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(25px);
+  }
+
+  .square {
+    background: #394257;
+    width: 70px;
+    aspect-ratio: 1;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+  }
+
+  .inner {
+    background: #48bf7d;
+    width: 35px;
+    aspect-ratio: 1;
+    border-bottom-left-radius: 10px;
+  }
+
+  .triangle {
+    border-left: 50px solid #394257;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    transform: translateX(-10px);
+  }
+</style>
