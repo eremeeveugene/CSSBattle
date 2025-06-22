@@ -1,0 +1,88 @@
+<div class="owl">
+  <div class="nose"></div>
+  <div class="ear left">
+    <div class="eye">
+      <div class="sclera">
+        <div class="pupil"></div>
+      </div>
+    </div>
+  </div>
+  <div class="ear right">
+    <div class="eye">
+      <div class="sclera">
+        <div class="pupil"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .owl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nose {
+    position: absolute;
+    background: #e08027;
+    width: 68px;
+    aspect-ratio: 1;
+    transform: translateY(25px) rotate(45deg);
+  }
+
+  .ear {
+    position: absolute;
+    background: #e08027;
+    border-radius: 50%;
+    width: 114px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ear.left {
+    border-top-left-radius: 0;
+    transform: translate(-54px, -16px);
+  }
+  .ear.right {
+    border-top-right-radius: 0;
+    transform: translate(54px, -16px);
+    border: 10px solid #191919;
+  }
+
+  .eye {
+    background: #191919;
+    width: 90px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sclera {
+    border-radius: 25px 25px 0 0;
+    width: 30px;
+    height: 15px;
+    background: #e08027;
+    transform: translateY(-2px);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .pupil {
+    border-radius: 25px 25px 0 0;
+    width: 12px;
+    height: 6px;
+    background: #191919;
+  }
+</style>
