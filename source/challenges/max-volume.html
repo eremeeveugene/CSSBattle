@@ -1,0 +1,78 @@
+<div class="volume">
+  <div class="speaker">
+    <div class="rect"></div>
+    <div class="triangle"></div>
+  </div>
+  <div class="waves">
+    <div class="wave small"></div>
+    <div class="wave medium"></div>
+    <div class="wave large"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .volume {
+    display: flex;
+
+    gap: 50px;
+  }
+
+  .speaker {
+    display: grid;
+    align-items: center;
+    transform: translateX(-75px);
+  }
+
+  .rect {
+    position: absolute;
+    background: #5dbcf9;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    transform: translateX(-25px);
+  }
+
+  .triangle {
+    position: absolute;
+    border-right: 100px solid #5dbcf9;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+  }
+
+  .waves {
+    display: grid;
+    align-items: center;
+  }
+
+  .wave {
+    position: absolute;
+    border: 10px solid #5dbcf9;
+    border-left: none;
+  }
+
+  .wave.small {
+    width: 40px;
+    height: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
+
+  .wave.medium {
+    width: 65px;
+    height: 130px;
+    border-top-right-radius: 130px;
+    border-bottom-right-radius: 130px;
+  }
+  .wave.large {
+    width: 90px;
+    height: 180px;
+    border-top-right-radius: 180px;
+    border-bottom-right-radius: 180px;
+  }
+</style>
