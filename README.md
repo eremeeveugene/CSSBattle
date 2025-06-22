@@ -85,6 +85,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Sunset](https://cssbattle.dev/play/62)
 - [Command Key](https://cssbattle.dev/play/63)
 - [Door Knob](https://cssbattle.dev/play/64)
+- [Bell](https://cssbattle.dev/play/68)
 - [PushOwl](https://cssbattle.dev/play/69)
 - [Sheep](https://cssbattle.dev/play/72)
 - [Balanced](https://cssbattle.dev/play/227)
