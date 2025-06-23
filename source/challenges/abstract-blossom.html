@@ -1,0 +1,39 @@
+<div class="flower">
+  <div class="petal"></div>
+  <div class="petal vertical"></div>
+  <div class="carpel"></div>
+</div>
+<style>
+  body {
+    background: #5a9f48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .petal {
+    position: absolute;
+    background: #fade8b;
+    border-radius: 30px;
+    width: 160px;
+    height: 120px;
+  }
+
+  .petal.vertical {
+    transform: rotate(90deg);
+  }
+
+  .carpel {
+    position: absolute;
+    background: #d24444;
+    border-radius: 50%;
+    width: 60px;
+    aspect-ratio: 1;
+  }
+</style>
