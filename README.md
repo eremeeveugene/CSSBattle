@@ -122,6 +122,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Fish](https://cssbattle.dev/play/S9P3lP0F98oHl7y6Iq2U)
 - [Arrow Diamond](https://cssbattle.dev/play/nCkhRjSpKG3KerHDmAf4)
 - [Abstract Blossom](https://cssbattle.dev/play/xOUPIcxfaYWRfFkJZbrd)
+- [Magenta Blocks Grid](https://cssbattle.dev/play/7nlhjaKjtugzgYJHs0vU)
 
   </p>
 </details>
