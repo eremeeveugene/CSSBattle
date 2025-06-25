@@ -123,6 +123,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Arrow Diamond](https://cssbattle.dev/play/nCkhRjSpKG3KerHDmAf4)
 - [Abstract Blossom](https://cssbattle.dev/play/xOUPIcxfaYWRfFkJZbrd)
 - [Magenta Blocks Grid](https://cssbattle.dev/play/7nlhjaKjtugzgYJHs0vU)
+- [Quarter Fold](https://cssbattle.dev/play/xAWKZ9Br5dl280jldTfe)
 
   </p>
 </details>
