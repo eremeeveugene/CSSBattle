@@ -1,0 +1,68 @@
+<div class="elephant">
+  <div class="side">
+    <div class="ear left">
+      <div class="circle"></div>
+      <div class="rect"></div>
+    </div>
+    <div class="eye"></div>
+  </div>
+  <div class="side">
+    <div class="eye"></div>
+    <div class="ear">
+      <div class="circle"></div>
+      <div class="rect"></div>
+    </div>
+  </div>
+</div>
+<style>
+  body {
+    background: #243d83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .elephant {
+    display: flex;
+    gap: 36px;
+    transform: translateY(-14px);
+  }
+
+  .side {
+    display: flex;
+    gap: 20px;
+  }
+
+  .ear {
+    display: flex;
+    transform: translateY(-42px);
+  }
+
+  .ear.left {
+    justify-content: end;
+  }
+
+  .circle {
+    position: absolute;
+    background: #d9d9d9;
+    width: 104px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  .rect {
+    position: absolute;
+    background: #d9d9d9;
+    width: 68px;
+    height: 100px;
+    border-radius: 34px;
+    transform: translateY(32px);
+  }
+
+  .eye {
+    background: #d9d9d9;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+</style>
