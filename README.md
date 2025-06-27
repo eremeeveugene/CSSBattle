@@ -125,6 +125,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Magenta Blocks Grid](https://cssbattle.dev/play/7nlhjaKjtugzgYJHs0vU)
 - [Quarter Fold](https://cssbattle.dev/play/xAWKZ9Br5dl280jldTfe)
 - [Minimalist Elephant Ears](https://cssbattle.dev/play/i4qDcCUHlv4Ru78Bq6z9)
+- [Red Corner Motif](https://cssbattle.dev/play/0jHOqAnxfqpeKfqeWDnU)
 
   </p>
 </details>
