@@ -126,6 +126,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Quarter Fold](https://cssbattle.dev/play/xAWKZ9Br5dl280jldTfe)
 - [Minimalist Elephant Ears](https://cssbattle.dev/play/i4qDcCUHlv4Ru78Bq6z9)
 - [Red Corner Motif](https://cssbattle.dev/play/0jHOqAnxfqpeKfqeWDnU)
+- [Crossed Bars](https://cssbattle.dev/play/b1PeaEWCOZkzMahgYXYA)
 
   </p>
 </details>
