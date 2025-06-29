@@ -1,0 +1,57 @@
+<div class="blue top"></div>
+<div class="green top"></div>
+<div class="red"></div>
+<div class="yellow"></div>
+<div class="circle left"></div>
+<div class="circle right"></div>
+<div class="circle middle"></div>
+<style>
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .top {
+    z-index: 1;
+  }
+
+  .blue {
+    background: #394257;
+  }
+
+  .green {
+    background: #48bf7d;
+  }
+
+  .red {
+    background: #d24444;
+  }
+
+  .yellow {
+    background: #fade8b;
+  }
+
+  .circle {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 80px;
+    aspect-ratio: 1;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .circle.middle {
+    z-index: 1;
+  }
+
+  .circle.left {
+    transform: translateX(-130px);
+  }
+
+  .circle.right {
+    transform: translateX(130px);
+  }
+</style>
