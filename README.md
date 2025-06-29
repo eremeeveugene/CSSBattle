@@ -93,6 +93,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Balanced](https://cssbattle.dev/play/227)
 - [Another Tree](https://cssbattle.dev/play/228)
 - [Flower](https://cssbattle.dev/play/229)
+- [Crosshair](https://cssbattle.dev/play/231)
 - [Watch](https://cssbattle.dev/play/9leyzc3mjABLZpgaVnzP)
 - [Crosscurrents](https://cssbattle.dev/play/CvNROnWqTk2boFBkxy0A)
 - [Quadracore Nexus](https://cssbattle.dev/play/2ZHacHNgLjfK91OZFvXX)
