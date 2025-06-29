@@ -1,0 +1,53 @@
+<div class="crosshair">
+  <div class="circle"></div>
+  <div class="ellipse">
+    <div class="rect"></div>
+    <div class="rect"></div>
+  </div>
+  <div class="ellipse vertical">
+    <div class="rect"></div>
+    <div class="rect"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #2f434e;
+    display: grid;
+  }
+
+  .crosshair {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .circle {
+    position: absolute;
+    background: #cf6939;
+    border-radius: 50%;
+    width: 80px;
+    aspect-ratio: 1;
+  }
+
+  .ellipse {
+    position: absolute;
+    width: 230px;
+    height: 130px;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 50%;
+    align-items: center;
+  }
+
+  .ellipse.vertical {
+    transform: rotate(90deg);
+  }
+
+  .rect {
+    background: #f8b140;
+    width: 60px;
+    aspect-ratio: 1;
+  }
+</style>
