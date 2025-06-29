@@ -89,6 +89,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Video Reel](https://cssbattle.dev/play/67)
 - [Bell](https://cssbattle.dev/play/68)
 - [PushOwl](https://cssbattle.dev/play/69)
+- [Elephant](https://cssbattle.dev/play/71)
 - [Sheep](https://cssbattle.dev/play/72)
 - [Balanced](https://cssbattle.dev/play/227)
 - [Another Tree](https://cssbattle.dev/play/228)

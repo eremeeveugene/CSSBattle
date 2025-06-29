@@ -1,0 +1,103 @@
+<div class="elephant">
+  <div class="ear left"></div>
+  <div class="ear right"></div>
+  <div class="head">
+    <div class="eye left">
+      <div class="pupil"></div>
+    </div>
+    <div class="eye right">
+       <div class="pupil"></div>
+    </div>
+      <div class="tusk"></div>
+    <div class="trunk"></div>
+  </div>
+</div>
+</div>
+<style>
+  body {
+    background: #998235;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .elephant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head{
+    position: absolute;
+    background: #1A4341;
+    border-radius: 50%;
+    width: 180px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eye{
+    position: absolute;
+    background: #998235;
+    width: 40px;
+    height: 20px;
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .eye.left{
+    transform: translate(-30px, 10px);
+  }
+    .eye.right{
+    transform: translate(30px, 10px);
+  }
+
+  .pupil{
+    position: absolute;
+    background: #0B2429;
+    width: 20px;
+    height: 10px;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .tusk{
+    position: absolute;
+    transform: translateY(70px);
+    border:  20px solid #FFFFFF;
+    border-bottom: none;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    width: 80px;
+    height: 40px;
+  }
+
+  .trunk{
+    position: absolute;
+    transform: translateY(100px);
+    height: 140px;
+    width: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #0B2429;
+  }
+
+  .ear{
+    position: absolute;
+    background: #0B2429;
+    width: 80px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: inset 16px 0px #1A4341;
+  }
+
+  .ear.left{
+    transform: translateX(-110px);
+  }
+  
+  .ear.right{
+    transform: translateX(110px) rotate(180deg);
+  }
+</style>
