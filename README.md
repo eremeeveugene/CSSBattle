@@ -127,6 +127,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Minimalist Elephant Ears](https://cssbattle.dev/play/i4qDcCUHlv4Ru78Bq6z9)
 - [Red Corner Motif](https://cssbattle.dev/play/0jHOqAnxfqpeKfqeWDnU)
 - [Crossed Bars](https://cssbattle.dev/play/b1PeaEWCOZkzMahgYXYA)
+- [Puzzle Blocks](https://cssbattle.dev/play/nJyGqyDaZqTbG2DG8qrC)
 
   </p>
 </details>
