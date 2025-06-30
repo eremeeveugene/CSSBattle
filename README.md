@@ -130,6 +130,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Red Corner Motif](https://cssbattle.dev/play/0jHOqAnxfqpeKfqeWDnU)
 - [Crossed Bars](https://cssbattle.dev/play/b1PeaEWCOZkzMahgYXYA)
 - [Puzzle Blocks](https://cssbattle.dev/play/nJyGqyDaZqTbG2DG8qrC)
+- [Circle-Square Pattern Grid](https://cssbattle.dev/play/MDtNGE9Sev1z7Xa6QL0s)
 
   </p>
 </details>
