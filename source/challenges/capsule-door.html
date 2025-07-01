@@ -1,0 +1,44 @@
+<div class="capsule">
+  <div class="blue cap top"></div>
+  <div class="blue cap bottom"></div>
+  <div class="blue rect"></div>
+</div>
+<style>
+  body {
+    background: #51a499;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .capsule {
+    display: grid;
+    transform: translateY(10px);
+    grid-template-columns: repeat(2, 80px);
+    grid-template-rows: 40px 140px 40px;
+  }
+
+  .blue {
+    background: #23384b;
+  }
+
+  .cap {
+    border-radius: 50px;
+  }
+
+  .cap.top {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .cap.bottom {
+    grid-row: 3;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .rect {
+    grid-column: 2;
+    grid-row: 2;
+  }
+</style>
