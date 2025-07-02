@@ -132,6 +132,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Puzzle Blocks](https://cssbattle.dev/play/nJyGqyDaZqTbG2DG8qrC)
 - [Circle-Square Pattern Grid](https://cssbattle.dev/play/MDtNGE9Sev1z7Xa6QL0s)
 - [Capsule Door](https://cssbattle.dev/play/EcElU81kiG5yf5xLUxlX)
+- [Simple Bar Chart](https://cssbattle.dev/play/qoEpGLPxUTEkKY6uWqNX)
 
   </p>
 </details>

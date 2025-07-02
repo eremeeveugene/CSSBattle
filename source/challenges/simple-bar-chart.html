@@ -1,0 +1,41 @@
+<div class="chart">
+  <div class="bar middle"></div>
+  <div class="bar high"></div>
+  <div class="bar small"></div>
+</div>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eff8fe;
+  }
+
+  .chart {
+    border: 10px solid #4f77ff;
+    border-top: none;
+    border-right: none;
+    transform: translate(-5px, 5px);
+    display: flex;
+    align-items: end;
+    gap: 30px;
+    padding: 0 30px;
+  }
+
+  .bar {
+    background: #4f77ff;
+    width: 60px;
+  }
+
+  .high {
+    height: 200px;
+  }
+
+  .middle {
+    height: 140px;
+  }
+
+  .small {
+    height: 100px;
+  }
+</style>
