@@ -1,0 +1,40 @@
+<div class="pink"></div>
+<div class="red"></div>
+<div class="pink"></div>
+<div class="red"></div>
+<div class="pink"></div>
+<div class="pink left"></div>
+<div class="red middle"></div>
+<div class="pink right"></div>
+
+<style>
+  body {
+    background: #ce636f;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1.75fr;
+    margin: 0;
+  }
+
+  .pink {
+    background: #f7bed9;
+  }
+
+  .left {
+    border-bottom-left-radius: 50%;
+    grid-column: 2;
+  }
+
+  .middle {
+    grid-column: 3;
+  }
+
+  .right {
+    border-bottom-right-radius: 50%;
+    grid-column: 4;
+  }
+
+  .red {
+    background: #b44141;
+  }
+</style>
