@@ -1,0 +1,51 @@
+<div class="bridge">
+  <div class="towers">
+    <div class="tower"></div>
+    <div class="tower"></div>
+  </div>
+  <div class="arch"></div>
+</div>
+<div class="pier"></div>
+<style>
+  body {
+    background: #5a9f48;
+    display: grid;
+    justify-items: center;
+    margin: 0;
+    grid-template-rows: 175px 1fr;
+  }
+
+  .bridge {
+    display: grid;
+    width: 270px;
+    grid-template-rows: 20px 1fr 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .towers {
+    grid-row: 1/-1;
+    grid-column: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tower {
+    background: #d9d9d9;
+    width: 60px;
+  }
+
+  .arch {
+    grid-row: 2;
+    grid-column: 1;
+    border: 60px solid #000000;
+    background: #d9d9d9;
+    border-bottom: none;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+  }
+
+  .pier {
+    background: #d9d9d9;
+    width: 110px;
+  }
+</style>

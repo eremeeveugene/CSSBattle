@@ -134,6 +134,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Capsule Door](https://cssbattle.dev/play/EcElU81kiG5yf5xLUxlX)
 - [Simple Bar Chart](https://cssbattle.dev/play/qoEpGLPxUTEkKY6uWqNX)
 - [Checkerboard Pocket](https://cssbattle.dev/play/PotoXFjM1AAznqipNoIy)
+- [Arch Bridge](https://cssbattle.dev/play/lj2GGgGMz8AYl16ORzpo)
 
   </p>
 </details>
