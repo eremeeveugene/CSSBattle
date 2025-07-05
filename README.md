@@ -135,6 +135,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Simple Bar Chart](https://cssbattle.dev/play/qoEpGLPxUTEkKY6uWqNX)
 - [Checkerboard Pocket](https://cssbattle.dev/play/PotoXFjM1AAznqipNoIy)
 - [Arch Bridge](https://cssbattle.dev/play/lj2GGgGMz8AYl16ORzpo)
+- [Input Field](https://cssbattle.dev/play/9pmoNJO6U1Dl2415Kii0)
 
   </p>
 </details>
