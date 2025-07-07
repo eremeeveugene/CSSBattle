@@ -137,6 +137,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Arch Bridge](https://cssbattle.dev/play/lj2GGgGMz8AYl16ORzpo)
 - [Input Field](https://cssbattle.dev/play/9pmoNJO6U1Dl2415Kii0)
 - [Geometric Bar Composition](https://cssbattle.dev/play/3KjaoKMq6bMg4yOmz6YJ)
+- [Quarter Circle Overlay](https://cssbattle.dev/play/OUbgAQQpf5Yj5uNzu4lB)
 
   </p>
 </details>
