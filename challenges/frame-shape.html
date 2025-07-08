@@ -1,0 +1,50 @@
+<div class="frame">
+  <div class="line horizontal top"></div>
+  <div class="line horizontal bottom"></div>
+  <div class="line vertical left"></div>
+  <div class="line vertical right"></div>
+</div>
+<style>
+  body {
+    background: #085328;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frame {
+    width: 300px;
+    height: 240px;
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-columns: 30px 30px 1fr 30px 30px;
+  }
+
+  .line {
+    background: #8cb457;
+  }
+
+  .horizontal {
+    grid-column: 1/-1;
+  }
+
+  .top {
+    grid-row: 1;
+  }
+
+  .bottom {
+    grid-row: 3;
+  }
+
+  .vertical {
+    grid-row: 1/-1;
+  }
+
+  .left {
+    grid-column: 2;
+  }
+
+  .right {
+    grid-column: 4;
+  }
+</style>
