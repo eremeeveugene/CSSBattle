@@ -139,6 +139,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Geometric Bar Composition](https://cssbattle.dev/play/3KjaoKMq6bMg4yOmz6YJ)
 - [Quarter Circle Overlay](https://cssbattle.dev/play/OUbgAQQpf5Yj5uNzu4lB)
 - [Frame Shape](https://cssbattle.dev/play/OUbgAQQpf5Yj5uNzu4lB)
+- [Monochrome Cross](https://cssbattle.dev/play/jj7YQvOtHuqRHcnRxYls)
 
   </p>
 </details>

@@ -1,0 +1,33 @@
+<div class="line vertical"></div>
+<div class="line horizontal"></div>
+<div class="center"></div>
+<style>
+  body {
+    background: #2e312b;
+    display: grid;
+    grid-template-columns: 1fr 80px 1fr;
+    grid-template-rows: 1fr 80px 1fr;
+    margin: 0;
+  }
+
+  .center {
+    background: #2e312b;
+    border: 20px solid #7aa70a;
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  .line {
+    background: #d9d9d9;
+  }
+
+  .vertical {
+    grid-row: 1/-1;
+    grid-column: 2;
+  }
+
+  .horizontal {
+    grid-row: 2;
+    grid-column: 1/-1;
+  }
+</style>
