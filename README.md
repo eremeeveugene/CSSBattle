@@ -141,6 +141,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Frame Shape](https://cssbattle.dev/play/OUbgAQQpf5Yj5uNzu4lB)
 - [Monochrome Cross](https://cssbattle.dev/play/jj7YQvOtHuqRHcnRxYls)
 - [Figure Five](https://cssbattle.dev/play/lE3H9aNN7mjyxaUAm7Ij)
+- [Bubble Columns](https://cssbattle.dev/play/gBbQiWv1sfQdxJhkFrFY)
 
   </p>
 </details>
