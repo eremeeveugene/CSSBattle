@@ -143,6 +143,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Figure Five](https://cssbattle.dev/play/lE3H9aNN7mjyxaUAm7Ij)
 - [Bubble Columns](https://cssbattle.dev/play/gBbQiWv1sfQdxJhkFrFY)
 - [Grid Bridge](https://cssbattle.dev/play/zGV15jqNGthtIZSLT0KV)
+- [Three Lines](https://cssbattle.dev/play/4K1nE3mlF0aqtgqqb2cE)
 
   </p>
 </details>
