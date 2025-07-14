@@ -144,6 +144,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Bubble Columns](https://cssbattle.dev/play/gBbQiWv1sfQdxJhkFrFY)
 - [Grid Bridge](https://cssbattle.dev/play/zGV15jqNGthtIZSLT0KV)
 - [Three Lines](https://cssbattle.dev/play/4K1nE3mlF0aqtgqqb2cE)
+- [Blue Horns](https://cssbattle.dev/play/mQBoj1aRRGKFdqIMHsbz)
 
   </p>
 </details>
