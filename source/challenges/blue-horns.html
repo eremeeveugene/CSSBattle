@@ -1,0 +1,45 @@
+<div class="ellipse"></div>
+<div class="ellipse-light"></div>
+<div class="rect"></div>
+<div class="rect-light"></div>
+<style>
+  body {
+    background: #ceedff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rect {
+    position: absolute;
+    background: #05476c;
+    width: 350px;
+    height: 80px;
+  }
+
+  .rect-light {
+    position: absolute;
+    background: #ceedff;
+    width: 350px;
+    height: 100px;
+    transform: translateY(90px);
+  }
+
+  .ellipse {
+    position: absolute;
+    background: #2bbbf3;
+    width: 350px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    transform: translateY(-40px);
+  }
+
+  .ellipse-light {
+    position: absolute;
+    background: #ceedff;
+    width: 300px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    transform: translateY(-127.5px);
+  }
+</style>
