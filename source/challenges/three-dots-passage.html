@@ -1,0 +1,36 @@
+<div class="rect"></div>
+<div class="circles">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="rect"></div>
+<style>
+  body {
+    background: #2f5a76;
+    display: grid;
+    grid-template-rows: 30px 1fr 30px;
+    margin: 0;
+  }
+
+  .rect {
+    width: 265px;
+    justify-self: end;
+    background: #f5bb60;
+  }
+
+  .circles {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 100px;
+    margin-left: 25px;
+  }
+
+  .circles div {
+    background: #f5bb60;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+</style>
