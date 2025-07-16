@@ -1,0 +1,50 @@
+<div class="circle large green">
+  <div class="circle medium purple">
+    <div class="circle small green">
+      <div class="circle mini purple"></div>
+    </div>
+  </div>
+</div>
+<style>
+  body {
+    background: #32295a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .circle {
+    border-radius: 50%;
+    aspect-ratio: 1;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .green {
+    background: #48bf7d;
+  }
+
+  .purple {
+    background: #32295a;
+  }
+
+  .large {
+    height: 300px;
+  }
+
+  .medium {
+    height: 200px;
+    align-items: end;
+  }
+
+  .small {
+    height: 100px;
+  }
+
+  .mini {
+    height: 50px;
+  }
+</style>
