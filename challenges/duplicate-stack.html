@@ -1,0 +1,44 @@
+<div class="blue top"></div>
+<div class="white top"></div>
+<div class="white bottom"></div>
+<div class="blue bottom"></div>
+<style>
+  body {
+    background: #243d83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div {
+    position: absolute;
+  }
+
+  .white {
+    background: #ffffff;
+    width: 72px;
+    aspect-ratio: 1;
+  }
+
+  .white.top {
+    transform: translate(6px, -6px);
+  }
+
+  .white.bottom {
+    transform: translate(-46px, 66px);
+  }
+
+  .blue {
+    background: #6592cf;
+    width: 100px;
+    height: 120px;
+  }
+
+  .blue.top {
+    transform: translate(20px, -30px);
+  }
+
+  .blue.bottom {
+    transform: translate(-20px, 30px);
+  }
+</style>
