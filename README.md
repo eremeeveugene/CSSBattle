@@ -147,6 +147,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Blue Horns](https://cssbattle.dev/play/mQBoj1aRRGKFdqIMHsbz)
 - [Three Dots Passage](https://cssbattle.dev/play/z2KAKTtg7X5PYRuGJTSn)
 - [Green Spiral Eye](https://cssbattle.dev/play/LEktqIDBDMs00Xv8o10m)
+- [Duplicate Stack](https://cssbattle.dev/play/zm1omIB70COQnFWceuh8)
 
   </p>
 </details>
