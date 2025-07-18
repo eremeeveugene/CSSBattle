@@ -148,6 +148,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Three Dots Passage](https://cssbattle.dev/play/z2KAKTtg7X5PYRuGJTSn)
 - [Green Spiral Eye](https://cssbattle.dev/play/LEktqIDBDMs00Xv8o10m)
 - [Duplicate Stack](https://cssbattle.dev/play/zm1omIB70COQnFWceuh8)
+- [Shy Guy](https://cssbattle.dev/play/yrokcicvRyxbayAtEl7n)
 
   </p>
 </details>
