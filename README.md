@@ -149,6 +149,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Green Spiral Eye](https://cssbattle.dev/play/LEktqIDBDMs00Xv8o10m)
 - [Duplicate Stack](https://cssbattle.dev/play/zm1omIB70COQnFWceuh8)
 - [Shy Guy](https://cssbattle.dev/play/yrokcicvRyxbayAtEl7n)
+- [Pixel Bridge Structure](https://cssbattle.dev/play/jMQhLYgZgAqjEBG95Ea0)
 
   </p>
 </details>
