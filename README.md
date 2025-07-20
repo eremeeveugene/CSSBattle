@@ -150,6 +150,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Duplicate Stack](https://cssbattle.dev/play/zm1omIB70COQnFWceuh8)
 - [Shy Guy](https://cssbattle.dev/play/yrokcicvRyxbayAtEl7n)
 - [Pixel Bridge Structure](https://cssbattle.dev/play/jMQhLYgZgAqjEBG95Ea0)
+- [Bouncy Blob](https://cssbattle.dev/play/ac2SNqo7qJxHBNMsyUA3)
 
   </p>
 </details>
