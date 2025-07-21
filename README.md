@@ -151,6 +151,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Shy Guy](https://cssbattle.dev/play/yrokcicvRyxbayAtEl7n)
 - [Pixel Bridge Structure](https://cssbattle.dev/play/jMQhLYgZgAqjEBG95Ea0)
 - [Bouncy Blob](https://cssbattle.dev/play/ac2SNqo7qJxHBNMsyUA3)
+- [Low Battery Icon](https://cssbattle.dev/play/SYYHh3iEq1fLX3reqRCU)
 
   </p>
 </details>
