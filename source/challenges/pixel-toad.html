@@ -1,6 +1,6 @@
-<div class="frog">
+<div class="toad">
   <div class="leg left">
-    <div style="grid-row: 1 / -1"></div>
+    <div class="calf"></div>
     <div></div>
   </div>
   <div class="body">
@@ -19,7 +19,7 @@
   </div>
   <div class="leg right">
     <div style="grid-row: 1"></div>
-    <div style="grid-row: 1 / -1"></div>
+    <div class="calf"></div>
   </div>
 </div>
 <style>
@@ -30,7 +30,7 @@
     align-items: center;
   }
 
-  .frog {
+  .toad {
     display: flex;
   }
 
@@ -51,6 +51,10 @@
 
   .leg * {
     background: #439e6b;
+  }
+
+  .calf {
+    grid-row: 1 / -1;
   }
 
   .body {
