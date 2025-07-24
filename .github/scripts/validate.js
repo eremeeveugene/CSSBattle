@@ -7,6 +7,7 @@ const { PNG } = require("pngjs");
 const CHALLENGES_DIR = path.join("source", "challenges");
 const EXPECTED_DIR = path.join("ut-tests", "expected-result");
 const ACTUAL_DIR = path.join("ut-tests", "actual-result");
+const DIFF_DIR = path.join("ut-tests", "diff-result");
 const VIEWPORT = { width: 400, height: 300 };
 const THRESHOLD = 0.1;
 const ALLOWED_PIXELS = 3;
@@ -23,10 +24,19 @@ const ALLOWED_PIXELS = 3;
 
   await fs.ensureDir(EXPECTED_DIR);
   await fs.ensureDir(ACTUAL_DIR);
+  await fs.ensureDir(DIFF_DIR);
 
   const browser = await puppeteer.launch({
-    args: ["--no-sandbox"],
     headless: true,
+    args: [
+      "--no-sandbox",
+      "--disable-gpu",
+      "--disable-dev-shm-usage",
+      "--disable-setuid-sandbox",
+      "--disable-font-subpixel-positioning",
+      "--disable-font-antialiasing",
+      "--force-device-scale-factor=1",
+    ],
   });
 
   const page = await browser.newPage();
@@ -82,10 +92,7 @@ const ALLOWED_PIXELS = 3;
 
     if (diffPixels > ALLOWED_PIXELS) {
       hasMismatch = true;
-      const diffPath = path.join(
-        ACTUAL_DIR,
-        file.replace(".html", ".diff.png")
-      );
+      const diffPath = path.join(DIFF_DIR, file.replace(".html", ".diff.png"));
       fs.writeFileSync(diffPath, PNG.sync.write(diff));
       console.error(
         `❌ Visual mismatch in ${file} – ${diffPixels} pixels differ`
