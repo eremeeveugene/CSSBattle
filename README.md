@@ -154,6 +154,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Low Battery Icon](https://cssbattle.dev/play/SYYHh3iEq1fLX3reqRCU)
 - [Pixel Toad](https://cssbattle.dev/play/Fd3vvZivSEbFOZFxa2bk)
 - [Basket Grid](https://cssbattle.dev/play/JBC3QDsdqoOG3PEaKOC7)
+- [Vial with Fluid](https://cssbattle.dev/play/PlTclcAbU9L9EWDvbTQE)
 
   </p>
 </details>
