@@ -23,11 +23,12 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Generate index.html
-        run: node .github/scripts/generate-index.js
-
       - name: Validate Visual Output
         run: node .github/scripts/validate.js
+
+      - name: Generate index.html
+        if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+        run: node .github/scripts/generate-index.js
 
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
