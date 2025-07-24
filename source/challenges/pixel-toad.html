@@ -1,25 +1,17 @@
 <div class="toad">
-  <div class="leg left">
-    <div class="calf"></div>
-    <div></div>
-  </div>
-  <div class="body">
-    <div class="eyes">
-      <div class="eye">
-        <div class="slera">
-          <div class="pupil"></div>
-        </div>
-      </div>
-      <div class="eye">
-        <div class="slera">
-          <div class="pupil"></div>
-        </div>
+  <div class="base"></div>
+  <div class="body"></div>
+  <div class="eyes">
+    <div class="eye">
+      <div class="slera">
+        <div class="pupil"></div>
       </div>
     </div>
-  </div>
-  <div class="leg right">
-    <div style="grid-row: 1"></div>
-    <div class="calf"></div>
+    <div class="eye">
+      <div class="slera">
+        <div class="pupil"></div>
+      </div>
+    </div>
   </div>
 </div>
 <style>
@@ -32,49 +24,41 @@
 
   .toad {
     display: flex;
-  }
-
-  .leg {
-    display: grid;
-    align-self: end;
-    transform: translateY(10px);
-    grid-template-rows: 14px 26px;
-  }
-
-  .leg.left {
-    grid-template-columns: 14px 16px;
-  }
-
-  .leg.right {
-    grid-template-columns: 16px 14px;
-  }
-
-  .leg * {
-    background: #439e6b;
-  }
-
-  .calf {
-    grid-row: 1 / -1;
+    justify-content: center;
+    align-items: center;
   }
 
   .body {
+    position: absolute;
     background: #246541;
     width: 100px;
     height: 160px;
   }
 
+  .base {
+    position: absolute;
+    width: 132px;
+    height: 26px;
+    border: 14px solid #439e6b;
+    border-bottom: none;
+    transform: translateY(70px);
+  }
+
   .eyes {
+    position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    transform: translateY(-80px);
   }
 
   .eye {
     background: #439e6b;
+    width: 50px;
     border-radius: 50%;
     aspect-ratio: 1;
-    transform: translateY(-50%);
-    align-content: center;
+    display: grid;
     overflow: hidden;
+    align-content: center;
   }
 
   .slera {
