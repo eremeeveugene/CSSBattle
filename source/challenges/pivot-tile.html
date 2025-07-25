@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="blues">
+    <div class="rect top"></div>
+    <div class="rect"></div>
+  </div>
+  <div class="rect red"></div>
+</div>
+<style>
+  body {
+    background: #fade8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    margin: 0 0 20 32;
+  }
+
+  .blues {
+    justify-items: end;
+  }
+
+  .blues * {
+    background: #556d7f;
+  }
+
+  .red {
+    background: #d24444;
+    margin-top: 40;
+    align-self: start;
+  }
+
+  .top {
+    margin: 20;
+  }
+
+  .rect {
+    width: 72;
+    aspect-ratio: 1;
+    border-radius: 20px;
+  }
+</style>
