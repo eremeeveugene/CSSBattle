@@ -24,3 +24,4 @@ package-lock.json
 
 # Ignore generated test outputs
 ut-tests/actual-result/
+/ut-tests/diff-result
