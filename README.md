@@ -156,6 +156,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Basket Grid](https://cssbattle.dev/play/JBC3QDsdqoOG3PEaKOC7)
 - [Vial with Fluid](https://cssbattle.dev/play/PlTclcAbU9L9EWDvbTQE)
 - [Pivot Tile](https://cssbattle.dev/play/scEetXQ8lEIi272ZMtnD)
+- [Stacked Layers](https://cssbattle.dev/play/zZdnFSfyVpjtoIL6xahW)
 
   </p>
 </details>
