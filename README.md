@@ -157,6 +157,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Vial with Fluid](https://cssbattle.dev/play/PlTclcAbU9L9EWDvbTQE)
 - [Pivot Tile](https://cssbattle.dev/play/scEetXQ8lEIi272ZMtnD)
 - [Stacked Layers](https://cssbattle.dev/play/zZdnFSfyVpjtoIL6xahW)
+- [Obscura Compass](https://cssbattle.dev/play/mgu74kr9zqCQqtm5ChaX)
 
   </p>
 </details>
