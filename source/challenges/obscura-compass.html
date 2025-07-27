@@ -1,0 +1,38 @@
+<div class="line"></div>
+<div class="line horizontal"></div>
+<div class="circle"></div>
+<div class="line diagonal"></div>
+<style>
+  body {
+    background: #dc9da6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div {
+    position: absolute;
+  }
+
+  .circle {
+    border: 30px solid #6e3c3c;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #dc9da6;
+  }
+
+  .line {
+    width: 20px;
+    height: 200px;
+    background: #6e3c3c;
+  }
+
+  .horizontal {
+    transform: rotate(90deg);
+  }
+
+  .diagonal {
+    transform: rotate(45deg);
+  }
+</style>
