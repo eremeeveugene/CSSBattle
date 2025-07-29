@@ -159,6 +159,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Stacked Layers](https://cssbattle.dev/play/zZdnFSfyVpjtoIL6xahW)
 - [Obscura Compass](https://cssbattle.dev/play/mgu74kr9zqCQqtm5ChaX)
 - [Power Icon](https://cssbattle.dev/play/0HOdqfUIHZGpnRVQOQbx)
+- [Totem](https://cssbattle.dev/play/3yXeriXrUcPNUbBsiG8t)
 
   </p>
 </details>

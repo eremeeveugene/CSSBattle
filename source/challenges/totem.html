@@ -1,0 +1,45 @@
+<div class="hands">
+  <div class="red"></div>
+</div>
+<div class="torso"></div>
+<div class="head"></div>
+<style>
+  body {
+    background: #d94e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head {
+    border: 30px solid #feff58;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    transform: translateY(-150px);
+  }
+
+  .torso {
+    position: absolute;
+    background: #010201;
+    width: 100px;
+    height: 200px;
+    transform: translateY(50px);
+  }
+
+  .hands {
+    display: grid;
+    position: absolute;
+    background: #010201;
+    width: 310px;
+    height: 70px;
+    transform: translateY(45px);
+    justify-items: center;
+  }
+
+  .red {
+    width: 250px;
+    height: 40px;
+    background: #d94e4e;
+  }
+</style>
