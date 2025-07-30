@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="half"></div>
+  <div class="vertical blue"></div>
+  <div class="vertical yellow"></div>
+  <div class="vertical horizontal yellow"></div>
+</div>
+<style>
+  body {
+    background: #48bf7d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    height: 200px;
+    margin-left: -40px;
+  }
+
+  .half {
+    width: 70px;
+    border: 30px solid #feff58;
+    border-right: 0;
+    border-radius: 100px 0 0 100px;
+  }
+
+  .vertical {
+    width: 30px;
+  }
+
+  .blue {
+    background: #3e5aa9;
+  }
+
+  .yellow {
+    background: #feff58;
+  }
+
+  .horizontal {
+    height: 30px;
+    align-self: end;
+  }
+</style>
