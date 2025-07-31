@@ -1,0 +1,36 @@
+<div class="four">
+  <div class="left"></div>
+  <div class="right"></div>
+  <div class="middle"></div>
+</div>
+<style>
+  body {
+    background: #23384b;
+    display: flex;
+    place-content: center;
+    align-items: center;
+  }
+
+  .four {
+    display: grid;
+    grid: 105px 50px 105px / 50px 80px 50px;
+  }
+
+  .four * {
+    background: #f0cd48;
+  }
+
+  .left {
+    border-radius: 50px 50px 0 0;
+  }
+
+  .right {
+    border-radius: 50px;
+    grid-column: 3;
+    grid-row: 1/-1;
+  }
+
+  .middle {
+    grid-column: 1/3;
+  }
+</style>
