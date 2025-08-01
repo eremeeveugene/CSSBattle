@@ -162,6 +162,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Totem](https://cssbattle.dev/play/3yXeriXrUcPNUbBsiG8t)
 - [CL Monogram](https://cssbattle.dev/play/A0AAj875qBa7MGnH9aJM)
 - [Four](https://cssbattle.dev/play/s5JJeOyW26MkBy88YSn9)
+- [Asymmetric Bars](https://cssbattle.dev/play/7VPDufck7QT4Zjlh4CvT)
 
   </p>
 </details>
