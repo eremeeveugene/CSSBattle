@@ -1,0 +1,34 @@
+<div class="bars">
+  <div class="purple top"></div>
+  <div class="purple middle"></div>
+  <div class="purple bottom"></div>
+</div>
+<style>
+  body {
+    background: #b6ebe7;
+    display: grid;
+    place-items: center;
+  }
+
+  .bars {
+    display: grid;
+    grid: 60px 108px 60px /164px 36px 164px;
+    row-gap: 18px;
+  }
+
+  .purple {
+    background: #3a335a;
+  }
+
+  .top {
+    grid-column: 1/3;
+  }
+
+  .middle {
+    grid-area: 2 / 2;
+  }
+
+  .bottom {
+    grid-area: 3 / 2 / 4 / 4;
+  }
+</style>
