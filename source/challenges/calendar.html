@@ -1,0 +1,33 @@
+<div class="calendar">
+  <div style="grid-column: 2"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #31938c;
+    display: grid;
+    place-content: center;
+  }
+
+  .calendar {
+    border: 30px solid #fff;
+    border-top-width: 60px;
+    border-radius: 20px;
+    display: grid;
+    grid: repeat(3, 30px) / repeat(4, 30px);
+    gap: 20px;
+    padding: 15px 20px;
+  }
+
+  .calendar * {
+    background: #fff;
+  }
+</style>
