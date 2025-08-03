@@ -1,0 +1,46 @@
+<div class="grid">
+  <div class="rect top"></div>
+  <div class="rect bottom"></div>
+  <div class="blue"></div>
+</div>
+<style>
+  body {
+    background: #243d83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid * {
+    position: absolute;
+  }
+
+  .rect {
+    border: 20px solid #ffffff;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    background: #243d83;
+  }
+
+  .top {
+    margin: 0 60px 60px 0;
+  }
+
+  .bottom {
+    margin: 60px 0 0 60px;
+  }
+
+  .blue {
+    background: #243d83;
+    width: 60px;
+    height: 60px;
+    margin: 0 40px 40px 0;
+  }
+</style>
