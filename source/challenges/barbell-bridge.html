@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="border top"></div>
+  <div style="border-bottom-width: 20px"></div>
+  <div class="border top"></div>
+  <div class="border bottom"></div>
+  <div style="border-top-width: 20px"></div>
+  <div class="border bottom"></div>
+</div>
+
+<style>
+  body {
+    background: #d94e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: grid;
+    grid: 120px 120px / 100px 180px 100px;
+    grid-row-gap: 40px;
+  }
+
+  .container * {
+    border: 0 solid #ebe77e;
+  }
+
+  .border {
+    border-width: 20px;
+  }
+
+  .border.top {
+    border-bottom: none;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 65px;
+  }
+
+  .border.bottom {
+    border-top: none;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 65px;
+  }
+</style>
