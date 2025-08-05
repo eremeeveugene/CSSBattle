@@ -1,0 +1,54 @@
+<div class="glasses">
+  <div class="ellipse red"></div>
+  <div class="ellipse blue"></div>
+  <div class="nose"></div>
+</div>
+<style>
+  body {
+    background: #423f36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .glasses {
+    background: #feff58;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .glasses * {
+    position: absolute;
+  }
+
+  .nose {
+    background: #423f36;
+    width: 76px;
+    height: 75px;
+    border-top-left-radius: 20px;
+    transform: rotate(45deg);
+    margin-top: 105px;
+  }
+
+  .ellipse {
+    width: 250px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .red {
+    background: #d94e4e;
+    transform: translateX(-200px);
+  }
+
+  .blue {
+    background: #3e5aa9;
+    transform: translateX(200px);
+  }
+</style>
