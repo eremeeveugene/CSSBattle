@@ -166,6 +166,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Calendar](https://cssbattle.dev/play/XB5N3yznafRYaug2oWEO)
 - [Interlocking Squares](https://cssbattle.dev/play/G0Lcplh7vINRgrkIu56D)
 - [Barbell Bridge](https://cssbattle.dev/play/XQCTM05gTxnoXXDMQ3rt)
+- [Anaglyph 3D Glasses](https://cssbattle.dev/play/7dleRRSShJjeUasHRb1o)
 
   </p>
 </details>
