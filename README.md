@@ -168,6 +168,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Barbell Bridge](https://cssbattle.dev/play/XQCTM05gTxnoXXDMQ3rt)
 - [Anaglyph 3D Glasses](https://cssbattle.dev/play/7dleRRSShJjeUasHRb1o)
 - [Puzzle](https://cssbattle.dev/play/vQDkZK0jRWSfPOlM8eLB)
+- [Puzzle Grid](https://cssbattle.dev/play/0VNq91mJTcvFqX8rrcAj)
 
   </p>
 </details>
