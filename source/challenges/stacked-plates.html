@@ -1,0 +1,43 @@
+<div class="small">
+  <div></div>
+  <div style="transform: translateY(-1px)"></div>
+  <div></div>
+</div>
+<div class="large">
+  <div></div>
+  <div></div>
+</div>
+<div class="small">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #3a335a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small,
+  .large {
+    display: flex;
+    gap: 20px;
+  }
+
+  .small *,
+  .large * {
+    background: #fade8b;
+  }
+
+  .small * {
+    height: 60px;
+    width: 20px;
+  }
+
+  .large * {
+    height: 160px;
+    width: 70px;
+  }
+</style>
