@@ -171,6 +171,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Puzzle Grid](https://cssbattle.dev/play/0VNq91mJTcvFqX8rrcAj)
 - [Stacked Plates](https://cssbattle.dev/play/sgBf5laOGhuIRqqtieFL)
 - [Letter M](https://cssbattle.dev/play/yuLGghavS4svI2C2XqmE)
+- [Right Angle Ruler](https://cssbattle.dev/play/yT5lXIVMPINavklNk3hq)
 
   </p>
 </details>
