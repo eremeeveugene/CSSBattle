@@ -172,6 +172,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Stacked Plates](https://cssbattle.dev/play/sgBf5laOGhuIRqqtieFL)
 - [Letter M](https://cssbattle.dev/play/yuLGghavS4svI2C2XqmE)
 - [Right Angle Ruler](https://cssbattle.dev/play/yT5lXIVMPINavklNk3hq)
+- [Pinball](https://cssbattle.dev/play/Dt65i8CbiqEa3dtEsJ1f)
 
   </p>
 </details>
