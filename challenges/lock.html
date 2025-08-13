@@ -1,0 +1,45 @@
+<div class="lock">
+  <div class="circle"></div>
+  <div class="cylinder"></div>
+  <div class="hole"></div>
+</div>
+<style>
+  body {
+    background: #5a9f48;
+    display: grid;
+    place-items: center;
+  }
+
+  .lock {
+    display: grid;
+    place-items: center;
+    height: 240px;
+    width: 260px;
+    position: relative;
+  }
+
+  .lock * {
+    position: absolute;
+    border: 20px solid #23384b;
+    background: #5a9f48;
+    bottom: 0;
+    height: 120px;
+  }
+
+  .circle {
+    top: 0;
+    width: 120px;
+    border-radius: 50%;
+  }
+
+  .cylinder {
+    border-radius: 30px;
+    width: 180px;
+  }
+
+  .hole {
+    border-bottom: none;
+    width: 40px;
+    height: 80px;
+  }
+</style>
