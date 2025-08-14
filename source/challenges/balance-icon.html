@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="arc">
+    <div class="large"></div>
+  </div>
+  <div class="circle"></div>
+  <div class="circle left"></div>
+  <div class="circle right"></div>
+  <div class="circle bottom"></div>
+</div>
+<style>
+  body {
+    background: #f3ac3c;
+    display: grid;
+    place-items: center;
+  }
+
+  .container {
+    display: grid;
+    justify-items: center;
+    height: 160px;
+    width: 160px;
+    position: relative;
+    margin-top: 60px;
+  }
+
+  .circle {
+    position: absolute;
+    background: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+
+  .bottom {
+    bottom: 0;
+  }
+
+  .arc {
+    overflow: hidden;
+    height: 80px;
+    margin-top: 20px;
+  }
+
+  .large {
+    border: 40px solid #000;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: none;
+    width: 80px;
+    height: 60px;
+    transform: translateY(-20px);
+  }
+</style>
