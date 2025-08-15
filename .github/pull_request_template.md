@@ -16,6 +16,6 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my code
 - [ ] Matches reference image pixel-perfectly
-- [ ] Renders correctly in latest Chrome
+- [ ] Renders correctly in the latest Chrome
 
 ## Screenshots (if appropriate):
