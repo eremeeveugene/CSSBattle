@@ -176,6 +176,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Percent](https://cssbattle.dev/play/mqb7m5IBWG7O0MUNeR1j)
 - [Lock](https://cssbattle.dev/play/Wb6m4MiVqnfsc2APUzE6)
 - [Balance Icon](https://cssbattle.dev/play/hE3hv2VTjJjoyVUsE4WJ)
+- [Quoncet Hut](https://cssbattle.dev/play/ruupegQJjmffoyuMpSMs)
 
   </p>
 </details>
