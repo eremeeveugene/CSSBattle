@@ -177,6 +177,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Lock](https://cssbattle.dev/play/Wb6m4MiVqnfsc2APUzE6)
 - [Balance Icon](https://cssbattle.dev/play/hE3hv2VTjJjoyVUsE4WJ)
 - [Quoncet Hut](https://cssbattle.dev/play/ruupegQJjmffoyuMpSMs)
+- [Arched Window](https://cssbattle.dev/play/YBxqvS1odgHQqqZLULTu)
 
   </p>
 </details>
