@@ -178,6 +178,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Balance Icon](https://cssbattle.dev/play/hE3hv2VTjJjoyVUsE4WJ)
 - [Quoncet Hut](https://cssbattle.dev/play/ruupegQJjmffoyuMpSMs)
 - [Arched Window](https://cssbattle.dev/play/YBxqvS1odgHQqqZLULTu)
+- [Minimalist Penguin Face](https://cssbattle.dev/play/RY8iqhWYxlPpAhPYVVG0)
 
   </p>
 </details>
