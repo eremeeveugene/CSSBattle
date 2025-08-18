@@ -1,0 +1,35 @@
+<div class="car">
+  <div class="roof part"></div>
+  <div class="wheel"></div>
+  <div class="part"></div>
+  <div class="wheel"></div>
+</div>
+<style>
+  body {
+    background: #e8ad6d;
+    display: grid;
+    place-items: center;
+  }
+
+  .car {
+    display: grid;
+    width: 280px;
+    grid: 50px 50px / 1fr 60px 1fr;
+    gap: 20px 10px;
+    overflow: hidden;
+  }
+
+  .part {
+    background: #3b240c;
+  }
+
+  .roof {
+    grid-column: 1/-1;
+  }
+
+  .wheel {
+    border: 30px solid #3b240c;
+    border-radius: 50%;
+    aspect-ratio: 1;
+  }
+</style>
