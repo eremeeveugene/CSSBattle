@@ -180,6 +180,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Arched Window](https://cssbattle.dev/play/YBxqvS1odgHQqqZLULTu)
 - [Minimalist Penguin Face](https://cssbattle.dev/play/RY8iqhWYxlPpAhPYVVG0)
 - [Minimalist Bus](https://cssbattle.dev/play/Bk5hytqhhsXsuac7U51B)
+- [Pixel Star](https://cssbattle.dev/play/ftyzL7ZK1Istn928KBRt)
 
   </p>
 </details>
