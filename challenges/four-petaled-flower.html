@@ -1,0 +1,53 @@
+<div class="flower">
+  <div class="top-left"></div>
+  <div class="top-right"></div>
+  <div class="middle"></div>
+  <div class="bottom-left"></div>
+  <div class="bottom-right"></div>
+</div>
+<style>
+  body {
+    background: #414b81;
+    display: grid;
+    place-items: center;
+  }
+
+  .flower {
+    display: grid;
+    grid: 100px 50px 100px / 100px 80px 100px;
+    grid-template-areas:
+      "top-left .  top-right"
+      ".  middle ."
+      "bottom-left .  bottom-right";
+  }
+
+  .flower * {
+    background: #fade8b;
+    border-radius: 50%;
+  }
+
+  .top-left {
+    border-bottom-right-radius: 0;
+    grid-area: top-left;
+  }
+
+  .top-right {
+    border-bottom-left-radius: 0;
+    grid-area: top-right;
+  }
+
+  .middle {
+    border-radius: 0;
+    grid-area: middle;
+  }
+
+  .bottom-left {
+    border-top-right-radius: 0;
+    grid-area: bottom-left;
+  }
+
+  .bottom-right {
+    border-top-left-radius: 0;
+    grid-area: bottom-right;
+  }
+</style>
