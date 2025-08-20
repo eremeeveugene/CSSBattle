@@ -181,7 +181,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Minimalist Penguin Face](https://cssbattle.dev/play/RY8iqhWYxlPpAhPYVVG0)
 - [Minimalist Bus](https://cssbattle.dev/play/Bk5hytqhhsXsuac7U51B)
 - [Pixel Star](https://cssbattle.dev/play/ftyzL7ZK1Istn928KBRt)
-- [Four Petaled Flower](https://cssbattle.dev/play/85q9Sojc2ESQgfPdccqx)
+- [Four-Petaled Flower](https://cssbattle.dev/play/85q9Sojc2ESQgfPdccqx)
 
   </p>
 </details>
