@@ -1,0 +1,67 @@
+<div></div>
+<div class="r1 c5"></div>
+<div class="r2 c2 round-left"></div>
+<div class="r2 c4 round-right"></div>
+<div class="r3"></div>
+<div class="r3 c5"></div>
+<div class="r4 span2"></div>
+<div class="r4 c4 span2"></div>
+
+<style>
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: repeat(4, 50px);
+    grid-template-columns: 50px 125px 50px 125px 50px;
+    background: #526766;
+    justify-content: center;
+  }
+
+  body * {
+    background: #b9c99f;
+  }
+
+  .r1 {
+    grid-row: 1;
+  }
+
+  .r2 {
+    grid-row: 2;
+  }
+
+  .r3 {
+    grid-row: 3;
+  }
+
+  .r4 {
+    grid-row: 4;
+  }
+
+  .c1 {
+    grid-column: 1;
+  }
+
+  .c2 {
+    grid-column: 2;
+  }
+
+  .c4 {
+    grid-column: 4;
+  }
+
+  .c5 {
+    grid-column: 5;
+  }
+
+  .span2 {
+    grid-column-end: span 2;
+  }
+
+  .round-left {
+    border-radius: 0 50px 50px 0;
+  }
+
+  .round-right {
+    border-radius: 50px 0 0 50px;
+  }
+</style>

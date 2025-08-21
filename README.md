@@ -182,6 +182,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Minimalist Bus](https://cssbattle.dev/play/Bk5hytqhhsXsuac7U51B)
 - [Pixel Star](https://cssbattle.dev/play/ftyzL7ZK1Istn928KBRt)
 - [Four-Petaled Flower](https://cssbattle.dev/play/85q9Sojc2ESQgfPdccqx)
+- [The Connector](https://cssbattle.dev/play/JVSLmW0FRnZGZgGxMo8o)
 
   </p>
 </details>
