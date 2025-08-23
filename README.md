@@ -184,6 +184,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Four-Petaled Flower](https://cssbattle.dev/play/85q9Sojc2ESQgfPdccqx)
 - [The Connector](https://cssbattle.dev/play/JVSLmW0FRnZGZgGxMo8o)
 - [Makeshift Bridge](https://cssbattle.dev/play/meqzxoysSSjCTt6NVx5H)
+- [Bubble Heart](https://cssbattle.dev/play/cOFdYyNGYDjt0EAAiXu6)
 
   </p>
 </details>
