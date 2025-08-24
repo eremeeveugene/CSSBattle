@@ -185,6 +185,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [The Connector](https://cssbattle.dev/play/JVSLmW0FRnZGZgGxMo8o)
 - [Makeshift Bridge](https://cssbattle.dev/play/meqzxoysSSjCTt6NVx5H)
 - [Bubble Heart](https://cssbattle.dev/play/cOFdYyNGYDjt0EAAiXu6)
+- [Neutral Stump](https://cssbattle.dev/play/b150AE1x633kzUxkl6cC)
 
   </p>
 </details>
