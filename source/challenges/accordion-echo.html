@@ -1,0 +1,42 @@
+<div class="stack left">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="stack">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="stack right">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #3a335a;
+    display: grid;
+    grid-template-columns: repeat(3, 140px);
+    place-content: center;
+    gap: 20px;
+  }
+
+  .stack {
+    display: grid;
+    gap: 40px;
+  }
+
+  .left {
+    transform: rotate(15deg) translate(-10px, 2.5px);
+  }
+
+  .right {
+    transform: rotate(-15deg) translate(10px, 2.5px);
+  }
+
+  .stack * {
+    background: #fff;
+    height: 30px;
+  }
+</style>
