@@ -187,6 +187,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Bubble Heart](https://cssbattle.dev/play/cOFdYyNGYDjt0EAAiXu6)
 - [Neutral Stump](https://cssbattle.dev/play/b150AE1x633kzUxkl6cC)
 - [Accordion Echo](https://cssbattle.dev/play/LiUDbxhA7vRZq2x621DE)
+- [Mighty Blue Treat](https://cssbattle.dev/play/gxtEvJvbsCzxQk3cVeW0)
 
   </p>
 </details>
