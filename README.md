@@ -189,6 +189,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Accordion Echo](https://cssbattle.dev/play/LiUDbxhA7vRZq2x621DE)
 - [Mighty Blue Treat](https://cssbattle.dev/play/gxtEvJvbsCzxQk3cVeW0)
 - [Pivot Mark](https://cssbattle.dev/play/Ybm5yqlaYrriKz9LOImm)
+- [Square Spiral](https://cssbattle.dev/play/VZPXcTouLP7bfcYAPFGa)
 
   </p>
 </details>
