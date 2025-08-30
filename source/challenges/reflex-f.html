@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="inner">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #a1e8a7;
+    display: grid;
+    place-content: end center;
+    margin: 0;
+  }
+
+  .container {
+    background: #d2495c;
+    width: 250px;
+    height: 250px;
+    display: grid;
+    place-content: end center;
+  }
+
+  .inner {
+    background: #a1e8a7;
+    height: 200px;
+    display: grid;
+    grid: 50px 50px / 50px 50px;
+    gap: 50px;
+    align-content: end;
+  }
+
+  .inner * {
+    background: #d2495c;
+  }
+</style>
