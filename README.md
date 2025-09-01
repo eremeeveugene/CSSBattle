@@ -192,6 +192,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Square Spiral](https://cssbattle.dev/play/VZPXcTouLP7bfcYAPFGa)
 - [Reflex F](https://cssbattle.dev/play/nmGK2p23ItHW1FI85JPe)
 - [Looped Frame](https://cssbattle.dev/play/ZiqvLe1OqThdaLBZJL1Z)
+- [Offset Steps](https://cssbattle.dev/play/YXrg5XBlp9HveJEWqYQi)
 
   </p>
 </details>
