@@ -1,0 +1,32 @@
+<div></div>
+<style>
+  body {
+    background: #5dbcf9;
+    display: grid;
+    place-content: center;
+  }
+
+  div {
+    height: 180px;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+  }
+
+  div::before {
+    content: "";
+    width: 180px;
+    height: 240px;
+    border: 50px solid #ffffcd;
+    border-radius: 50%;
+  }
+
+  div::after {
+    content: "";
+    background: #ffffcd;
+    width: 50px;
+    height: 180px;
+    position: absolute;
+    place-self: center;
+  }
+</style>
