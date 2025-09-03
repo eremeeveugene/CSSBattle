@@ -194,6 +194,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Looped Frame](https://cssbattle.dev/play/ZiqvLe1OqThdaLBZJL1Z)
 - [Offset Steps](https://cssbattle.dev/play/YXrg5XBlp9HveJEWqYQi)
 - [Power Button](https://cssbattle.dev/play/XYRTS1X3AQZbscxt5sSv)
+- [Target Cross](https://cssbattle.dev/play/qq0MyvlrWpqzr4uvnfSi)
 
   </p>
 </details>

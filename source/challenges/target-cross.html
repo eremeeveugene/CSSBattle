@@ -1,0 +1,42 @@
+<div class="circle">
+  <div class="vertical"></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #243d83;
+    display: grid;
+    place-items: center;
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    border: 20px solid #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    position: relative;
+  }
+
+  .circle::before {
+    content: "";
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    border-radius: 50%;
+  }
+
+  .circle * {
+    position: absolute;
+    background: #243d83;
+    height: 46px;
+    width: 240px;
+    margin: 1 0 0 0;
+  }
+
+  .vertical {
+    transform: rotate(90deg);
+    margin: 0 0 0 1;
+  }
+</style>
