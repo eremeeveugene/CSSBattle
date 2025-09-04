@@ -1,0 +1,45 @@
+<div class="diamonds">
+  <div class="top"></div>
+  <div class="bottom"></div>
+  <div class="right"></div>
+  <div class="right-shift"></div>
+</div>
+<style>
+  body {
+    background: #51a495;
+    display: grid;
+    place-items: center;
+  }
+
+  .diamonds {
+    height: 180px;
+    width: 320px;
+    display: grid;
+    align-items: center;
+    position: relative;
+  }
+
+  .diamonds * {
+    position: absolute;
+    background: #fff;
+    transform: rotate(45deg);
+    width: 100px;
+    height: 100px;
+  }
+
+  .top {
+    top: 0;
+  }
+
+  .bottom {
+    bottom: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+
+  .right-shift {
+    right: 90;
+  }
+</style>

@@ -195,6 +195,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Offset Steps](https://cssbattle.dev/play/YXrg5XBlp9HveJEWqYQi)
 - [Power Button](https://cssbattle.dev/play/XYRTS1X3AQZbscxt5sSv)
 - [Target Cross](https://cssbattle.dev/play/qq0MyvlrWpqzr4uvnfSi)
+- [Double Diamonds](https://cssbattle.dev/play/8aTBQl5mjg6xyBSQBXtL)
 
   </p>
 </details>
