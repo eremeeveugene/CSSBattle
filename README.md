@@ -196,6 +196,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Power Button](https://cssbattle.dev/play/XYRTS1X3AQZbscxt5sSv)
 - [Target Cross](https://cssbattle.dev/play/qq0MyvlrWpqzr4uvnfSi)
 - [Double Diamonds](https://cssbattle.dev/play/8aTBQl5mjg6xyBSQBXtL)
+- [Rotated Frames](https://cssbattle.dev/play/bfj4QN1ZXrfVFgbEKgW2)
 
   </p>
 </details>
