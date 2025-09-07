@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="horizontal"></div>
+  <div class="vertical"></div>
+</div>
+<style>
+  body {
+    background: #142932;
+    display: grid;
+    place-content: center;
+  }
+
+  .container {
+    display: grid;
+    place-items: center;
+  }
+
+  .horizontal {
+    background: #00d47e;
+    height: 120px;
+    width: 310px;
+    border-radius: 60px;
+    display: grid;
+    place-content: center;
+  }
+
+  .horizontal::after {
+    content: "";
+    background: #142932;
+    width: 250px;
+    height: 60px;
+    margin-left: 2px;
+  }
+
+  .vertical {
+    margin-left: 2px;
+    background: #00d47e;
+    height: 110px;
+    width: 90px;
+    display: grid;
+    justify-content: center;
+  }
+
+  .vertical::after {
+    content: "";
+    background: #142932;
+    width: 30px;
+    height: 110px;
+    margin-right: 2px;
+    transform: translateY(-30px);
+  }
+</style>
