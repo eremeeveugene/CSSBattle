@@ -197,6 +197,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Target Cross](https://cssbattle.dev/play/qq0MyvlrWpqzr4uvnfSi)
 - [Double Diamonds](https://cssbattle.dev/play/8aTBQl5mjg6xyBSQBXtL)
 - [Rotated Frames](https://cssbattle.dev/play/bfj4QN1ZXrfVFgbEKgW2)
+- [Pixel Bat Emblem](https://cssbattle.dev/play/W9YmA3nTXJV1qSqb7K1o)
 
   </p>
 </details>
