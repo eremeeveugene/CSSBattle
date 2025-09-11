@@ -202,6 +202,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Twin Stair Steps](https://cssbattle.dev/play/Eec4Lu4jHQeMKhlkhhTK)
 - [QR Corner](https://cssbattle.dev/play/Gk3nzMSKdjcAWWyWXq7d)
 - [Chevron](http://cssbattle.dev/play/1UsNSfamUsiKsDiRCKi1)
+- [Golden Bridge](https://cssbattle.dev/play/sOG7BeRyAFcytZbdqmX5)
 
   </p>
 </details>
