@@ -203,6 +203,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [QR Corner](https://cssbattle.dev/play/Gk3nzMSKdjcAWWyWXq7d)
 - [Chevron](http://cssbattle.dev/play/1UsNSfamUsiKsDiRCKi1)
 - [Golden Bridge](https://cssbattle.dev/play/sOG7BeRyAFcytZbdqmX5)
+- [Clock](https://cssbattle.dev/play/S777cDYs3i8iZJ2UqSNJ)
 
   </p>
 </details>
