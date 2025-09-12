@@ -1,0 +1,78 @@
+<div class="clock">
+  <div class="top"></div>
+  <div class="top-left"></div>
+  <div class="top-right"></div>
+  <div class="left"></div>
+  <div class="right"></div>
+  <div class="bottom"></div>
+  <div class="bottom-left"></div>
+  <div class="bottom-right"></div>
+  <div class="hour"></div>
+  <div class="minute"></div>
+</div>
+<style>
+  body {
+    background: #d24444;
+    display: grid;
+    place-items: center;
+  }
+
+  .clock {
+    display: grid;
+    place-items: center;
+    border: 20px solid #f3da7a;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    position: relative;
+  }
+
+  .clock * {
+    position: absolute;
+    background: #f3da7a;
+    width: 20px;
+    height: 20px;
+  }
+
+  .top {
+    transform: translateY(-105px);
+  }
+
+  .bottom {
+    transform: translateY(105px);
+  }
+
+  .right {
+    transform: translateX(105px);
+  }
+
+  .left {
+    transform: translateX(-105px);
+  }
+
+  .top-left {
+    transform: translate(-74.5px, -74.5px) rotate(45deg);
+  }
+
+  .top-right {
+    transform: translate(74.5px, -74.5px) rotate(45deg);
+  }
+
+  .bottom-left {
+    transform: translate(-74.5px, 74.5px) rotate(45deg);
+  }
+
+  .bottom-right {
+    transform: translate(74.5px, 74.5px) rotate(45deg);
+  }
+
+  .hour {
+    height: 80px;
+    margin-bottom: 60px;
+  }
+
+  .minute {
+    width: 80px;
+    margin-left: 60px;
+  }
+</style>
