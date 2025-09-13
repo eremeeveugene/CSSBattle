@@ -1,0 +1,49 @@
+<div class="line"></div>
+<div class="bars">
+  <div></div>
+  <div class="top-mid"></div>
+  <div></div>
+  <div class="bottom"></div>
+  <div class="bottom bottom-mid"></div>
+  <div class="bottom"></div>
+</div>
+<div class="line"></div>
+<style>
+  body {
+    background: #f1e1be;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr 1fr;
+    align-items: center;
+    margin: 0;
+  }
+
+  .line {
+    background: #240d29;
+    height: 20px;
+  }
+
+  .bars {
+    display: grid;
+    grid: auto auto / repeat(3, auto);
+    margin: 10;
+    gap: 80px 40px;
+  }
+
+  .bars * {
+    background: #240d29;
+    height: 50px;
+    width: 30px;
+  }
+
+  .top-mid {
+    transform: translateY(-30px);
+  }
+
+  .bottom {
+    height: 60px;
+  }
+
+  .bottom-mid {
+    transform: translateY(30px);
+  }
+</style>
