@@ -1,0 +1,49 @@
+<div class="track">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="track red">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="track">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #fffbda;
+    display: grid;
+    place-content: center;
+    gap: 40px;
+  }
+
+  .track {
+    height: 40px;
+    border-radius: 40px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #30383f;
+  }
+
+  .track * {
+    background: #d96c7b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .red {
+    background: #d96c7b;
+  }
+
+  .red * {
+    background: #30383f;
+  }
+</style>
