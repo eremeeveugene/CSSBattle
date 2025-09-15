@@ -206,6 +206,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Clock](https://cssbattle.dev/play/S777cDYs3i8iZJ2UqSNJ)
 - [Ring of Blocks](https://cssbattle.dev/play/74qJGiNEE80krdJNMMfp)
 - [Traffic Lights on Tracks](https://cssbattle.dev/play/8Y18ZBfe1ZMUo5dnVEsR)
+- [ICI Logo](https://cssbattle.dev/play/kyF75pkUNfm7tkADFdKO)
 
   </p>
 </details>
