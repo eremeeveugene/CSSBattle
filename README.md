@@ -207,6 +207,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Ring of Blocks](https://cssbattle.dev/play/74qJGiNEE80krdJNMMfp)
 - [Traffic Lights on Tracks](https://cssbattle.dev/play/8Y18ZBfe1ZMUo5dnVEsR)
 - [ICI Logo](https://cssbattle.dev/play/kyF75pkUNfm7tkADFdKO)
+- [Stickman](https://cssbattle.dev/play/3EpeZDvdlN0EBthTnoNu)
 
   </p>
 </details>
