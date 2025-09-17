@@ -208,6 +208,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Traffic Lights on Tracks](https://cssbattle.dev/play/8Y18ZBfe1ZMUo5dnVEsR)
 - [ICI Logo](https://cssbattle.dev/play/kyF75pkUNfm7tkADFdKO)
 - [Stickman](https://cssbattle.dev/play/3EpeZDvdlN0EBthTnoNu)
+- [Gemini Eclipse](https://cssbattle.dev/play/iv9lcjL9TuCndTIaWMNI)
 
   </p>
 </details>
