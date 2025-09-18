@@ -1,0 +1,53 @@
+<div>
+  <div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="even">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<div>
+  <div class="even">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #00d47e;
+    display: grid;
+    place-content: center;
+    gap: 75px;
+  }
+
+  body > * * {
+    display: flex;
+    gap: 40px;
+  }
+
+  body * * * {
+    background: #23384b;
+    width: 40px;
+    height: 40px;
+  }
+
+  .even {
+    margin: 0 40px;
+  }
+</style>
