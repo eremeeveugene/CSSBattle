@@ -210,6 +210,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Stickman](https://cssbattle.dev/play/3EpeZDvdlN0EBthTnoNu)
 - [Gemini Eclipse](https://cssbattle.dev/play/iv9lcjL9TuCndTIaWMNI)
 - [Taxi Roof Sign](https://cssbattle.dev/play/2VbWKLNikqxQBKDTX57b)
+- [Download Icon](https://cssbattle.dev/play/kd1vG0vrlkplA76QfqPg)
 
   </p>
 </details>

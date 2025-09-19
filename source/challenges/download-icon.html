@@ -1,0 +1,40 @@
+<div class="arrow">
+  <div class="left"></div>
+  <div class="vertical"></div>
+  <div class="right"></div>
+</div>
+<div class="line"></div>
+<style>
+  body {
+    background: #eddf5a;
+    display: grid;
+    place-content: center;
+    gap: 15px;
+  }
+
+  .arrow {
+    height: 185px;
+    place-items: center;
+  }
+
+  .arrow * {
+    position: absolute;
+    background: #3e4071;
+    width: 40px;
+    height: 140px;
+  }
+
+  .left {
+    transform: rotate(-45deg) translate(-65.5px, 15px);
+  }
+
+  .right {
+    transform: rotate(45deg) translate(65.5px, 15px);
+  }
+
+  .line {
+    background: #3e4071;
+    width: 280px;
+    height: 40px;
+  }
+</style>
