@@ -1,0 +1,42 @@
+<div class="candies">
+  <div></div>
+  <div class="middle"></div>
+  <div class="last"></div>
+</div>
+<style>
+  body {
+    background: #492fb0;
+    display: grid;
+    place-items: center;
+  }
+
+  .candies {
+    display: flex;
+    gap: 80px;
+  }
+
+  .candies * {
+    background: #db5ead;
+    width: 50px;
+    height: 150px;
+    display: grid;
+    place-items: center;
+  }
+
+  .candies *::after {
+    position: absolute;
+    content: "";
+    background: #db5ead;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .middle {
+    transform: rotate(15deg);
+  }
+
+  .last {
+    transform: rotate(30deg);
+  }
+</style>
