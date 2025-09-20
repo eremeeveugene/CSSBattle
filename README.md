@@ -211,6 +211,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Gemini Eclipse](https://cssbattle.dev/play/iv9lcjL9TuCndTIaWMNI)
 - [Taxi Roof Sign](https://cssbattle.dev/play/2VbWKLNikqxQBKDTX57b)
 - [Download Icon](https://cssbattle.dev/play/kd1vG0vrlkplA76QfqPg)
+- [Tilted Candies](https://cssbattle.dev/play/5DLn67b60dPtr0qUsJWT)
 
   </p>
 </details>
