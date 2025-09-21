@@ -212,6 +212,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Taxi Roof Sign](https://cssbattle.dev/play/2VbWKLNikqxQBKDTX57b)
 - [Download Icon](https://cssbattle.dev/play/kd1vG0vrlkplA76QfqPg)
 - [Tilted Candies](https://cssbattle.dev/play/5DLn67b60dPtr0qUsJWT)
+- [Beads](https://cssbattle.dev/play/otGhmtVlOzmtMHEgsqWr)
 
   </p>
 </details>
