@@ -1,0 +1,72 @@
+<div class="beads">
+  <div>
+    <div class="part start"></div>
+  </div>
+  <div class="mid"></div>
+  <div>
+    <div class="part end"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #30383f;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+
+  .beads {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beads::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 36px;
+    width: 400px;
+    z-index: -1;
+  }
+
+  .beads > * {
+    border: 32px solid #5aa4b7;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+  }
+
+  .mid {
+    z-index: -2;
+  }
+
+  .mid::after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .part {
+    position: absolute;
+    background: #fff;
+    width: 72px;
+    height: 36px;
+  }
+
+  .start {
+    place-self: end;
+    border-radius: 0 18px 18px 0;
+  }
+
+  .end {
+    place-self: start;
+    border-radius: 18px 0 0 18px;
+  }
+</style>
