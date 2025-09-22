@@ -213,6 +213,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Download Icon](https://cssbattle.dev/play/kd1vG0vrlkplA76QfqPg)
 - [Tilted Candies](https://cssbattle.dev/play/5DLn67b60dPtr0qUsJWT)
 - [Beads](https://cssbattle.dev/play/otGhmtVlOzmtMHEgsqWr)
+- [Graveyard Cross](https://cssbattle.dev/play/upBqtFnN4DS23SAHgFdV)
 
   </p>
 </details>
