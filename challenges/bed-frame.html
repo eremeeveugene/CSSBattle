@@ -1,0 +1,37 @@
+<div></div>
+<style>
+  body {
+    background: #f7fcdc;
+    display: grid;
+    place-items: center;
+  }
+
+  div {
+    border: 20px solid #9f6766;
+    border-bottom: 0;
+    width: 280px;
+    height: 260px;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+  }
+
+  div::before {
+    content: "";
+    position: absolute;
+    border: 20px solid #9f6766;
+    border-bottom: 0;
+    width: 140px;
+    height: 140px;
+    margin-top: 40px;
+  }
+
+  div::after {
+    content: "";
+    position: absolute;
+    background: #8ab8b6;
+    width: 280px;
+    height: 150px;
+    margin-top: -10px;
+  }
+</style>
