@@ -214,6 +214,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Tilted Candies](https://cssbattle.dev/play/5DLn67b60dPtr0qUsJWT)
 - [Beads](https://cssbattle.dev/play/otGhmtVlOzmtMHEgsqWr)
 - [Graveyard Cross](https://cssbattle.dev/play/upBqtFnN4DS23SAHgFdV)
+- [Bed Frame](https://cssbattle.dev/play/xmaTBk6K7VFRqdAH2lgu)
 
   </p>
 </details>
