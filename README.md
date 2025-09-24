@@ -215,6 +215,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Beads](https://cssbattle.dev/play/otGhmtVlOzmtMHEgsqWr)
 - [Graveyard Cross](https://cssbattle.dev/play/upBqtFnN4DS23SAHgFdV)
 - [Bed Frame](https://cssbattle.dev/play/xmaTBk6K7VFRqdAH2lgu)
+- [Stacked Mosaic](https://cssbattle.dev/play/WiYLuR5Ml0BikzqL5B5S)
 
   </p>
 </details>
