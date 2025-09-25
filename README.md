@@ -216,6 +216,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Graveyard Cross](https://cssbattle.dev/play/upBqtFnN4DS23SAHgFdV)
 - [Bed Frame](https://cssbattle.dev/play/xmaTBk6K7VFRqdAH2lgu)
 - [Stacked Mosaic](https://cssbattle.dev/play/WiYLuR5Ml0BikzqL5B5S)
+- [Rotating Arrows](https://cssbattle.dev/play/5kZ868tNphYkHSBsWH9q)
 
   </p>
 </details>
