@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="circle">
+    <div class="rect"></div>
+    <div class="triangle triangle-left"></div>
+    <div class="triangle triangle-right"></div>
+    <div class="rect last"></div>
+  </div>
+</div>
+
+<style>
+  body {
+    background: #b0c1f0;
+    display: grid;
+    place-items: center;
+  }
+
+  .container {
+    display: grid;
+    place-items: center;
+    width: 200px;
+    height: 200px;
+    background: #fae29e;
+  }
+
+  .circle {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #3e5aa9;
+    display: grid;
+  }
+
+  .rect {
+    width: 105px;
+    height: 40px;
+    background: #fae29e;
+  }
+
+  .rect.last {
+    justify-self: end;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border: 35px solid transparent;
+  }
+
+  .triangle-left {
+    border-right-color: #fae29e;
+    border-top: 0;
+    border-left: 0;
+    margin-left: 5px;
+  }
+
+  .triangle-right {
+    border-left-color: #fae29e;
+    border-bottom: 0;
+    border-right: 0;
+    margin: 10px 5px 0 auto;
+  }
+</style>
