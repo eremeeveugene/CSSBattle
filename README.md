@@ -217,6 +217,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Bed Frame](https://cssbattle.dev/play/xmaTBk6K7VFRqdAH2lgu)
 - [Stacked Mosaic](https://cssbattle.dev/play/WiYLuR5Ml0BikzqL5B5S)
 - [Rotating Arrows](https://cssbattle.dev/play/5kZ868tNphYkHSBsWH9q)
+- [Window with Curtains](https://cssbattle.dev/play/4rn3OujQguFV5FpcmH0f)
 
   </p>
 </details>
