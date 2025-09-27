@@ -1,0 +1,43 @@
+<div class="blocks reds">
+  <div></div>
+  <div></div>
+</div>
+<div class="rect red"></div>
+<div class="rect black"></div>
+<div class="blocks blacks">
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #eddf5a;
+    display: grid;
+    place-items: center;
+    place-content: center;
+  }
+
+  .rect {
+    width: 260px;
+    height: 60px;
+  }
+
+  .blocks {
+    display: flex;
+    gap: 80px;
+  }
+
+  .blocks * {
+    width: 60px;
+    height: 40px;
+  }
+
+  .red,
+  .reds * {
+    background: #e8625e;
+  }
+
+  .black,
+  .blacks * {
+    background: #323232;
+  }
+</style>
