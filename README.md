@@ -218,6 +218,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Stacked Mosaic](https://cssbattle.dev/play/WiYLuR5Ml0BikzqL5B5S)
 - [Rotating Arrows](https://cssbattle.dev/play/5kZ868tNphYkHSBsWH9q)
 - [Window with Curtains](https://cssbattle.dev/play/4rn3OujQguFV5FpcmH0f)
+- [Lego Brick](https://cssbattle.dev/play/GyItQV5v1RXiLURkpd75)
 
   </p>
 </details>
