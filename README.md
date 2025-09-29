@@ -220,6 +220,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Window with Curtains](https://cssbattle.dev/play/4rn3OujQguFV5FpcmH0f)
 - [Lego Brick](https://cssbattle.dev/play/GyItQV5v1RXiLURkpd75)
 - [Purple Envelope](https://cssbattle.dev/play/qVS4RQQTFZPZVXvx5e8S)
+- [Profile Avatar](https://cssbattle.dev/play/H0AoZgbNjtdO6czvvcPU)
 
   </p>
 </details>
