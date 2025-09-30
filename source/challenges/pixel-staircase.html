@@ -1,0 +1,56 @@
+<div class="stairs">
+  <div class="first"></div>
+  <div class="second"></div>
+  <div class="third"></div>
+  <div class="fourth"></div>
+</div>
+<style>
+  body {
+    background: #9382e4;
+    display: grid;
+    place-items: center;
+  }
+
+  .stairs {
+    display: grid;
+    place-items: center;
+  }
+
+  div * {
+    display: grid;
+  }
+
+  div::before,
+  div::after {
+    content: "";
+    background: #b6ebe7;
+  }
+
+  div *::before {
+    height: 32px;
+    width: 28px;
+  }
+
+  div *::after {
+    height: 28px;
+    width: 70px;
+    box-shadow: 28px 0 #3f595e;
+  }
+
+  div:last-child::after {
+    box-shadow: none;
+  }
+
+  .first {
+    margin-left: -210px;
+  }
+  .second {
+    margin-left: -70px;
+  }
+  .third {
+    margin-left: 70px;
+  }
+  .fourth {
+    margin-left: 210px;
+  }
+</style>

@@ -221,6 +221,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Lego Brick](https://cssbattle.dev/play/GyItQV5v1RXiLURkpd75)
 - [Purple Envelope](https://cssbattle.dev/play/qVS4RQQTFZPZVXvx5e8S)
 - [Profile Avatar](https://cssbattle.dev/play/H0AoZgbNjtdO6czvvcPU)
+- [Pixel Staircase](https://cssbattle.dev/play/Kyu8JDW0V39c8sZOlo63)
 
   </p>
 </details>
