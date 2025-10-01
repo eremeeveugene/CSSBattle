@@ -1,0 +1,39 @@
+<div class="top"></div>
+<div class="bottom"></div>
+<div class="top"></div>
+
+<style>
+  body {
+    margin: 0;
+    background: #3f4869;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  div {
+    width: 20px;
+    background: #e25c57;
+    position: relative;
+  }
+
+  div::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #e25c57;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .top::before {
+    transform: translate(-50%, -50%);
+  }
+
+  .bottom::before {
+    bottom: 0;
+    transform: translate(-50%, 50%);
+  }
+</style>
