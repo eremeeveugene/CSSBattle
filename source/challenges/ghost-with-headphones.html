@@ -1,0 +1,72 @@
+<div class="ghost">
+  <div class="ears">
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+  <div class="eyes">
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #fef6e2;
+    display: grid;
+    place-items: center;
+  }
+
+  .ghost {
+    display: grid;
+    place-items: center;
+    height: 240;
+    position: relative;
+  }
+
+  .ghost::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 140px;
+    height: 140px;
+    border: 40px solid #ed736e;
+    border-bottom: 0;
+    border-radius: 110px 110px 0 0;
+  }
+
+  .ears {
+    position: absolute;
+    display: flex;
+    gap: 140px;
+    bottom: 0;
+  }
+
+  .ears * {
+    background: #ed736e;
+    width: 100px;
+    height: 130px;
+    border-radius: 60px;
+  }
+
+  .left {
+    border-top-left-radius: 70px;
+    border-top-right-radius: 0;
+  }
+
+  .right {
+    border-top-left-radius: 0;
+    border-top-right-radius: 70px;
+  }
+
+  .eyes {
+    position: absolute;
+    display: flex;
+    gap: 45px;
+  }
+
+  .eyes * {
+    background: #ed736e;
+    width: 15px;
+    height: 30px;
+    border-radius: 50%;
+  }
+</style>

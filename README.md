@@ -223,6 +223,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Profile Avatar](https://cssbattle.dev/play/H0AoZgbNjtdO6czvvcPU)
 - [Pixel Staircase](https://cssbattle.dev/play/Kyu8JDW0V39c8sZOlo63)
 - [Three Droplets](https://cssbattle.dev/play/knbARQUoiEOEPbK7iRKa)
+- [Ghost with Headphones](https://cssbattle.dev/play/3yzGbToCiX03M5ANhtv6)
 
   </p>
 </details>
