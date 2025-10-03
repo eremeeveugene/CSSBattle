@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="horizontals">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="verticals">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="horizontals">
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #23384b;
+    display: grid;
+    place-items: center;
+  }
+
+  .container {
+    width: 340px;
+    display: grid;
+    gap: 20px;
+  }
+
+  .horizontals,
+  .verticals {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .horizontals *,
+  .verticals * {
+    background: #f0cd48;
+  }
+
+  .horizontals * {
+    width: 100px;
+    height: 40px;
+  }
+
+  .verticals * {
+    width: 40px;
+    height: 100px;
+  }
+</style>
