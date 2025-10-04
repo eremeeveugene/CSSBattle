@@ -1,0 +1,41 @@
+<div class="vertical"></div>
+<div class="panel">
+  <div class="horizontal"></div>
+  <div class="rect"></div>
+  <div class="horizontal"></div>
+</div>
+<div class="vertical"></div>
+<style>
+  body {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    gap: 10px;
+  }
+
+  body * {
+    background: #4763b1;
+  }
+
+  .vertical {
+    height: 160px;
+    width: 20px;
+  }
+
+  .panel {
+    background: none;
+    display: grid;
+    place-items: center;
+    gap: 60px;
+  }
+
+  .rect {
+    height: 60px;
+    width: 60px;
+  }
+
+  .horizontal {
+    height: 20px;
+    width: 260px;
+  }
+</style>
