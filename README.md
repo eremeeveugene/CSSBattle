@@ -225,6 +225,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Three Droplets](https://cssbattle.dev/play/knbARQUoiEOEPbK7iRKa)
 - [Ghost with Headphones](https://cssbattle.dev/play/3yzGbToCiX03M5ANhtv6)
 - [Crosswalk](https://cssbattle.dev/play/hZkio3ODFpCZbJfiLe92)
+- [Camera Sensor](https://cssbattle.dev/play/ql4S4Pg1Gr9DrcCuZK4x)
 
   </p>
 </details>
