@@ -1,0 +1,69 @@
+<div class="orb">
+  <div class="s c"></div>
+  <div class="h"></div>
+  <div class="v"></div>
+  <div class="m left c"></div>
+  <div class="m right c"></div>
+  <div class="l c"></div>
+</div>
+<style>
+  body {
+    background: #ac5353;
+    display: grid;
+    place-items: center;
+  }
+
+  .orb {
+    display: grid;
+    place-items: center;
+    width: 180;
+    height: 260;
+    position: relative;
+  }
+
+  .orb * {
+    position: absolute;
+    background: #222;
+  }
+
+  .c {
+    border-radius: 50%;
+  }
+
+  .s {
+    width: 20;
+    height: 20;
+    top: 0;
+  }
+
+  .m {
+    width: 60;
+    height: 60;
+    top: 20;
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+
+  .l {
+    width: 180;
+    height: 180;
+    bottom: 0;
+  }
+
+  .h {
+    width: 60;
+    height: 10;
+    top: 45;
+  }
+
+  .v {
+    width: 10;
+    height: 240;
+  }
+</style>
