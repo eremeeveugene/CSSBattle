@@ -226,6 +226,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Ghost with Headphones](https://cssbattle.dev/play/3yzGbToCiX03M5ANhtv6)
 - [Crosswalk](https://cssbattle.dev/play/hZkio3ODFpCZbJfiLe92)
 - [Camera Sensor](https://cssbattle.dev/play/ql4S4Pg1Gr9DrcCuZK4x)
+- [Northlight Orb](https://cssbattle.dev/play/jtkTuDKSIzeMig3roFbO)
 
   </p>
 </details>
