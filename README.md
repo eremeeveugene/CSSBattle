@@ -228,6 +228,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Camera Sensor](https://cssbattle.dev/play/ql4S4Pg1Gr9DrcCuZK4x)
 - [Northlight Orb](https://cssbattle.dev/play/jtkTuDKSIzeMig3roFbO)
 - [White Slash](https://cssbattle.dev/play/abNemelD1dcMFPGh7PeU)
+- [Passageway](https://cssbattle.dev/play/hTcOgzNi1XUkGiJVQFXG)
 
   </p>
 </details>
