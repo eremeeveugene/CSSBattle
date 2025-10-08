@@ -229,6 +229,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Northlight Orb](https://cssbattle.dev/play/jtkTuDKSIzeMig3roFbO)
 - [White Slash](https://cssbattle.dev/play/abNemelD1dcMFPGh7PeU)
 - [Passageway](https://cssbattle.dev/play/hTcOgzNi1XUkGiJVQFXG)
+- [Equalized](https://cssbattle.dev/play/7vDkVGXDYLSjAqjAE5uN)
 
   </p>
 </details>
