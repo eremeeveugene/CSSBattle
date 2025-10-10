@@ -1,0 +1,53 @@
+<div class="bin">
+  <div class="body black"></div>
+  <div class="legs h30"></div>
+  <div class="stand black h30"></div>
+</div>
+<style>
+  body {
+    background: #d27644;
+    display: grid;
+    margin: 0;
+  }
+
+  .bin {
+    display: grid;
+    place-self: end center;
+    place-items: center;
+  }
+
+  .stand {
+    width: 180;
+  }
+
+  .h30 {
+    height: 30;
+  }
+
+  .legs {
+    border-inline: 15px solid #000;
+    width: 120;
+  }
+
+  .black {
+    background: #000;
+  }
+
+  .body {
+    width: 150;
+    height: 150;
+    border-radius: 50% 50% 0 0;
+    position: relative;
+  }
+
+  .body::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 43.5%;
+    border-radius: 50%;
+    width: 20;
+    height: 20;
+    background: #fef6e2;
+  }
+</style>
