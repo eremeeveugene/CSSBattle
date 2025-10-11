@@ -232,6 +232,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Equalized](https://cssbattle.dev/play/7vDkVGXDYLSjAqjAE5uN)
 - [Pencil G](https://cssbattle.dev/play/JifHruTv42KU6VSBoAKy)
 - [Post Bin](https://cssbattle.dev/play/PzmEXsY1eugUMixsItto)
+- [Candy Conveyor](https://cssbattle.dev/play/8GV4THuZMLIMu3I3dVnZ)
 
   </p>
 </details>
