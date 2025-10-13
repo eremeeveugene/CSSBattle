@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="line end">
+    <div></div>
+  </div>
+  <div class="line">
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #4a9a86;
+    display: grid;
+  }
+
+  .container {
+    display: flex;
+    height: 240px;
+    gap: 120px;
+    place-self: center;
+  }
+
+  .line {
+    background: #fae29e;
+    width: 40px;
+    display: grid;
+  }
+
+  .line * {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 30px solid #fae29e;
+    border-radius: 50%;
+    margin: 20px;
+    background: #4a9a86;
+    justify-self: center;
+  }
+
+  .end {
+    align-items: end;
+  }
+</style>
