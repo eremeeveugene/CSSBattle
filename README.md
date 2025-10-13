@@ -234,6 +234,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Post Bin](https://cssbattle.dev/play/PzmEXsY1eugUMixsItto)
 - [Candy Conveyor](https://cssbattle.dev/play/8GV4THuZMLIMu3I3dVnZ)
 - [Window Knob](https://cssbattle.dev/play/fbimhT07ru2sqJij84L5)
+- [Mixer Sliders](https://cssbattle.dev/play/ubljsaQJpxYXhX0KqGrq)
 
   </p>
 </details>
