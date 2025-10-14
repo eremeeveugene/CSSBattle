@@ -1,0 +1,57 @@
+<div class="microphone">
+  <div class="stand"></div>
+  <div class="handle">
+    <div class="circle"></div>
+  </div>
+  <div class="capsule"></div>
+</div>
+<style>
+  body {
+    background: #e8ad6d;
+    display: grid;
+  }
+
+  .microphone {
+    place-self: center;
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: 170px;
+  }
+
+  .microphone * {
+    position: absolute;
+    place-self: center;
+  }
+
+  .capsule {
+    background: #3b240c;
+    width: 60;
+    height: 100;
+    top: 0;
+    border-radius: 40px;
+  }
+
+  .handle {
+    height: 70;
+    width: 160;
+    overflow: hidden;
+    bottom: 20;
+  }
+
+  .circle {
+    width: 100;
+    height: 100;
+    border: solid 30px #3b240c;
+    border-radius: 50%;
+    bottom: 0;
+  }
+
+  .stand {
+    width: 30;
+    height: 25;
+    background: #3b240c;
+    border-radius: 0 0 20px 20px;
+    bottom: 0;
+  }
+</style>
