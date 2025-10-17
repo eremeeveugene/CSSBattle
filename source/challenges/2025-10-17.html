@@ -1,0 +1,57 @@
+<div class="logo">
+  <div class="bar top yellow"></div>
+  <div class="bar yellow"></div>
+  <div class="hill left"><div class="circle yellow"></div></div>
+  <div class="hill right"><div class="circle yellow"></div></div>
+</div>
+
+<style>
+  body {
+    background: #243d83;
+    display: grid;
+  }
+
+  .logo {
+    place-self: center;
+    position: relative;
+    display: grid;
+    gap: 20px;
+    width: 270px;
+  }
+
+  .yellow {
+    background: #e8ad6d;
+  }
+
+  .bar {
+    height: 20px;
+  }
+
+  .top {
+    margin-right: 10px;
+  }
+
+  .hill {
+    position: absolute;
+    width: 108px;
+    height: 44px;
+    top: -24px;
+    overflow: hidden;
+  }
+
+  .hill.left {
+    left: 44px;
+  }
+
+  .hill.right {
+    right: 0;
+  }
+
+  .circle {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+  }
+</style>
