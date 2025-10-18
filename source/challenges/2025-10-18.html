@@ -1,0 +1,47 @@
+<div class="large"></div>
+<div class="medium"></div>
+<div></div>
+<div class="vertical"></div>
+<style>
+  body {
+    background: #ffea9b;
+    display: grid;
+    place-content: center;
+  }
+
+  body div {
+    place-self: center;
+    background: #4a9a86;
+    width: 220px;
+    height: 30px;
+    display: grid;
+  }
+
+  .large {
+    width: 340px;
+  }
+
+  .medium {
+    width: 280px;
+  }
+
+  .vertical {
+    width: 30px;
+    height: 150px;
+  }
+
+  .large::after,
+  .medium::after {
+    content: "";
+    background: #ffea9b;
+    justify-self: center;
+  }
+
+  .large::after {
+    width: 140px;
+  }
+
+  .medium::after {
+    width: 80px;
+  }
+</style>
