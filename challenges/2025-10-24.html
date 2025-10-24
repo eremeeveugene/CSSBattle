@@ -1,0 +1,29 @@
+<div class="icon">
+  <div style="left: 40px"></div>
+  <div style="top: 40px; width: 40px; height: 50px"></div>
+  <div style="height: 50px; place-self: center"></div>
+  <div style="right: 40px; bottom: 0"></div>
+  <div style="right: 0; bottom: 40px; width: 40px; height: 50px"></div>
+</div>
+
+<style>
+  body {
+    background: #4f77ff;
+    display: grid;
+  }
+  
+  .icon {
+    display: grid;
+    place-self: center;
+    position: relative;
+    width: 380px;
+    height: 280px;
+  }
+
+  .icon * {
+    position: absolute;
+    background: #ffeff2;
+    width: 50px;
+    height: 40px;
+  }
+</style>
