@@ -1,0 +1,38 @@
+<div class="ellipse">
+  <div class="rect"></div>
+</div>
+<style>
+  body {
+    background: #3f4869;
+    display: grid;
+    margin: 0;
+  }
+
+  .ellipse {
+    display: grid;
+    place-self: center;
+    background: #de6b67;
+    width: 210px;
+    height: 290px;
+    border-radius: 120px;
+  }
+
+  .rect {
+    display: grid;
+    height: 70px;
+    background: #3f4869;
+    border-width: 40px 0;
+    border-style: solid;
+    border-color: #3f4869;
+    align-self: center;
+    align-content: center;
+    overflow: hidden;
+  }
+
+  .rect::after {
+    content: "";
+    height: 200px;
+    background: #de6b67;
+    border-radius: 50%;
+  }
+</style>
