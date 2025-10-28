@@ -1,0 +1,38 @@
+<div class="icon"></div>
+<style>
+  body {
+    background: #c06c88;
+    display: grid;
+  }
+
+  .icon {
+    width: 260px;
+    height: 80px;
+    place-self: center;
+    display: grid;
+  }
+
+  .icon,
+  .icon::after {
+    background: #f4da64;
+  }
+
+  .icon::before,
+  .icon::after {
+    content: "";
+    position: absolute;
+    place-self: center;
+    height: 70px;
+  }
+
+  .icon::before {
+    border: 45px solid #f4da64;
+    width: 70px;
+    border-radius: 50%;
+    background: #c06c88;
+  }
+
+  .icon::after {
+    width: 26px;
+  }
+</style>
