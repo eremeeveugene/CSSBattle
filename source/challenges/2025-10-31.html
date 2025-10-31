@@ -1,0 +1,42 @@
+<div class="line"></div>
+<div class="line vertical"></div>
+<div class="circle left"></div>
+<div class="circle right"></div>
+<style>
+  body {
+    background: #37a76f;
+    margin: 0;
+    display: grid;
+  }
+
+  body * {
+    position: absolute;
+    place-self: center;
+  }
+
+  .line {
+    height: 40px;
+    width: 100%;
+    background: #000;
+  }
+
+  .vertical {
+    width: 40px;
+    height: 100%;
+  }
+
+  .circle {
+    border: 40px solid #000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+
+  .left {
+    transform: translate(-60px, -60px);
+  }
+
+  .right {
+    transform: translate(60px, 60px);
+  }
+</style>
