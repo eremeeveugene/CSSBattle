@@ -1,0 +1,45 @@
+<div class="lines">
+  <div></div>
+  <div class="mid"></div>
+  <div></div>
+</div>
+<div class="horizontal"></div>
+<style>
+  body {
+    background: #243d83;
+    display: grid;
+    place-items: center;
+    place-content: center;
+  }
+
+  .lines {
+    display: flex;
+    gap: 85px;
+  }
+
+  .lines * {
+    background: #f0cd48;
+    width: 30px;
+    height: 160px;
+    display: grid;
+  }
+
+  .lines *::after {
+    position: absolute;
+    content: "";
+    background: #f0cd48;
+    width: 40px;
+    height: 40px;
+    place-self: end center;
+  }
+
+  .mid::after {
+    place-self: start center;
+  }
+
+  .horizontal {
+    background: #f0cd48;
+    height: 40px;
+    width: 320px;
+  }
+</style>
