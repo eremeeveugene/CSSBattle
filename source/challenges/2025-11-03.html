@@ -1,0 +1,81 @@
+<div class="fingers top-row">
+  <div class="side left"></div>
+  <div></div>
+  <div class="side right"></div>
+</div>
+<div class="circle">
+  <div class="fingers ellipses">
+    <div class="side left"></div>
+    <div></div>
+    <div class="side right"></div>
+  </div>
+</div>
+<div class="fingers bottom">
+  <div class="side left"></div>
+  <div></div>
+  <div class="side right"></div>
+</div>
+<style>
+  body {
+    background: #62306d;
+    display: grid;
+    grid-rows: 1fr 1fr 1fr;
+    margin: 0;
+  }
+
+  body * {
+    justify-self: center;
+  }
+
+  .fingers {
+    display: flex;
+  }
+
+  .fingers * {
+    width: 24px;
+    height: 54px;
+    background: #e38f66;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .bottom {
+    align-self: end;
+  }
+
+  .bottom * {
+    height: 37px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .side {
+    width: 25px;
+  }
+
+  .left {
+    transform: translateX(2px);
+  }
+
+  .right {
+    transform: translateX(-2px);
+  }
+
+  .circle {
+    background: #e38f66;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: -4px;
+    display: grid;
+  }
+
+  .ellipses {
+    position: absolute;
+    bottom: -10px;
+  }
+
+  .ellipses * {
+    height: 25px;
+    border-radius: 50%;
+  }
+</style>
