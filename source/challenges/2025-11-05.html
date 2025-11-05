@@ -9,19 +9,19 @@
   div {
     justify-self: center;
     border: solid #a7c2fa;
-    border-width: 40px 0 40px 0;
+    border-width: 40px 0;
     width: 360px;
     height: 160px;
     display: grid;
     position: relative;
+    place-items: center;
   }
 
   div::before {
     content: "";
     position: absolute;
-    place-self: center;
     border: solid #a7c2fa;
-    border-width: 0 40px 0 40px;
+    border-width: 0 40px;
     width: 260px;
     height: 220px;
     top: 0px;
@@ -30,7 +30,6 @@
   div::after {
     content: "";
     position: absolute;
-    place-self: center;
     background: #0b2429;
     width: 160px;
     height: 40px;
