@@ -1,0 +1,41 @@
+<div class="rectangles"></div>
+<div class="circles">
+  <div></div>
+  <div></div>
+</div>
+<div class="rectangles"></div>
+
+<style>
+  body {
+    background: #984e77;
+    display: grid;
+    place-content: center;
+    gap: 20px;
+  }
+
+  body * {
+    place-self: center;
+  }
+
+  .rectangles {
+    width: 280px;
+    height: 60px;
+    background: repeating-linear-gradient(
+      to right,
+      #cdc5a5 0 30px,
+      transparent 30px 50px
+    );
+  }
+
+  .circles {
+    display: flex;
+    gap: 20px;
+  }
+
+  .circles * {
+    background: #cdc5a5;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+</style>
