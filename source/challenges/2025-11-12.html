@@ -1,0 +1,53 @@
+<div class="composite top">
+  <div></div>
+  <div class="vertical"></div>
+  <div></div>
+</div>
+<div class="middle"></div>
+<div class="composite bottom">
+  <div></div>
+  <div class="vertical end"></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #bde4c1;
+    display: grid;
+    place-content: center;
+  }
+
+  .middle {
+    background: #9f6766;
+    width: 196px;
+    height: 68px;
+    grid-column: 2;
+  }
+
+  .composite {
+    display: grid;
+    grid-template-rows: 30px 30px;
+    gap: 40px 16px;
+  }
+
+  .composite * {
+    background: #9f6766;
+  }
+
+  .vertical {
+    grid-row: 1 / 3;
+  }
+
+  .top {
+    grid-column: 3;
+    grid-template-columns: 40px 30px;
+  }
+
+  .bottom {
+    grid-row: 3;
+    grid-template-columns: 30px 40px;
+  }
+
+  .end {
+    grid-column: 2;
+  }
+</style>
