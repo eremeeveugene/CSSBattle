@@ -1,0 +1,47 @@
+<div class="rect">
+  <div class="leg"></div>
+</div>
+<style>
+  body {
+    background: #fad98c;
+    display: grid;
+  }
+
+  .rect {
+    background: #89b3ec;
+    width: 300px;
+    height: 190px;
+    place-self: center;
+    display: grid;
+  }
+
+  .rect::before {
+    content: "";
+    position: absolute;
+    background: #2a2828;
+    width: 280px;
+    height: 100px;
+    justify-self: center;
+  }
+
+  .leg {
+    width: 40px;
+    height: 130px;
+    border: solid #89b3ec;
+    border-width: 0 20px;
+    background: #3c5a84;
+    place-self: center;
+    z-index: 1;
+    display: grid;
+  }
+
+  .leg::after {
+    content: "";
+    position: absolute;
+    background: #3c5a84;
+    place-self: end;
+    width: 30px;
+    height: 30px;
+    transform: translateX(30px);
+  }
+</style>
