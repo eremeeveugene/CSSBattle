@@ -1,0 +1,44 @@
+<div class="green top"></div>
+<div class="orange mid"></div>
+<div class="orange mid end rotated"></div>
+<div class="green bottom top"></div>
+<style>
+  body {
+    background: #eed9d9;
+    display: grid;
+    grid-template: 50px 50px 50px/50px 50px 50px;
+    place-content: center;
+  }
+
+  div {
+    border-radius: 50% 0 0 50%;
+  }
+
+  .rotated {
+    border-radius: 0 50% 50% 0;
+  }
+
+  .orange {
+    background: #c67455;
+  }
+
+  .green {
+    background: #668884;
+  }
+
+  .top {
+    grid-column: 2;
+  }
+
+  .mid {
+    grid-row: 2;
+  }
+
+  .end {
+    grid-column: 3;
+  }
+
+  .bottom {
+    grid-row: 3;
+  }
+</style>
