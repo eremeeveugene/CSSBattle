@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="rect"></div>
+  <div class="circles">
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #328fc1;
+    display: grid;
+    place-content: center;
+  }
+
+  .container {
+    width: 400px;
+    height: 300px;
+    display: grid;
+    place-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .rect {
+    display: grid;
+    position: absolute;
+    place-self: center;
+    height: 100px;
+    width: 140px;
+    border: 30px solid #f5d6b4;
+  }
+
+  .rect::after {
+    content: "";
+    background: #f5d6b4;
+    height: 60px;
+    align-self: center;
+  }
+
+  .circles {
+    display: flex;
+    gap: 120px;
+  }
+
+  .circle {
+    z-index: 1;
+    border: 30px solid #f5d6b4;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background: #328fc1;
+  }
+</style>
