@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="line"></div>
+  <div class="circle"></div>
+  <div class="pyramid"></div>
+  <div class="pyramid inner"></div>
+</div>
+<style>
+  body {
+    background: #62306d;
+    display: grid;
+    margin: 0;
+  }
+
+  .container {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    place-self: center;
+    display: grid;
+  }
+
+  .line {
+    background: #fff;
+    height: 20px;
+    align-self: center;
+    margin-top: 60px;
+  }
+
+  .circle {
+    border: 100px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    place-self: center;
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    background: #62306d;
+  }
+
+  .pyramid {
+    position: absolute;
+    place-self: end center;
+    width: 290px;
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-bottom: 130px solid #fff;
+  }
+
+  .inner {
+    width: 240px;
+    border-bottom-color: #62306d;
+  }
+</style>
