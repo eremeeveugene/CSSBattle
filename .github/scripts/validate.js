@@ -5,9 +5,9 @@ const pixelmatch = require("pixelmatch");
 const { PNG } = require("pngjs");
 
 const CHALLENGES_DIR = path.join("source", "challenges");
-const EXPECTED_DIR = path.join("ut-tests", "expected-result");
-const ACTUAL_DIR = path.join("ut-tests", "actual-result");
-const DIFF_DIR = path.join("ut-tests", "diff-result");
+const EXPECTED_DIR = path.join("ui-tests", "expected-result");
+const ACTUAL_DIR = path.join("ui-tests", "actual-result");
+const DIFF_DIR = path.join("ui-tests", "diff-result");
 const VIEWPORT = { width: 400, height: 300 };
 const THRESHOLD = 0.1;
 const ALLOWED_PIXELS = 10;
