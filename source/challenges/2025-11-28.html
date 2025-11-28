@@ -14,9 +14,13 @@
     position: relative;
   }
 
-  div::before {
+  div::before,
+  div::after {
     content: "";
     position: absolute;
+  }
+
+  div::before {
     z-index: -1;
     background: #734939;
     width: 100%;
@@ -25,8 +29,6 @@
   }
 
   div::after {
-    content: "";
-    position: absolute;
     background: #d86f45;
     width: 80px;
     height: 40px;
