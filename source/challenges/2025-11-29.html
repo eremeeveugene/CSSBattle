@@ -1,0 +1,29 @@
+<div class="panel"></div>
+<div class="panel"></div>
+<div class="panel"></div>
+<div class="panel"></div>
+<style>
+  body {
+    background: #fae7df;
+    display: grid;
+    place-content: center;
+    gap: 10px;
+  }
+
+  .panel {
+    display: grid;
+    grid-template-columns: 120px 60px;
+    height: 60px;
+    gap: 20px;
+  }
+
+  .panel:nth-child(odd) {
+    grid-template-columns: 60px 120px;
+  }
+
+  .panel::before,
+  .panel::after {
+    content: "";
+    background: #be6565;
+  }
+</style>
