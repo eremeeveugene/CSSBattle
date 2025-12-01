@@ -1,0 +1,42 @@
+<div class="circle yellow"></div>
+<div class="circle orange"></div>
+<div class="rect yellow"></div>
+<style>
+  body {
+    background: #2f434e;
+    display: grid;
+    place-content: center;
+    gap: 20px;
+  }
+
+  .circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+  }
+
+  .yellow {
+    background: #f8b140;
+  }
+
+  .orange {
+    background: #cf6939;
+  }
+
+  .rect {
+    position: absolute;
+    place-self: center;
+    width: 100px;
+    height: 100px;
+    display: grid;
+  }
+
+  .rect::after {
+    content: "";
+    border: 10px solid #cf6939;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    place-self: center;
+  }
+</style>

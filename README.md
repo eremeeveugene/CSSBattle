@@ -283,6 +283,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [2025-11-28](https://cssbattle.dev/play/v96au5HfYn47RJcyOT89)
 - [2025-11-29](https://cssbattle.dev/play/8rJhdtt1IyLTs3p32RDZ)
 - [2025-11-30](https://cssbattle.dev/play/UCThiLXsujCIQkvlQg9P)
+- [2025-12-01](https://cssbattle.dev/play/5COJ97sQEpnrBi7n6iaQ)
 
   </p>
 </details>
