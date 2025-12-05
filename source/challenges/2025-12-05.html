@@ -1,0 +1,43 @@
+<div class="head">
+  <div class="eye"></div>
+  <div class="mouse"></div>
+</div>
+<style>
+  body {
+    background: #32955e;
+    display: grid;
+    margin: 0;
+  }
+
+  .head {
+    background: #fff;
+    width: 200px;
+    height: 140px;
+    place-self: end center;
+    border-radius: 75px 150px 0 0;
+    position: relative;
+    display: grid;
+  }
+
+  .head * {
+    position: absolute;
+  }
+
+  .eye {
+    background: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: 50px;
+    align-self: center;
+  }
+
+  .mouse {
+    background: #32955e;
+    width: 50px;
+    height: 40px;
+    border-radius: 40px 0 0 40px;
+    bottom: 10px;
+    justify-self: end;
+  }
+</style>
