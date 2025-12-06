@@ -1,0 +1,30 @@
+<div class="helmet"></div>
+<style>
+  body {
+    background: #243d83;
+    display: grid;
+  }
+
+  .helmet {
+    background: #f0cd48;
+    width: 130px;
+    height: 130px;
+    place-self: center;
+    border-radius: 40px;
+    display: grid;
+    border: 10px solid #f0cd48;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .helmet::after {
+    content: "";
+    border: 50px solid #243d83;
+    width: 260px;
+    height: 220px;
+    border-radius: 50%;
+    top: 25px;
+    position: absolute;
+    place-self: center;
+  }
+</style>
