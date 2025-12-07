@@ -1,0 +1,41 @@
+<div class="circle shift"></div>
+<div class="rect"></div>
+<div class="circle"></div>
+<style>
+  body {
+    background: #e3516e;
+    display: grid;
+    place-content: center;
+    gap: 20px;
+  }
+
+  body * {
+    place-self: center;
+  }
+
+  .rect {
+    background: #511818;
+    width: 220px;
+    height: 100px;
+    display: grid;
+  }
+
+  .rect::after {
+    content: "";
+    background: #e3516e;
+    width: 80px;
+    height: 40px;
+    justify-self: center;
+  }
+
+  .circle {
+    background: #511818;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .shift {
+    transform: translateY(40px);
+  }
+</style>
