@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="row">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="line"></div>
+  <div class="row big">
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #7dddeb;
+    display: grid;
+  }
+
+  .container {
+    display: grid;
+    width: 340px;
+    place-self: center;
+    gap: 20px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+  }
+
+  .big {
+    height: 90px;
+  }
+
+  .row *,
+  .line {
+    background: #2a4cac;
+  }
+
+  .row * {
+    width: 30px;
+  }
+
+  .line {
+    height: 60px;
+  }
+</style>
