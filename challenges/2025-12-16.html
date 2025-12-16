@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="horizontal"></div>
+  <div class="vertical"></div>
+  <div class="horizontal h-shift"></div>
+  <div class="vertical"></div>
+  <div class="horizontal"></div>
+  <div class="vertical v-shift"></div>
+</div>
+<style>
+  body {
+    background: #c06c88;
+    display: grid;
+  }
+
+  .container {
+    background: #411c56;
+    width: 200px;
+    height: 120px;
+    place-self: center;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template: auto auto / auto auto auto;
+  }
+
+  .container * {
+    background: #b7d7cd;
+  }
+
+  .horizontal {
+    width: 60px;
+    height: 40px;
+  }
+
+  .vertical {
+    width: 40px;
+    height: 60px;
+  }
+
+  .h-shift {
+    transform: translateX(-20px);
+  }
+
+  .v-shift {
+    transform: translateY(-20px);
+  }
+</style>
