@@ -1,0 +1,44 @@
+<div class="item">
+  <div class="large"></div>
+  <div class="medium"></div>
+</div>
+<style>
+  body {
+    background: #7e6293;
+    display: grid;
+  }
+
+  .item {
+    place-self: center;
+    border: solid #e8ba79;
+    border-width: 0 0 20px 20px;
+    width: 310px;
+    height: 210px;
+    display: grid;
+  }
+
+  .item::after {
+    content: "";
+    background: #e8ba79;
+    width: 40px;
+    height: 40px;
+    justify-self: end;
+  }
+
+  .item * {
+    position: absolute;
+    border: solid #e8ba79;
+    border-width: 20px 20px 0 0;
+    align-self: end;
+  }
+
+  .large {
+    width: 250px;
+    height: 150px;
+  }
+
+  .medium {
+    width: 200px;
+    height: 100px;
+  }
+</style>
