@@ -1,0 +1,42 @@
+<div class="item">
+  <div class="circle"></div>
+  <div class="rects">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="circle"></div>
+</div>
+<style>
+  body {
+    background: #dacfa3;
+    display: grid;
+    place-content: center;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .item * {
+    width: 80px;
+  }
+
+  .circle {
+    background: #d95362;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .rects {
+    display: grid;
+    gap: 10px;
+  }
+
+  .rects * {
+    background: #2d3464;
+    height: 100px;
+  }
+</style>
