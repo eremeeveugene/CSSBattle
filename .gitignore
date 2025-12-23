@@ -23,5 +23,5 @@ package-lock.json
 .env.local
 
 # Ignore generated test outputs
-ut-tests/actual-result/
-/ut-tests/diff-result
+/ui-tests/actual-result/
+/ui-tests/diff-result/
