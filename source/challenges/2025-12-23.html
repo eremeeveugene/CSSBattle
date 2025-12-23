@@ -1,20 +1,26 @@
-<div class="circle"></div>
-<div class="rects">
-  <div></div>
-  <div></div>
-  <div></div>
+<div class="item">
+  <div class="circle"></div>
+  <div class="rects">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="circle"></div>
 </div>
-<div class="circle"></div>
 <style>
   body {
     background: #dacfa3;
+    display: grid;
+    place-content: center;
+  }
+
+  .item {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
   }
 
-  body * {
+  .item * {
     width: 80px;
   }
 
