@@ -1,0 +1,31 @@
+<div></div>
+<style>
+  body {
+    background: #f9ddc6;
+    display: grid;
+  }
+
+  div {
+    background: #594c94;
+    width: 120px;
+    height: 120px;
+    place-self: center;
+    border-radius: 50%;
+    display: grid;
+  }
+
+  div::before,
+  div::after {
+    content: "";
+    background: #594c94;
+    width: 60px;
+    height: 60px;
+    border: 20px solid #f9ddc6;
+    place-self: center;
+    transform: translate(50px, -40px);
+  }
+
+  div::after {
+    transform: translate(-50px, -40px);
+  }
+</style>
