@@ -1,31 +1,25 @@
-<div></div>
+<div class="left"></div>
+<div class="right"></div>
+<div class="right"></div>
+<div class="left"></div>
 <style>
   body {
-    background: #f9ddc6;
+    background: #a82973;
     display: grid;
+    grid-template: 60px 60px/60px 60px;
+    place-content: center;
+    gap: 20px;
   }
 
-  div {
-    background: #594c94;
-    width: 120px;
-    height: 120px;
-    place-self: center;
-    border-radius: 50%;
-    display: grid;
+  body * {
+    background: #eec8ea;
   }
 
-  div::before,
-  div::after {
-    content: "";
-    background: #594c94;
-    width: 60px;
-    height: 60px;
-    border: 20px solid #f9ddc6;
-    place-self: center;
-    transform: translate(50px, -40px);
+  .right {
+    transform: rotate(10deg);
   }
 
-  div::after {
-    transform: translate(-50px, -40px);
+  .left {
+    transform: rotate(-10deg);
   }
 </style>
