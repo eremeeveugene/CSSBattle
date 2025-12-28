@@ -1,0 +1,46 @@
+<div class="vertical">
+  <div></div>
+  <div></div>
+</div>
+<div class="horizontal">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #74b15c;
+    display: grid;
+    margin: 0;
+  }
+
+  .vertical {
+    display: flex;
+    gap: 100px;
+    justify-self: center;
+  }
+
+  .vertical * {
+    width: 60px;
+  }
+
+  .horizontal {
+    position: absolute;
+    display: grid;
+    gap: 20px 40px;
+    place-self: center;
+    grid-template-columns: 150px 150px;
+  }
+
+  .horizontal * {
+    height: 60px;
+  }
+
+  .vertical *,
+  .horizontal * {
+    background: #1a552b;
+  }
+</style>
