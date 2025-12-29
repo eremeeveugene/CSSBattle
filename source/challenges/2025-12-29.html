@@ -1,0 +1,48 @@
+<div class="item">
+  <div></div>
+</div>
+<style>
+  body {
+    background: #e38f66;
+    display: grid;
+  }
+
+  .item {
+    place-self: center;
+    display: grid;
+    position: relative;
+  }
+
+  .item * {
+    border: 30px solid #e38f66;
+    z-index: 1;
+    border-radius: 0 50px;
+  }
+
+  .item *::after,
+  .item::before,
+  .item::after {
+    content: "";
+    background: #fffbda;
+    width: 120px;
+    height: 120px;
+    place-self: center;
+    position: absolute;
+  }
+
+  .item *,
+  .item *::after {
+    width: 60px;
+    height: 60px;
+  }
+
+  .item::before {
+    top: -30px;
+    right: -50px;
+  }
+
+  .item::after {
+    bottom: -30px;
+    left: -50px;
+  }
+</style>
