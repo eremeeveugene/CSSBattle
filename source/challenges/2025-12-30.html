@@ -1,0 +1,38 @@
+<div class="vertical">
+  <div></div>
+  <div></div>
+</div>
+<div class="horizontal">
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #f8d2d1;
+    display: grid;
+    place-items: center;
+  }
+
+  .vertical {
+    display: flex;
+    gap: 200px;
+    position: absolute;
+  }
+
+  .horizontal {
+    display: grid;
+    gap: 100px;
+  }
+
+  .vertical *,
+  .horizontal * {
+    border: 20px solid #5aa4b7;
+    width: 80px;
+    height: 20px;
+  }
+
+  .vertical * {
+    width: 20px;
+    height: 80px;
+  }
+</style>
