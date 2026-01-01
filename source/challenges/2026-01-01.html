@@ -1,0 +1,44 @@
+<b>
+  <i l></i>
+  <i r></i>
+</b>
+<b>
+  <i l></i>
+  <i r></i>
+</b>
+<style>
+  body {
+    background: #f7cb71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+  }
+
+  b {
+    transform: rotate(45deg);
+    display: grid;
+  }
+
+  b::after,
+  b * {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    place-self: center;
+    background: #7c3219;
+  }
+
+  b::after {
+    content: "";
+    background: #f7cb71;
+  }
+
+  [l] {
+    width: 160px;
+  }
+
+  [r] {
+    height: 160px;
+  }
+</style>
