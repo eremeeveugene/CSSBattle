@@ -1,0 +1,39 @@
+<div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #4a9a86;
+    display: grid;
+  }
+
+  div {
+    place-self: center;
+    display: flex;
+    gap: 20px;
+  }
+
+  div * {
+    border: 10px solid #fae29e;
+    width: 30px;
+    height: 70px;
+    display: grid;
+    padding: 15px;
+  }
+
+  div *::after {
+    content: "";
+    position: absolute;
+    background: #fae29e;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  :nth-child(odd)::after {
+    align-self: end;
+  }
+</style>
