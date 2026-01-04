@@ -1,0 +1,35 @@
+<div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #4c455b;
+    display: grid;
+  }
+
+  div {
+    background: #8ab8b6;
+    width: 240px;
+    height: 200px;
+    place-self: center;
+    display: flex;
+    place-content: center;
+    gap: 120px;
+  }
+
+  div * {
+    background: #f3ead2;
+    width: 60px;
+    height: 240px;
+  }
+
+  body > ::after {
+    content: "";
+    position: absolute;
+    border: solid #8ab8b6;
+    border-width: 30px 20px;
+    width: 240px;
+    height: 140px;
+  }
+</style>
