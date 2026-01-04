@@ -1,0 +1,46 @@
+<div class="left"></div>
+<div class="large"></div>
+<div class="right"></div>
+<div class="blue top"></div>
+<div class="blue bottom"></div>
+<style>
+  body {
+    background: #84b9c7;
+    display: flex;
+    place-content: center;
+  }
+
+  div {
+    background: #ecebeb;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    place-self: center;
+  }
+
+  .large {
+    width: 200px;
+    height: 200px;
+  }
+
+  .left {
+    transform: translateX(-100px);
+  }
+
+  .right {
+    transform: translateX(100px);
+  }
+
+  .blue {
+    background: #84b9c7;
+  }
+
+  .top {
+    transform: translateY(-100px);
+  }
+
+  .bottom {
+    transform: translateY(100px);
+  }
+</style>
