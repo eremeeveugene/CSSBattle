@@ -1,0 +1,32 @@
+<i></i>
+<b></b>
+<style>
+  body {
+    background: #f3ead2;
+    display: grid;
+    place-items: center;
+  }
+
+  i,
+  b,
+  body::after {
+    content: "";
+    background: #38483c;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+  }
+
+  i,
+  b {
+    background: #c36768;
+    border: solid #38483c;
+    border-width: 0 40px;
+    width: 180px;
+    height: 40px;
+  }
+
+  b {
+    transform: rotate(90deg);
+  }
+</style>
