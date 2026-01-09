@@ -1,0 +1,39 @@
+<t></t>
+<b></b>
+<style>
+  body {
+    background: #ece3df;
+    display: grid;
+    margin: 0;
+    gap: 50px;
+  }
+
+  t,
+  b {
+    background: #2b2a4a;
+    width: 330px;
+    height: 125px;
+    display: grid;
+  }
+
+  t {
+    place-self: end;
+  }
+
+  t::after,
+  b::after {
+    content: "";
+    background: #ece3df;
+    width: 70px;
+    height: 100px;
+    position: absolute;
+  }
+
+  t::after {
+    justify-self: end;
+  }
+
+  b::after {
+    align-self: end;
+  }
+</style>
