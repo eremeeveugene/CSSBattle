@@ -1,0 +1,77 @@
+<d l></d>
+<c sc></c>
+<d r></d>
+<c cs></c>
+<s></s>
+<c ce></c>
+<d r b></d>
+<c ec></c>
+<d l s></d>
+<style>
+  body {
+    background: #f4da64;
+    display: grid;
+    place-content: center;
+    grid-template: 75px 60px 75px / 75px 60px 75px;
+  }
+
+  body * {
+    background: #e25c57;
+    place-self: center;
+  }
+
+  s {
+    width: 60px;
+    height: 60px;
+  }
+
+  c {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  d {
+    width: 60px;
+    height: 20px;
+    transform: rotate(var(--r, 0)) translate(var(--x, 0), var(--y, 0));
+  }
+
+  [l] {
+    --r: 45deg;
+    --x: 4px;
+  }
+
+  [s] {
+    --r: 45deg;
+    --x: -6px;
+  }
+
+  [r] {
+    --r: -45deg;
+    --x: -6px;
+    --y: -1px;
+  }
+
+  [b] {
+    --r: -45deg;
+    --x: 6px;
+    --y: -1px;
+  }
+
+  [cs] {
+    place-self: center start;
+  }
+
+  [sc] {
+    place-self: start center;
+  }
+
+  [ce] {
+    place-self: center end;
+  }
+
+  [ec] {
+    place-self: end center;
+  }
+</style>
