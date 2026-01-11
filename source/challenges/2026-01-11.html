@@ -13,25 +13,11 @@
     display: grid;
   }
 
-  body > * {
+  t,
+  b,
+  l {
     position: absolute;
     place-self: center;
-  }
-
-  t,
-  b {
-    width: 120px;
-    height: 130px;
-  }
-
-  t {
-    background: #f9eaf1;
-    transform: translate(40px, -40px);
-  }
-
-  b {
-    background: #4c455b;
-    transform: translate(-40px, 40px);
   }
 
   l {
@@ -44,11 +30,27 @@
     height: 10px;
   }
 
+  t,
+  b {
+    width: 120px;
+    height: 130px;
+  }
+
+  t,
   w {
     background: #f9eaf1;
   }
 
+  b,
   g {
     background: #4c455b;
+  }
+
+  t {
+    transform: translate(40px, -40px);
+  }
+
+  b {
+    transform: translate(-40px, 40px);
   }
 </style>
