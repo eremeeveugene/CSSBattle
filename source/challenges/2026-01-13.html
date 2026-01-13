@@ -1,0 +1,47 @@
+<i>
+  <r>
+    <s></s>
+    <b></b>
+    <s></s>
+  </r>
+  <c></c>
+  <r>
+    <s></s>
+    <b></b>
+    <s></s>
+  </r>
+</i>
+<style>
+  body {
+    display: grid;
+    background: #45b45b;
+  }
+
+  i {
+    display: flex;
+    width: 360px;
+    height: 240px;
+    place-self: center;
+    place-content: space-between;
+  }
+
+  r {
+    display: grid;
+    gap: 10px;
+  }
+
+  c,
+  r * {
+    background: #194247;
+    height: 50px;
+    width: 50px;
+  }
+
+  b {
+    height: 120px;
+  }
+
+  c {
+    border-radius: 50%;
+  }
+</style>
