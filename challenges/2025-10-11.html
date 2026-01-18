@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="circles">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="line"></div>
+  <div class="circles">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="line"></div>
+  <div class="circles">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #7e6293;
+    display: grid;
+  }
+
+  .container {
+    place-self: center;
+    display: flex;
+    gap: 20px;
+  }
+
+  .container * {
+    width: 40px;
+  }
+
+  .circles {
+    display: grid;
+    gap: 20px;
+  }
+
+  .circles * {
+    background: #de817e;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .line {
+    background: #ebe77e;
+  }
+</style>

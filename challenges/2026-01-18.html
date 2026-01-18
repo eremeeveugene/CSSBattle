@@ -1,0 +1,50 @@
+<l>
+  <o></o>
+  <n></n>
+</l>
+<r>
+  <h></h>
+  <v></v>
+</r>
+<style>
+  body {
+    background: #668884;
+    display: flex;
+    place-content: center;
+    gap: 40px;
+  }
+
+  l,
+  r {
+    display: grid;
+    height: 240px;
+    place-self: center;
+    margin-left: 15px;
+  }
+
+  l {
+    width: 150px;
+    grid-template-rows: 140px 1fr;
+  }
+
+  l * {
+    border: 40px solid #eed9d9;
+  }
+
+  r {
+    width: 70px;
+    grid-template-rows: 40px 1fr;
+  }
+
+  r * {
+    background: #eed9d9;
+  }
+
+  n {
+    border-width: 0 40px;
+  }
+
+  v {
+    margin: 0 15px;
+  }
+</style>

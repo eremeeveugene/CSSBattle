@@ -1,0 +1,55 @@
+<div class="envelope">
+  <div class="triangle left"></div>
+  <div class="rect">
+    <div class="top"></div>
+    <div class="bottom"></div>
+  </div>
+  <div class="triangle right"></div>
+</div>
+<style>
+  body {
+    background: #ea9a52;
+    display: grid;
+    place-items: center;
+  }
+
+  .envelope {
+    display: flex;
+  }
+
+  .triangle {
+    border: solid 60px #ea9a52;
+  }
+
+  .left {
+    border-right-width: 80px;
+    border-right-color: #6255aa;
+    border-left: none;
+  }
+
+  .right {
+    border-left-width: 80px;
+    border-left-color: #6255aa;
+    border-right: none;
+  }
+
+  .rect {
+    display: grid;
+  }
+
+  .rect * {
+    border: solid 60px #fff;
+  }
+
+  .top {
+    border-top-width: 45px;
+    border-top-color: #6255aa;
+    border-bottom: none;
+  }
+
+  .bottom {
+    border-bottom-width: 45px;
+    border-bottom-color: #6255aa;
+    border-top: none;
+  }
+</style>

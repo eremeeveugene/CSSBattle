@@ -1,0 +1,32 @@
+<div class="border">
+  <div class="corner">
+    <div class="triangle"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #f0cd48;
+    display: grid;
+    place-items: center;
+  }
+
+  .border {
+    border: 60px solid #243d83;
+    width: 120;
+    height: 60;
+    position: relative;
+  }
+
+  .corner {
+    position: absolute;
+    background: #f0cd48;
+    width: 80;
+    height: 80;
+    inset: -60px -60px auto auto;
+  }
+
+  .triangle {
+    border: solid 30px transparent;
+    border-left: solid #5aa4b7 60px;
+  }
+</style>

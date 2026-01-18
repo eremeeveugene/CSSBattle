@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="left"></div>
+  <div class="right"></div>
+  <div class="circle end"></div>
+  <div class="circle"></div>
+  <div class="left"></div>
+  <div class="right"></div>
+</div>
+<style>
+  body {
+    background: #48bf7d;
+    display: grid;
+    align-items: center;
+    margin: 0;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 50px;
+  }
+
+  .container * {
+    background: #0b2429;
+    height: 40;
+  }
+
+  .circle {
+    width: 40;
+    border-radius: 50%;
+  }
+
+  .end {
+    justify-self: end;
+  }
+
+  .left {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .right {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+</style>

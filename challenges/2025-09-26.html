@@ -1,0 +1,39 @@
+<div class="top-left end"></div>
+<div class="top-right end"></div>
+<div class="bottom-left"></div>
+<div class="bottom-right"></div>
+<style>
+  body {
+    background: #4763b1;
+    display: grid;
+    place-content: center;
+    grid: auto auto / auto auto;
+    gap: 40px;
+  }
+
+  body * {
+    background: #fff;
+    width: 80px;
+    height: 80px;
+  }
+
+  .end {
+    place-self: end;
+  }
+
+  .top-left {
+    border-top: 20px solid #000;
+  }
+
+  .top-right {
+    border-right: 20px solid #000;
+  }
+
+  .bottom-left {
+    border-left: 20px solid #000;
+  }
+
+  .bottom-right {
+    border-bottom: 20px solid #000;
+  }
+</style>
