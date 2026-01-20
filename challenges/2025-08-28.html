@@ -1,0 +1,55 @@
+<div class="line left"></div>
+<div class="line right"></div>
+<div class="rect">
+  <div class="line-inner left"></div>
+  <div class="line-inner right"></div>
+  <div class="rect-inner"></div>
+</div>
+<style>
+  body {
+    background: #f0cd48;
+    display: grid;
+    place-items: center;
+  }
+
+  body * {
+    position: absolute;
+    background: #243d83;
+  }
+
+  .rect {
+    width: 200px;
+    height: 120px;
+    display: grid;
+    place-items: center;
+  }
+
+  .rect * {
+    background: #6592cf;
+  }
+
+  .rect-inner {
+    width: 100px;
+    height: 60px;
+  }
+
+  .line {
+    width: 240px;
+    height: 60px;
+    border-radius: 20px;
+  }
+
+  .line-inner {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .left {
+    transform: rotate(30deg);
+  }
+
+  .right {
+    transform: rotate(-30deg);
+  }
+</style>
