@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="cell">
+    <div class="transparent"></div>
+    <div></div>
+  </div>
+  <div class="line"></div>
+  <div class="cell">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="cell">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="line"></div>
+  <div class="cell">
+    <div></div>
+    <div class="transparent"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #f88889;
+    margin: 0;
+    display: grid;
+  }
+
+  .container {
+    display: grid;
+    grid: 1fr 20px 1fr / 1fr 20px 1fr;
+  }
+
+  .line {
+    background: #fff;
+  }
+
+  .cell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .cell * {
+    border: 20px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+
+  .cell > :first-child {
+    transform: translateX(-24px);
+  }
+
+  .cell > :last-child {
+    transform: translateX(24px);
+  }
+
+  .transparent {
+    border-color: transparent;
+  }
+</style>

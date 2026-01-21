@@ -1,0 +1,42 @@
+<div class="percent">
+  <div class="ellipse ellipse-top"></div>
+  <div class="line"></div>
+  <div class="ellipse ellipse-bottom"></div>
+</div>
+<style>
+  body {
+    background: #7e6293;
+    display: grid;
+    place-items: center;
+  }
+
+  .percent {
+    display: flex;
+    height: 200px;
+    place-items: center;
+    overflow: hidden;
+    gap: 20px;
+  }
+
+  .ellipse {
+    width: 30px;
+    height: 60px;
+    border: 30px solid #fff;
+    border-radius: 50px;
+  }
+
+  .ellipse-top {
+    place-self: start;
+  }
+
+  .ellipse-bottom {
+    place-self: end;
+  }
+
+  .line {
+    background: #fff;
+    width: 30px;
+    height: 220px;
+    transform: rotate(15deg);
+  }
+</style>

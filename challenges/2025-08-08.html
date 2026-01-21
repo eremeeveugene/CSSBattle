@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="rect"></div>
+  <div class="line vertical"></div>
+  <div class="line horizontal"></div>
+  <div class="circle top"></div>
+  <div class="circle bottom"></div>
+  <div class="rect"></div>
+</div>
+<style>
+  body {
+    background: #88ebf8;
+    margin: 0;
+    display: grid;
+  }
+
+  .container {
+    display: grid;
+    grid: 1fr 20px 1fr / 1fr 20px 1fr;
+  }
+
+  .line {
+    background: #23384b;
+  }
+
+  .line.vertical {
+    grid-row: 1/-1;
+    grid-column: 2;
+  }
+
+  .line.horizontal {
+    grid-row: 2;
+    grid-column: 1/-1;
+  }
+
+  .circle {
+    border: 20px solid #23384b;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+  }
+
+  .circle.top {
+    grid-row: 1;
+    grid-column: 3;
+    justify-self: start;
+    transform: translateX(-24px);
+  }
+
+  .circle.bottom {
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: end;
+    transform: translateX(24px);
+  }
+
+  .rect {
+    background: #88ebf8;
+    z-index: 1;
+  }
+</style>

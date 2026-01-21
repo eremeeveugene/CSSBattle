@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="arcs">
+    <div style="transform: translateX(40px)"></div>
+    <div></div>
+    <div style="transform: translateX(-40px)"></div>
+  </div>
+  <div class="rects">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #fade8b;
+    display: grid;
+    place-content: center;
+  }
+
+  .container {
+    display: grid;
+    place-content: center;
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .arcs {
+    display: flex;
+    transform: translateX(-50px);
+  }
+
+  .arcs * {
+    width: 60px;
+    height: 180px;
+    border: 40px solid #31938c;
+    border-bottom: none;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+  }
+
+  .rects {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .rects * {
+    background: #135853;
+    width: 40px;
+    height: 30px;
+  }
+</style>
