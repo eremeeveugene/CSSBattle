@@ -1,0 +1,30 @@
+<c></c>
+<style>
+  body {
+    background: #c7b46d;
+    display: grid;
+    place-content: center;
+  }
+
+  c {
+    background: #38373a;
+    height: 160px;
+    position: relative;
+  }
+
+  c,
+  c::before {
+    width: 160px;
+    border-radius: 50%;
+  }
+
+  c::before {
+    content: "";
+    background: #8b7e4c;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: -80px;
+    z-index: -1;
+  }
+</style>
