@@ -1,0 +1,118 @@
+<i>
+  <p a z></p>
+  <p b z></p>
+  <p c x></p>
+  <p d x></p>
+  <p e z></p>
+  <p f></p>
+  <g></g>
+  <h></h>
+</i>
+<style>
+  body {
+    background: #191919;
+    display: grid;
+  }
+
+  body * {
+    position: absolute;
+  }
+
+  i {
+    width: 400px;
+    height: 300px;
+    place-self: center;
+    overflow: hidden;
+  }
+
+  p {
+    margin: 0;
+    width: 70px;
+    box-sizing: border-box;
+    border: 5px solid #e08027;
+    display: grid;
+  }
+
+  p:after {
+    content: "";
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: inherit;
+    border: inherit;
+  }
+
+  p:nth-child(odd) {
+    padding: 0 10px 10px;
+    bottom: 40px;
+    border-radius: 0 0 50Q 50Q;
+    border-top: 0;
+  }
+
+  p:nth-child(even) {
+    padding: 10px 10px 0;
+    top: 40px;
+    border-radius: 50Q 50Q 0 0;
+    border-bottom: 0;
+  }
+
+  [z] {
+    height: 70px;
+  }
+
+  [x] {
+    height: 150px;
+  }
+
+  [a] {
+    top: 90px;
+    left: -35px;
+  }
+
+  [b] {
+    left: 15px;
+  }
+
+  [c] {
+    left: 65px;
+  }
+
+  [d] {
+    left: 115px;
+  }
+
+  [e] {
+    left: 165px;
+  }
+
+  g {
+    background: #e08027;
+    width: 50px;
+    height: 30px;
+    border-radius: 14px 20px 20px 14px;
+    top: 135px;
+    left: 265px;
+  }
+
+  h {
+    background: #191919;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    top: 137px;
+    left: 295px;
+    -webkit-box-reflect: below 6px;
+  }
+
+  [f] {
+    width: 65px;
+    height: 80px;
+    left: 215px;
+    top: 140px !important;
+    border-radius: 35px 0 0 0 !important;
+    border-right: 0;
+  }
+
+  [f]:after {
+    border-radius: 20px 0 0 0 !important;
+  }
+</style>
