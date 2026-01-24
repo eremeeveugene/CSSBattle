@@ -91,6 +91,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [PushOwl](https://cssbattle.dev/play/69)
 - [Elephant](https://cssbattle.dev/play/71)
 - [Sheep](https://cssbattle.dev/play/72)
+- [Danger Noodle](https://cssbattle.dev/play/74)
 - [Balanced](https://cssbattle.dev/play/227)
 - [Another Tree](https://cssbattle.dev/play/228)
 - [Flower](https://cssbattle.dev/play/229)
