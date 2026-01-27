@@ -1,0 +1,72 @@
+<div class="rect vertical left"></div>
+<div class="rect vertical right"></div>
+<div class="rect horizontal top"></div>
+<div class="rect horizontal bottom"></div>
+<div class="rect middle"></div>
+<div class="rect middle-vertical"></div>
+<div class="rect middle top-left"></div>
+<div class="rect middle top-right"></div>
+<style>
+  body {
+    background: #5aa4b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rect {
+    position: absolute;
+    background: #000;
+    border-radius: 20px;
+  }
+
+  .horizontal,
+  .middle {
+    height: 20px;
+  }
+
+  .vertical,
+  .middle-vertical {
+    width: 20px;
+  }
+
+  .horizontal {
+    width: 200px;
+  }
+
+  .vertical {
+    height: 200px;
+  }
+
+  .middle {
+    width: 80px;
+  }
+
+  .middle-vertical {
+    height: 80px;
+  }
+
+  .left {
+    transform: translate(-70px);
+  }
+
+  .right {
+    transform: translate(70px);
+  }
+
+  .top {
+    transform: translateY(-70px);
+  }
+
+  .bottom {
+    transform: translateY(70px);
+  }
+
+  .top-left {
+    transform: rotate(45deg);
+  }
+
+  .top-right {
+    transform: rotate(-45deg);
+  }
+</style>

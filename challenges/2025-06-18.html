@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="rect white">
+    <div class="circle red"></div>
+  </div>
+  <div class="rect red">
+    <div class="circle white"></div>
+  </div>
+  <div class="triangle"></div>
+</div>
+<style>
+  body {
+    background: #d95362;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 328px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .rect {
+    display: grid;
+    place-items: center;
+  }
+
+  .rect.white {
+    background: #d9d9d9;
+    aspect-ratio: 1;
+  }
+
+  .rect.red {
+    aspect-ratio: 1;
+  }
+
+  .circle {
+    width: 90px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  .circle.red {
+    background: #d95362;
+  }
+
+  .circle.white {
+    background: #d9d9d9;
+  }
+
+  .triangle {
+    grid-column: 1/-1;
+    border-top: 80px solid #d9d9d9;
+    border-left: 164px solid transparent;
+    border-right: 164px solid transparent;
+  }
+</style>

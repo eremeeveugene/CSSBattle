@@ -1,0 +1,37 @@
+<div class="router"></div>
+<div class="antenna left"></div>
+<div class="antenna right"></div>
+
+<style>
+  body {
+    background: #4f55a2;
+    display: grid;
+    place-items: center;
+  }
+
+  .router {
+    position: absolute;
+    width: 190px;
+    height: 95px;
+    background: #dcc6a8;
+    border-radius: 30px;
+    transform: translateY(47px);
+  }
+
+  .antenna {
+    position: absolute;
+    width: 30px;
+    height: 80px;
+    background: #dcc6a8;
+    border: 10px solid #4f55a2;
+    border-radius: 30px;
+  }
+
+  .left {
+    transform: translate(-95px, -25px);
+  }
+
+  .right {
+    transform: translate(95px, -25px);
+  }
+</style>
