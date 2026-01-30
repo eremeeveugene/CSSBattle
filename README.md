@@ -93,6 +93,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Sheep](https://cssbattle.dev/play/72)
 - [Danger Noodle](https://cssbattle.dev/play/74)
 - [Bee](https://cssbattle.dev/play/76)
+- [Ukulele](https://cssbattle.dev/play/78)
 - [Balanced](https://cssbattle.dev/play/227)
 - [Another Tree](https://cssbattle.dev/play/228)
 - [Flower](https://cssbattle.dev/play/229)
