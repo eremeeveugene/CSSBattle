@@ -1,0 +1,59 @@
+<i>
+  <a>
+    <c></c>
+  </a>
+  <b>
+    <c></c>
+  </b>
+</i>
+<style>
+  body {
+    background: #b6ebe7;
+  }
+
+  body,
+  i,
+  i * {
+    display: grid;
+  }
+
+  i {
+    width: 360px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  i,
+  c {
+    place-self: center;
+  }
+
+  a,
+  b,
+  c {
+    border-radius: 50%;
+  }
+
+  a,
+  b {
+    position: absolute;
+    border: 100px solid #5370d9;
+    width: 200px;
+    height: 200px;
+  }
+
+  a {
+    right: 160px;
+  }
+
+  b {
+    left: 160px;
+  }
+
+  c {
+    background: #5370d9;
+    width: 60px;
+    height: 60px;
+  }
+</style>
