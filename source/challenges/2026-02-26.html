@@ -1,0 +1,46 @@
+<x>
+  <r></r>
+  <c></c>
+</x>
+<x>
+  <c></c>
+  <r></r>
+</x>
+<x>
+  <c></c>
+  <r></r>
+</x>
+<x>
+  <r></r>
+  <c></c>
+</x>
+<style>
+  body {
+    display: grid;
+    background: #12219a;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    place-items: center;
+    gap: 120px 100px;
+    margin: 0;
+  }
+
+  x {
+    display: flex;
+    gap: 10px;
+  }
+
+  r,
+  c {
+    width: 50px;
+    height: 50px;
+  }
+
+  r {
+    background: #70ccdb;
+  }
+
+  c {
+    background: #db5ead;
+    border-radius: 50%;
+  }
+</style>
