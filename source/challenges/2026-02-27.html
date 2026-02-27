@@ -1,0 +1,57 @@
+<i>
+  <o></o>
+  <f>
+    <e></e>
+    <e></e>
+    <e></e>
+  </f>
+  <g>
+    <c></c>
+    <c></c>
+    <c></c>
+  </g>
+  <r></r>
+</i>
+<style>
+  body {
+    background: #db5ead;
+  }
+
+  body,
+  i,
+  g {
+    display: grid;
+  }
+
+  i {
+    place-self: center;
+    grid-template: auto 1fr / auto 1fr;
+  }
+
+  f {
+    display: flex;
+  }
+
+  o,
+  c,
+  e {
+    border: 20px solid #12219a;
+    width: 40px;
+    height: 40px;
+  }
+
+  c {
+    border-top-width: 0;
+  }
+
+  e {
+    border-left-width: 0;
+  }
+
+  r {
+    background: #12219a;
+    width: 130px;
+    height: 130px;
+    place-self: end;
+  }
+</style>
