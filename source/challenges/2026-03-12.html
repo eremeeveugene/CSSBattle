@@ -1,0 +1,54 @@
+<i>
+  <v></v>
+  <v e></v>
+  <h></h>
+  <h e></h>
+  <r></r>
+</i>
+<style>
+  body {
+    background: #48bf7d;
+  }
+
+  body,
+  i {
+    display: grid;
+  }
+
+  i {
+    width: 360px;
+    height: 260px;
+  }
+
+  i,
+  r {
+    place-self: center;
+  }
+
+  i * {
+    position: absolute;
+    background: #eff8fe;
+  }
+
+  r,
+  h {
+    height: 60px;
+  }
+
+  r {
+    width: 140px;
+  }
+
+  h {
+    width: 250px;
+  }
+
+  v {
+    width: 110px;
+    height: 170px;
+  }
+
+  [e] {
+    place-self: end;
+  }
+</style>
