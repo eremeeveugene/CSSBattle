@@ -1,0 +1,51 @@
+<c>
+  <y a></y>
+  <y b></y>
+  <m></m>
+</c>
+<style>
+  body,
+  y {
+    background: #f3ac3c;
+  }
+
+  body,
+  c {
+    display: grid;
+  }
+
+  c {
+    background: #f3ac3c;
+    border: 30px solid #998235;
+    width: 100px;
+    height: 100px;
+    transform: translateX(-2px) rotate(45deg);
+  }
+
+  c,
+  m {
+    place-self: center;
+  }
+
+  c * {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+  }
+
+  m {
+    background: #1a4341;
+  }
+
+  [a] {
+    justify-self: center;
+    height: 60px;
+    transform: translateY(-45px);
+  }
+
+  [b] {
+    align-self: center;
+    width: 60px;
+    transform: translateX(-45px);
+  }
+</style>
