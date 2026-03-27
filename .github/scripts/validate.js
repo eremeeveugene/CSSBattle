@@ -13,9 +13,26 @@ const THRESHOLD = 0.1;
 const ALLOWED_PIXELS = 10;
 
 (async () => {
-  const htmlFiles = fs
+  const inputFile = process.argv[2];
+
+  let htmlFiles = fs
     .readdirSync(CHALLENGES_DIR)
     .filter((f) => f.endsWith(".html"));
+
+  if (inputFile) {
+    const normalizedFile = inputFile.endsWith(".html")
+      ? inputFile
+      : `${inputFile}.html`;
+
+    if (!htmlFiles.includes(normalizedFile)) {
+      console.error(
+        `❌ File not found in challenges directory: ${normalizedFile}`,
+      );
+      process.exit(1);
+    }
+
+    htmlFiles = [normalizedFile];
+  }
 
   if (htmlFiles.length === 0) {
     console.log("No HTML files found in challenges directory.");
@@ -87,7 +104,7 @@ const ALLOWED_PIXELS = 10;
       expectedImg.height,
       {
         threshold: THRESHOLD,
-      }
+      },
     );
 
     if (diffPixels > ALLOWED_PIXELS) {
@@ -95,11 +112,11 @@ const ALLOWED_PIXELS = 10;
       const diffPath = path.join(DIFF_DIR, file.replace(".html", ".diff.png"));
       fs.writeFileSync(diffPath, PNG.sync.write(diff));
       console.error(
-        `❌ Visual mismatch in ${file} – ${diffPixels} pixels differ`
+        `❌ Visual mismatch in ${file} – ${diffPixels} pixels differ`,
       );
     } else {
       console.log(
-        `✅ ${file} matches (within tolerance, ${diffPixels} pixels differ)`
+        `✅ ${file} matches (within tolerance, ${diffPixels} pixels differ)`,
       );
     }
   }
