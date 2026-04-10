@@ -97,6 +97,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Piano](https://cssbattle.dev/play/80)
 - [Odoo](https://cssbattle.dev/play/81)
 - [Diamond Cut](https://cssbattle.dev/play/82)
+- [Sharingan](https://cssbattle.dev/play/101)
 - [Balanced](https://cssbattle.dev/play/227)
 - [Another Tree](https://cssbattle.dev/play/228)
 - [Flower](https://cssbattle.dev/play/229)
