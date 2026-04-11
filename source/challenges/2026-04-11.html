@@ -1,0 +1,49 @@
+<i>
+  <v></v>
+  <h></h>
+  <c></c>
+</i>
+<style>
+  body {
+    background: #ddfee6;
+  }
+
+  body,
+  i {
+    display: grid;
+  }
+
+  i {
+    place-self: center;
+    width: 180px;
+    height: 180px;
+  }
+
+  i * {
+    display: grid;
+    position: absolute;
+    background: #a1e6e4;
+    border: 30px solid #6d62ba;
+    width: 40px;
+    height: 40px;
+  }
+
+  v {
+    height: 80px;
+    border-bottom-width: 0;
+    border-radius: 50px 50px 0 0;
+  }
+
+  h {
+    place-self: end;
+    width: 80px;
+    border-left-width: 0;
+    border-radius: 0 50px 50px 0;
+  }
+
+  c {
+    align-self: end;
+    border: solid #6d62ba;
+    border-width: 0 0 30px 30px;
+  }
+</style>
