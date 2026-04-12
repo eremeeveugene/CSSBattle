@@ -1,0 +1,56 @@
+<i>
+  <r>
+    <c></c>
+    <l></l>
+  </r>
+  <s>
+    <c t></c>
+  </s>
+</i>
+<style>
+  body {
+    display: grid;
+    background: #f3ac3c;
+  }
+
+  i {
+    place-self: center;
+    display: flex;
+    gap: 20px;
+    height: 170px;
+  }
+
+  r,
+  s {
+    display: grid;
+    background: #442929;
+    width: 120px;
+  }
+
+  s {
+    width: 40px;
+  }
+
+  c,
+  l {
+    background: #f3ac3c;
+    justify-self: center;
+  }
+
+  c {
+    position: absolute;
+    align-self: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -10px;
+  }
+
+  l {
+    width: 40px;
+  }
+
+  [t] {
+    margin-left: 80px;
+  }
+</style>
