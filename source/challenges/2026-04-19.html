@@ -1,0 +1,62 @@
+<i>
+  <r t></r>
+  <u></u>
+  <v></v>
+  <r b></r>
+</i>
+<style>
+  body {
+    background: #2f5c24;
+  }
+
+  body,
+  i {
+    display: grid;
+  }
+
+  i {
+    place-self: center;
+    width: 240px;
+    height: 250px;
+  }
+
+  i,
+  i * {
+    position: absolute;
+  }
+
+  r {
+    background: #ebcb58;
+    width: 70px;
+    height: 70px;
+  }
+
+  [t] {
+    left: 20px;
+  }
+
+  [b] {
+    bottom: 0;
+    right: 20px;
+  }
+
+  u,
+  v {
+    border: 30px solid #ebcb58;
+    width: 120px;
+    height: 40px;
+  }
+
+  u {
+    border-left-width: 0;
+    border-radius: 0 50px 50px 0;
+    top: 40px;
+    right: 0;
+  }
+
+  v {
+    border-right-width: 0;
+    border-radius: 50px 0 0 50px;
+    top: 110px;
+  }
+</style>
