@@ -1,0 +1,68 @@
+<i>
+  <s></s>
+  <e></e>
+  <c></c>
+</i>
+<i>
+  <s></s>
+  <e></e>
+  <c></c>
+</i>
+<i>
+  <s></s>
+  <e></e>
+  <c></c>
+</i>
+<i>
+  <s></s>
+  <e></e>
+  <c></c>
+</i>
+<i>
+  <s></s>
+  <e></e>
+  <c></c>
+</i>
+<i>
+  <s></s>
+  <e></e>
+  <c></c>
+</i>
+<style>
+  body {
+    grid: 60px 60px / repeat(3, 100px);
+    place-content: center;
+    gap: 40px 20px;
+  }
+
+  body,
+  i {
+    display: grid;
+  }
+
+  body,
+  c {
+    background: #f9ddc6;
+  }
+
+  i * {
+    position: absolute;
+  }
+
+  c {
+    place-self: center;
+    width: 20px;
+    height: 20px;
+  }
+
+  s,
+  e {
+    width: 60px;
+    height: 40px;
+    background: #594c94;
+  }
+
+  e {
+    place-self: end;
+  }
+</style>
