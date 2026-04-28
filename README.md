@@ -438,6 +438,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [2026-04-25](https://cssbattle.dev/play/RMGHENh8x6ivd5cqi2tK)
 - [2026-04-26](https://cssbattle.dev/play/SftZUdzTKh9Bmb4v9l3V)
 - [2026-04-27](https://cssbattle.dev/play/OhW92nn3P508esbUhggN)
+- [2026-04-28](https://cssbattle.dev/play/uSfVqzY6VFAZUkXfnmQn)
 
   </p>
 </details>
