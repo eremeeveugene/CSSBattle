@@ -1,0 +1,44 @@
+<l r></l>
+<l t></l>
+<m r></m>
+<n t></n>
+<style>
+  body {
+    display: flex;
+    background: #525142;
+    place-content: center;
+    margin: 0;
+    gap: 160px;
+  }
+
+  l {
+    height: 100%;
+    width: 60px;
+  }
+
+  [r] {
+    background: #e25c57;
+  }
+
+  [t] {
+    background: #84be8d;
+  }
+
+  m,
+  n {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    place-self: center;
+  }
+
+  m {
+    border-radius: 0 50px 50px 0;
+    transform: translate(-30px, -70px);
+  }
+
+  n {
+    border-radius: 50px 0 0 50px;
+    transform: translateX(30px);
+  }
+</style>
