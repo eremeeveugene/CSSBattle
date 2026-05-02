@@ -1,0 +1,51 @@
+<g>
+  <t></t>
+  <b></b>
+  <l></l>
+  <r></r>
+</g>
+<style>
+  body {
+    background: #191919;
+    margin: 0;
+  }
+
+  body,
+  g {
+    display: grid;
+  }
+
+  g {
+    grid: 1fr 40px 1fr/1fr 40px 1fr;
+  }
+
+  t,
+  b {
+    background: #fe5f55;
+  }
+
+  l,
+  r {
+    background: #a64942;
+  }
+
+  t {
+    grid-area: 1 / 2;
+    border-radius: 0 0 20px 20px;
+  }
+
+  l {
+    grid-area: 2 / 1;
+    border-radius: 0 20px 20px 0;
+  }
+
+  r {
+    grid-area: 2 / 3;
+    border-radius: 20px 0 0 20px;
+  }
+
+  b {
+    grid-area: 3 / 2;
+    border-radius: 20px 20px 0 0;
+  }
+</style>
