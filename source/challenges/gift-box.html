@@ -1,0 +1,52 @@
+<k>
+  <l></l>
+  <r></r>
+</k>
+<g>
+  <n></n>
+  <n></n>
+  <n></n>
+  <n></n>
+</g>
+<style>
+  body {
+    background: #ac474b;
+    place-content: center;
+  }
+
+  body,
+  g {
+    display: grid;
+    gap: 20px;
+  }
+
+  k {
+    display: flex;
+    place-self: center;
+  }
+
+  l,
+  r {
+    border: 10px solid #fff;
+    height: 20px;
+    width: 20px;
+  }
+
+  l {
+    border-radius: 50% 50% 0 50%;
+    transform: translateX(5px);
+  }
+
+  r {
+    border-radius: 50% 50% 50% 0;
+    transform: translateX(-5px);
+  }
+
+  g {
+    grid: 60px 60px / 60px 60px;
+  }
+
+  n {
+    background: #fff;
+  }
+</style>
