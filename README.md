@@ -102,6 +102,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Pythagoras](https://cssbattle.dev/play/85)
 - [Tight Corner](https://cssbattle.dev/play/88)
 - [Ripples](https://cssbattle.dev/play/94)
+- [Pokeball](https://cssbattle.dev/play/95)
 - [Gift Box](https://cssbattle.dev/play/99)
 - [Sharingan](https://cssbattle.dev/play/101)
 - [Balanced](https://cssbattle.dev/play/227)
