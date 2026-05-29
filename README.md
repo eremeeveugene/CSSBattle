@@ -106,6 +106,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Pokeball](https://cssbattle.dev/play/95)
 - [Gift Box](https://cssbattle.dev/play/99)
 - [Sharingan](https://cssbattle.dev/play/101)
+- [Amegakure](https://cssbattle.dev/play/104)
 - [Balanced](https://cssbattle.dev/play/227)
 - [Another Tree](https://cssbattle.dev/play/228)
 - [Flower](https://cssbattle.dev/play/229)
