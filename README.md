@@ -100,6 +100,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Supernova](https://cssbattle.dev/play/83)
 - [Junction](https://cssbattle.dev/play/84)
 - [Pythagoras](https://cssbattle.dev/play/85)
+- [Stairway](https://cssbattle.dev/play/86)
 - [Building Blocks](https://cssbattle.dev/play/87)
 - [Tight Corner](https://cssbattle.dev/play/88)
 - [Ripples](https://cssbattle.dev/play/94)
