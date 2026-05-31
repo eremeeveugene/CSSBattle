@@ -1,0 +1,32 @@
+<div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #8647e6;
+    display: grid;
+    margin: 0;
+  }
+
+  body > div {
+    display: flex;
+    place-self: center;
+    height: 300px;
+  }
+
+  div * {
+    background: #efeb99;
+    width: 56px;
+    height: 170px;
+  }
+
+  div:nth-child(even) {
+    align-self: end;
+  }
+</style>

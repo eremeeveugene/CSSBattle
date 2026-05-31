@@ -1,0 +1,25 @@
+<div class="left"></div>
+<div class="right"></div>
+<div class="right"></div>
+<div class="left"></div>
+<style>
+  body {
+    background: #a82973;
+    display: grid;
+    grid-template: 60px 60px/60px 60px;
+    place-content: center;
+    gap: 20px;
+  }
+
+  body * {
+    background: #eec8ea;
+  }
+
+  .right {
+    transform: rotate(10deg);
+  }
+
+  .left {
+    transform: rotate(-10deg);
+  }
+</style>

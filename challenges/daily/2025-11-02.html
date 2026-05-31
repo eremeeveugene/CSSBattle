@@ -1,0 +1,37 @@
+<div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #243d83;
+    display: grid;
+    place-items: center;
+    place-content: center;
+  }
+
+  body > div {
+    border: solid #f0cd48;
+    border-width: 40px 0;
+    display: flex;
+    gap: 85px;
+    padding: 0 30px;
+    height: 120px;
+  }
+
+  div * {
+    background: #f0cd48;
+    width: 30px;
+    display: grid;
+  }
+
+  div *::after {
+    position: absolute;
+    content: "";
+    background: #f0cd48;
+    width: 40px;
+    height: 40px;
+    place-self: center;
+  }
+</style>

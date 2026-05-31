@@ -1,0 +1,38 @@
+<div class="ellipse"></div>
+<style>
+  body {
+    background: #d62e65;
+    display: grid;
+  }
+
+  .ellipse {
+    border: 30px solid #eee;
+    border-radius: 60px 60px 40px 40px;
+    width: 60px;
+    height: 120px;
+    position: relative;
+    place-self: center;
+  }
+
+  .ellipse::before,
+  .ellipse::after {
+    content: "";
+    position: absolute;
+    left: -30px;
+  }
+
+  .ellipse::before {
+    background: #d62e65;
+    top: 20px;
+    width: 35px;
+    height: 90px;
+  }
+
+  .ellipse::after {
+    border: 30px solid #eee;
+    border-radius: 60px;
+    width: 60px;
+    height: 20px;
+    bottom: -30px;
+  }
+</style>

@@ -1,0 +1,49 @@
+<div class="item">
+  <div class="cross"></div>
+</div>
+<style>
+  body {
+    background: #264629;
+    display: grid;
+  }
+
+  .item {
+    background: #cf6939;
+    border: 40px solid #f8b140;
+    width: 140px;
+    height: 140px;
+    place-self: center;
+    display: grid;
+  }
+
+  .item::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    place-self: center;
+    background: #cf6939;
+  }
+
+  .cross {
+    display: grid;
+  }
+
+  .cross::before,
+  .cross::after {
+    content: "";
+    position: absolute;
+    background: #264629;
+    place-self: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .cross::before {
+    width: 20px;
+  }
+
+  .cross::after {
+    height: 20px;
+  }
+</style>

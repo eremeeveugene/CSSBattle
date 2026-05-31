@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="odd">
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+  </div>
+  <div class="even">
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+  </div>
+  <div class="odd">
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+  </div>
+  <div class="even">
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+  </div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #5dbcf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    gap: 10px;
+    transform: translateX(-0px);
+  }
+
+  .odd {
+    display: grid;
+    gap: 40px;
+    transform: translateY(-30px);
+  }
+  .even {
+    display: grid;
+    gap: 40px;
+    transform: translateY(-80px);
+  }
+
+  .rect {
+    background: #191919;
+    width: 140px;
+    height: 110px;
+  }
+</style>

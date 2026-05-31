@@ -1,0 +1,46 @@
+<div class="item">
+  <div class="circle"></div>
+  <div class="rect"></div>
+</div>
+<div class="item">
+  <div class="rect"></div>
+  <div class="circle"></div>
+</div>
+<div class="item">
+  <div class="circle"></div>
+  <div class="rect"></div>
+</div>
+<style>
+  body {
+    background: #556d7f;
+    display: flex;
+    place-content: center;
+    gap: 10px;
+  }
+
+  .item {
+    align-self: center;
+  }
+
+  .item * {
+    background: #ebcb58;
+    width: 100px;
+  }
+
+  .item > :first-child {
+    transform: translateY(10px);
+  }
+
+  .item > :last-child {
+    transform: translateY(-10px);
+  }
+
+  .rect {
+    height: 150px;
+  }
+
+  .circle {
+    height: 100px;
+    border-radius: 50%;
+  }
+</style>

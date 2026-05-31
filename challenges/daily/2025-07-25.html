@@ -1,0 +1,33 @@
+<div class="grid">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div style="margin-left: 20px"></div>
+  <div></div>
+  <div style="margin-right: 20px"></div>
+  <div style="margin-left: 40px"></div>
+  <div></div>
+  <div style="margin-right: 40px"></div>
+  <div style="margin-left: 60px"></div>
+  <div></div>
+  <div style="margin-right: 60px"></div>
+</div>
+<style>
+  body {
+    background: #c05f6a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(4, 30px);
+    gap: 30px;
+  }
+
+  .grid * {
+    background: #f2eaa8;
+  }
+</style>

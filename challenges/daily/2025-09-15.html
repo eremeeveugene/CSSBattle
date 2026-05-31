@@ -1,0 +1,37 @@
+<div class="bar"></div>
+<div class="half"></div>
+<div class="bar"></div>
+<style>
+  body {
+    background: #fff1f1;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body * {
+    height: 180px;
+  }
+
+  .bar {
+    background: #f2a3ab;
+    width: 50px;
+  }
+
+  .half {
+    background: #84b9c7;
+    border-radius: 90px 0 0 90px;
+    width: 90px;
+    display: grid;
+    place-items: center end;
+  }
+
+  .half::after {
+    content: "";
+    background: #fff1f1;
+    border-radius: 80px 0 0 80px;
+    width: 40px;
+    height: 80px;
+  }
+</style>

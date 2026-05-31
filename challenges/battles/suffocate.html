@@ -1,0 +1,37 @@
+<div class="top-left"></div>
+<div class="top-right"></div>
+<div class="bottom-left"></div>
+<div class="bottom-right"></div>
+
+<style>
+  body {
+    background: #1a4341;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+    background: #f3ac3c;
+  }
+
+  .top-left {
+    border-bottom-right-radius: 100px;
+  }
+
+  .top-right {
+    border-bottom-left-radius: 100px;
+  }
+
+  .bottom-left {
+    border-top-right-radius: 100px;
+  }
+
+  .bottom-right {
+    border-top-left-radius: 100px;
+  }
+</style>

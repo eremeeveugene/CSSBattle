@@ -1,0 +1,47 @@
+<div class="lines">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div class="plus">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #e8ad6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  body div {
+    gap: 64px;
+    display: grid;
+  }
+
+  body div * {
+    background: #3b240c;
+    height: 16px;
+  }
+
+  .lines * {
+    width: 260px;
+  }
+
+  .plus * {
+    background: #3b240c;
+    width: 50px;
+  }
+
+  .plus *::after {
+    place-self: center;
+    position: absolute;
+    content: "";
+    background: #3b240c;
+    height: 50px;
+    width: 16px;
+  }
+</style>

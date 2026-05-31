@@ -1,0 +1,32 @@
+<div class="middle"></div>
+<div class="circle left"></div>
+<div class="circle"></div>
+<style>
+  body {
+    background: #696448;
+    display: grid;
+  }
+
+  div {
+    position: absolute;
+    place-self: center;
+  }
+
+  .circle {
+    border: 30px solid #222;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translateX(30px);
+  }
+
+  .left {
+    transform: translateX(-30px);
+  }
+
+  .middle {
+    background: #fff;
+    width: 20px;
+    height: 60px;
+  }
+</style>

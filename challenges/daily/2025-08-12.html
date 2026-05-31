@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="blue"></div>
+  <div class="yellow"></div>
+</div>
+<style>
+  body {
+    background: #328fc1;
+    display: grid;
+    place-content: center;
+  }
+
+  .container {
+    border: 30px solid #243d83;
+    border-top: none;
+    border-right: none;
+    width: 190px;
+    height: 190px;
+    position: relative;
+  }
+
+  .container * {
+    bottom: 0;
+    position: absolute;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+  }
+
+  .blue {
+    width: 132px;
+    height: 132px;
+    background: #243d83;
+  }
+
+  .yellow {
+    width: 90px;
+    height: 90px;
+    background: #ebe77e;
+  }
+</style>

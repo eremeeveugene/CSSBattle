@@ -1,0 +1,56 @@
+<t></t>
+<b></b>
+<l>
+  <i></i>
+  <w></w>
+  <i></i>
+  <g></g>
+  <i></i>
+</l>
+<style>
+  body {
+    background: #5aa4b7;
+    display: grid;
+  }
+
+  t,
+  b,
+  l {
+    position: absolute;
+    place-self: center;
+  }
+
+  l {
+    display: grid;
+    width: 40px;
+  }
+
+  l * {
+    background: #5aa4b7;
+    height: 10px;
+  }
+
+  t,
+  b {
+    width: 120px;
+    height: 130px;
+  }
+
+  t,
+  w {
+    background: #f9eaf1;
+  }
+
+  b,
+  g {
+    background: #4c455b;
+  }
+
+  t {
+    transform: translate(40px, -40px);
+  }
+
+  b {
+    transform: translate(-40px, 40px);
+  }
+</style>

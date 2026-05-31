@@ -1,0 +1,60 @@
+<div class="knob">
+  <div class="handle"></div>
+  <div class="decorative"></div>
+  <div class="cap left"></div>
+  <div class="cap right"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .knob {
+    background: #824b20;
+    width: 160px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .handle {
+    position: absolute;
+    background: #e08027;
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  .decorative {
+    position: absolute;
+    border: 20px solid #fff58f;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(45deg);
+    border-radius: 50%;
+    width: 80px;
+    aspect-ratio: 1;
+  }
+
+  .cap {
+    position: absolute;
+    width: 20px;
+    aspect-ratio: 1;
+    background: #fff58f;
+    border-radius: 50%;
+  }
+
+  .cap.left {
+    transform: translateX(-50px);
+  }
+
+  .cap.right {
+    transform: translateX(50px);
+  }
+</style>

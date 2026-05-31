@@ -1,0 +1,37 @@
+<div></div>
+<style>
+  body {
+    background: #555fd9;
+    margin: 0;
+    display: grid;
+  }
+
+  div {
+    border: 20px solid #f2a842;
+    width: 100%;
+    height: 160px;
+    display: grid;
+    place-items: center;
+    place-self: center;
+  }
+
+  div::before,
+  div::after {
+    position: absolute;
+    content: "";
+  }
+
+  div::before {
+    border: solid #555fd9;
+    border-width: 0 20px;
+    width: 180px;
+    height: 200px;
+  }
+
+  div::after {
+    border: solid #f2a842;
+    border-width: 0 40px;
+    width: 100px;
+    height: 160px;
+  }
+</style>

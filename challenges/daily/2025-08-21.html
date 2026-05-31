@@ -1,0 +1,74 @@
+<div class="grid">
+  <div class="r1 c3"></div>
+  <div class="r3 c3"></div>
+  <div class="r5 c3"></div>
+  <div class="r6 c2"></div>
+  <div class="r6 c4"></div>
+  <div class="r7 c1"></div>
+  <div class="r7 c5"></div>
+  <div class="r8 c2"></div>
+  <div class="r8 c4"></div>
+  <div class="r9 c3"></div>
+  <div class="r11 c3"></div>
+  <div class="r13 c3"></div>
+</div>
+
+<style>
+  body {
+    background: #fcebeb;
+    display: grid;
+    place-items: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template: repeat(13, 20px) / repeat(5, 60px);
+  }
+
+  .grid * {
+    background: #de6b67;
+  }
+
+  .r1 {
+    grid-row: 1;
+  }
+  .r3 {
+    grid-row: 3;
+  }
+  .r5 {
+    grid-row: 5;
+  }
+  .r6 {
+    grid-row: 6;
+  }
+  .r7 {
+    grid-row: 7;
+  }
+  .r8 {
+    grid-row: 8;
+  }
+  .r9 {
+    grid-row: 9;
+  }
+  .r11 {
+    grid-row: 11;
+  }
+  .r13 {
+    grid-row: 13;
+  }
+  .c1 {
+    grid-column: 1;
+  }
+  .c2 {
+    grid-column: 2;
+  }
+  .c3 {
+    grid-column: 3;
+  }
+  .c4 {
+    grid-column: 4;
+  }
+  .c5 {
+    grid-column: 5;
+  }
+</style>

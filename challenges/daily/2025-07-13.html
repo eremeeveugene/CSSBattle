@@ -1,0 +1,41 @@
+<div class="items">
+  <div class="item circle"></div>
+  <div class="item rectangle"></div>
+  <div class="item circle"></div>
+  <div class="item rectangle"></div>
+  <div class="item circle"></div>
+  <div class="item rectangle"></div>
+  <div class="item circle"></div>
+  <div class="item rectangle"></div>
+</div>
+<style>
+  body {
+    background: #f7bed9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 340px;
+    gap: 20px;
+  }
+
+  .item {
+    height: 40px;
+  }
+
+  .circle {
+    background: #f069ab;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  .rectangle {
+    background: #ec0076;
+    border-radius: 50px;
+    width: 100px;
+  }
+</style>

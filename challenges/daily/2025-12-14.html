@@ -1,0 +1,38 @@
+<div class="large"></div>
+<div class="small"></div>
+<div class="bordered"></div>
+<style>
+  body {
+    background: #f3ac3c;
+    display: grid;
+  }
+
+  div {
+    display: grid;
+    background: #492d01;
+    border-radius: 50%;
+    position: absolute;
+    place-self: center;
+    width: 90px;
+    height: 90px;
+  }
+
+  .large {
+    width: 150px;
+    height: 150px;
+    transform: translateX(-90px);
+  }
+
+  .small::after {
+    content: "";
+    background: #492d01;
+    width: 30px;
+    height: 140px;
+    margin-top: 10px;
+  }
+
+  .bordered {
+    transform: translateX(90px);
+    border: 30px solid #f3ac3c;
+  }
+</style>

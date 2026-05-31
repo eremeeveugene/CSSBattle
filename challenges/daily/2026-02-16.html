@@ -1,0 +1,42 @@
+<b c>
+  <s y></s>
+</b>
+<b c x>
+  <s y></s>
+</b>
+<b y z>
+  <s c></s>
+</b>
+<style>
+  body {
+    background: #11092d;
+    grid-template: 110px 110px / repeat(3, 110px);
+  }
+
+  body,
+  b {
+    display: grid;
+    place-content: center;
+  }
+
+  s {
+    width: 50px;
+    height: 50px;
+  }
+
+  [c] {
+    background: #4a9a86;
+  }
+
+  [y] {
+    background: #ffca00;
+  }
+
+  [x] {
+    grid-column: 3;
+  }
+
+  [z] {
+    grid-column: 2;
+  }
+</style>

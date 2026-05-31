@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="v left"></div>
+  <div class="r1"></div>
+  <div></div>
+  <div></div>
+  <div class="v"></div>
+</div>
+
+<style>
+  body {
+    display: grid;
+    background: #eec8ea;
+  }
+
+  .container {
+    display: grid;
+    place-self: center;
+    grid: repeat(3, auto) / auto 1fr auto;
+    gap: 45px 0;
+    width: 370;
+    height: 270;
+  }
+
+  .container * {
+    background: #8e2c88;
+  }
+
+  .v {
+    grid-row: 1 / -1;
+    width: 60;
+  }
+
+  .left {
+    margin: 0 15 0 0;
+  }
+
+  .r1 {
+    grid-row: 1;
+  }
+</style>

@@ -1,0 +1,40 @@
+<div class="edge left"></div>
+<div></div>
+<div class="edge right"></div>
+<style>
+  body {
+    background: #00d47e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  body div {
+    border: 25px solid #000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: grid;
+  }
+
+  body div::after {
+    content: "";
+    place-self: center;
+    background: #000;
+    width: 40px;
+    height: 16px;
+  }
+
+  .edge::after {
+    width: 25px;
+  }
+
+  .left::after {
+    justify-self: start;
+  }
+
+  .right::after {
+    justify-self: end;
+  }
+</style>

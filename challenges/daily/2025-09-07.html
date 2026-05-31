@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="row large">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="row row-1 large">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="row row-2 medium">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="single"></div>
+</div>
+<style>
+  body {
+    background: #2d3464;
+    margin: 0;
+    justify-items: center;
+  }
+
+  .container {
+    width: 400px;
+    height: 300px;
+    display: grid;
+    align-content: start;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row * {
+    background: #d95362;
+  }
+
+  .large * {
+    width: 80px;
+    height: 80px;
+  }
+
+  .row-1 {
+    margin: 0 40;
+  }
+
+  .row-2 {
+    margin: 0 100;
+  }
+
+  .medium * {
+    width: 40px;
+    height: 40px;
+  }
+
+  .single {
+    background: #d95362;
+    justify-self: center;
+    width: 120px;
+    height: 20px;
+  }
+</style>

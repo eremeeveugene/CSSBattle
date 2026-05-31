@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="head"></div>
+  <div class="shoulders"></div>
+  <div class="body">
+    <div class="arm"></div>
+    <div class="torso"></div>
+    <div class="arm"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #152844;
+    display: grid;
+    place-items: center;
+    margin: 0;
+  }
+
+  .container {
+    display: grid;
+    width: 360px;
+  }
+
+  .head {
+    border: 30px solid #a34f46;
+    border-bottom: none;
+    width: 80px;
+    height: 105px;
+    justify-self: center;
+  }
+
+  .shoulders {
+    background: #a34f46;
+    height: 30px;
+  }
+
+  .body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .body * {
+    width: 30px;
+  }
+
+  .arm {
+    background: #fff;
+    height: 60px;
+  }
+
+  .torso {
+    background: #a34f46;
+    height: 135px;
+  }
+</style>

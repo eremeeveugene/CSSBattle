@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="half top"></div>
+  <div class="mid"></div>
+  <div class="half bottom"></div>
+</div>
+<style>
+  body {
+    background: #1a4341;
+    display: grid;
+    margin: 0;
+  }
+
+  .container {
+    place-self: center;
+    display: grid;
+    width: 390px;
+  }
+
+  .container * {
+    width: 100px;
+    border: 30px solid #5a9f48;
+  }
+
+  .top {
+    border-radius: 80px 80px 0 0;
+    place-self: end;
+    border-bottom: none;
+  }
+
+  .mid {
+    border-left: none;
+    border-top: none;
+    height: 100px;
+    place-self: center;
+  }
+
+  .half {
+    height: 50px;
+  }
+
+  .bottom {
+    border-radius: 0 0 80px 80px;
+    border-top: none;
+  }
+</style>

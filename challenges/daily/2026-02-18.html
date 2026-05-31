@@ -1,0 +1,66 @@
+<t>
+  <c></c>
+</t>
+<b>
+  <c></c>
+</b>
+<l></l>
+<r></r>
+<style>
+  body {
+    background: #fef6e2;
+  }
+
+  body,
+  t,
+  b {
+    display: grid;
+  }
+
+  body > * {
+    position: absolute;
+    place-self: center;
+  }
+
+  t,
+  b {
+    height: 130px;
+    overflow: hidden;
+  }
+
+  c {
+    width: 160px;
+    height: 160px;
+    border: 50px solid #a82828;
+  }
+
+  t {
+    transform: translateY(-45px);
+    place-content: end;
+  }
+
+  b {
+    transform: translateY(45px);
+  }
+
+  c,
+  l,
+  r {
+    border-radius: 50%;
+  }
+
+  l,
+  r {
+    background: #a82828;
+    width: 50px;
+    height: 50px;
+  }
+
+  l {
+    transform: translate(-105px, 108px);
+  }
+
+  r {
+    transform: translate(105px, 110px);
+  }
+</style>

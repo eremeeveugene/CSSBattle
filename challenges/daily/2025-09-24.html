@@ -1,0 +1,47 @@
+<div>
+  <div></div>
+  <div></div>
+  <div class="column-span"></div>
+</div>
+<div>
+  <div></div>
+  <div class="row-span"></div>
+  <div></div>
+</div>
+<div>
+  <div class="row-span"></div>
+  <div></div>
+  <div></div>
+</div>
+<div>
+  <div class="column-span"></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+  body {
+    background: #7dddeb;
+    display: grid;
+    place-content: center;
+    grid: auto auto / auto auto;
+    gap: 20px;
+  }
+
+  body > div {
+    display: grid;
+    grid: 30px 30px / 30px 30px;
+    gap: 10px;
+  }
+
+  body > * * {
+    background: #9a5dcb;
+  }
+
+  .row-span {
+    grid-row: span 2;
+  }
+
+  .column-span {
+    grid-column: span 2;
+  }
+</style>

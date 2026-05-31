@@ -1,0 +1,41 @@
+<i>
+  <l></l>
+  <r></r>
+</i>
+<style>
+  body {
+    background: #d95362;
+  }
+
+  body,
+  i {
+    display: grid;
+  }
+
+  i {
+    place-self: center;
+    width: 230px;
+    height: 230px;
+  }
+
+  i * {
+    position: absolute;
+  }
+
+  l,
+  r {
+    background: #d9d9d9;
+    width: 130px;
+    height: 130px;
+  }
+
+  l {
+    align-self: end;
+    border-radius: 0 0 150px 0;
+  }
+
+  r {
+    justify-self: end;
+    border-radius: 150px 0 0 0;
+  }
+</style>

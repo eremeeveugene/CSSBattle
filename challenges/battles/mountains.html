@@ -1,0 +1,36 @@
+<div class="moon">
+  <div class="mountain big"></div>
+  <div class="mountain small"></div>
+</div>
+<style>
+  body {
+    background: #293462;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .moon {
+    background: #fff1c1;
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .mountain {
+    position: absolute;
+    width: 150px;
+    aspect-ratio: 1;
+    background: #fe5f55;
+  }
+
+  .mountain.big {
+    transform: rotate(45deg) translate(111px, 17px);
+  }
+
+  .mountain.small {
+    transform: rotate(45deg) translate(81px, 145px);
+  }
+</style>

@@ -1,0 +1,72 @@
+<div class="window">
+  <div class="buttons">
+    <div></div>
+    <div class="yellow"></div>
+    <div class="red"></div>
+  </div>
+  <div class="contents">
+    <div class="yellow s"></div>
+    <div class="red m"></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #45b45b;
+    display: grid;
+  }
+
+  .window {
+    background: #194247;
+    border-radius: 20px;
+    width: 240px;
+    height: 160px;
+    place-self: center;
+    display: grid;
+    padding: 10px;
+    align-content: start;
+    gap: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .buttons * {
+    width: 20px;
+    border-radius: 50%;
+  }
+
+  .contents {
+    display: grid;
+    gap: 10px;
+  }
+
+  .contents * {
+    width: 160px;
+    justify-self: end;
+  }
+
+  .buttons *,
+  .contents * {
+    background: #45b45b;
+    height: 20px;
+  }
+
+  .red {
+    background: #e3473c;
+  }
+
+  .yellow {
+    background: #fabc0d;
+  }
+
+  .s {
+    width: 80px;
+  }
+
+  .m {
+    width: 120px;
+  }
+</style>

@@ -1,0 +1,51 @@
+<div class="battery">
+  <div class="cap">
+    <div class="circle"></div>
+  </div>
+  <div class="can">
+    <div class="power"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #423f36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .battery {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .cap {
+    height: 20px;
+    width: 50px;
+    overflow: hidden;
+  }
+
+  .circle {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #bbbbbb;
+  }
+
+  .can {
+    width: 80px;
+    height: 140px;
+    border: 10px solid #bbbbbb;
+    border-radius: 30px;
+    padding: 10px;
+    align-content: end;
+  }
+
+  .power {
+    background: #ec2f28;
+    height: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+</style>

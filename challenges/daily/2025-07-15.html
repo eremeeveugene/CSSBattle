@@ -1,0 +1,34 @@
+<div class="grid">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+
+<style>
+  body {
+    background: #48bf7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid {
+    display: grid;
+    width: 370px;
+    height: 270px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 140px;
+  }
+
+  .item {
+    background: #ffffff;
+  }
+</style>

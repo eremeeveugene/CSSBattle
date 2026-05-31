@@ -1,0 +1,51 @@
+<div class="scene">
+  <div class="sun"></div>
+  <div class="hill left"></div>
+  <div class="hill right"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scene {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 200px;
+    background: #f2ad43;
+    border-radius: 100px 100px 25px 25px;
+  }
+
+  .sun {
+    position: absolute;
+    width: 60px;
+    aspect-ratio: 1;
+    background: #fff58f;
+    border-radius: 50%;
+    transform: translateY(20px);
+  }
+
+  .hill {
+    position: absolute;
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  .hill.left {
+    background: #e08027;
+    transform: translate(-75px, 100px);
+  }
+
+  .hill.right {
+    background: #824b20;
+    transform: translate(75px, 100px);
+  }
+</style>

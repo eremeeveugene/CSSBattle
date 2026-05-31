@@ -1,0 +1,95 @@
+<div class="sheep">
+  <div class="fur left"></div>
+  <div class="fur right"></div>
+  <div class="fur bottom"></div>
+  <div class="fur bottom-left"></div>
+  <div class="fur bottom-right"></div>
+  <div class="face">
+    <div class="eye"></div>
+    <div class="eye"></div>
+  </div>
+  <div class="fur top"></div>
+  <div class="fur top-left"></div>
+  <div class="fur top-right"></div>
+</div>
+
+<style>
+  body {
+    background: #243d83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sheep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6592cf;
+    width: 100px;
+    aspect-ratio: 1;
+    position: relative;
+  }
+
+  .fur {
+    position: absolute;
+    background: #6592cf;
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .fur.top {
+    transform: translateY(-60px);
+  }
+
+  .fur.bottom {
+    transform: translateY(60px);
+  }
+
+  .fur.left {
+    transform: translateX(-60px) rotate(90deg);
+  }
+
+  .fur.right {
+    transform: translateX(60px) rotate(90deg);
+  }
+
+  .fur.top-left {
+    transform: translate(-40px, -40px) rotate(-45deg);
+  }
+
+  .fur.top-right {
+    transform: translate(40px, -40px) rotate(45deg);
+  }
+
+  .fur.bottom-left {
+    transform: translate(-40px, 40px) rotate(45deg);
+  }
+
+  .fur.bottom-right {
+    transform: translate(40px, 40px) rotate(-45deg);
+  }
+
+  .face {
+    position: absolute;
+    background: #243d83;
+    width: 60px;
+    height: 80px;
+    border-radius: 30px;
+    transform: translateY(-15px);
+    display: grid;
+    padding: 10px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .eye {
+    background: #6592cf;
+    width: 10px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+</style>

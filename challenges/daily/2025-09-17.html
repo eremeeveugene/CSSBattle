@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="arcs">
+    <div class="left"></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #fae29e;
+    display: grid;
+    place-items: center;
+  }
+
+  .container {
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+  }
+
+  .container::before {
+    content: "";
+    background: #4a9a86;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .arcs {
+    width: 140px;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .arcs * {
+    position: absolute;
+    border: 30px solid #fae29e;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+  }
+
+  .left {
+    right: 0;
+  }
+</style>

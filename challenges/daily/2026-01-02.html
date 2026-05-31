@@ -1,0 +1,38 @@
+<b>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i> </b
+><style>
+  body {
+    background: #4a9a86;
+    display: grid;
+  }
+
+  b {
+    place-self: center;
+    display: flex;
+    gap: 20px;
+  }
+
+  i {
+    border: 10px solid #fae29e;
+    width: 30;
+    height: 70;
+    display: grid;
+    padding: 15;
+  }
+
+  i::after {
+    content: "";
+    position: absolute;
+    background: #fae29e;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  :nth-child(odd)::after {
+    align-self: end;
+  }
+</style>

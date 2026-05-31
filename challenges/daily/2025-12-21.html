@@ -1,0 +1,45 @@
+<div class="item">
+  <div class="lines">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="rect"></div>
+  <div class="lines">
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #2f5a76;
+    display: grid;
+  }
+
+  .item {
+    place-self: center;
+    width: 220px;
+    height: 160px;
+    display: flex;
+  }
+
+  .lines {
+    display: grid;
+    width: 60px;
+    align-content: start;
+    gap: 20px;
+  }
+
+  .lines * {
+    background: #f3ac3c;
+    height: 20px;
+  }
+
+  .rect {
+    width: 60px;
+    height: 120px;
+    border: 20px solid #f3ac3c;
+    border-top: 0;
+    border-radius: 0 0 40px 40px;
+    margin-top: 20px;
+  }
+</style>

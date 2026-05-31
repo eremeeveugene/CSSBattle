@@ -1,0 +1,37 @@
+<div class="items">
+  <div class="circle"></div>
+  <div class="line"></div>
+  <div class="circle"></div>
+  <div class="line"></div>
+  <div class="circle"></div>
+  <div class="line"></div>
+  <div class="circle"></div>
+</div>
+<style>
+  body {
+    background: #668884;
+    display: grid;
+  }
+
+  .items {
+    display: flex;
+    place-self: center;
+    gap: 10px;
+  }
+
+  .items * {
+    background: #eed9d9;
+    place-self: center;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .line {
+    width: 50px;
+    height: 10px;
+  }
+</style>

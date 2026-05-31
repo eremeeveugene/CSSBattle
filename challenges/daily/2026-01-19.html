@@ -1,0 +1,37 @@
+<r>
+  <b></b>
+</r>
+<style>
+  body {
+    background: #de9473;
+    display: grid;
+  }
+
+  r {
+    display: grid;
+    border: 30px solid #f9eaf1;
+    place-self: center;
+    width: 320px;
+    height: 80px;
+  }
+
+  b {
+    border: solid #394257;
+    border-width: 25px 0;
+  }
+
+  r::before,
+  r::after {
+    position: absolute;
+    content: "";
+    background: #de9473;
+    height: 140px;
+    width: 100px;
+    place-self: center;
+  }
+
+  r::before {
+    height: 80px;
+    width: 160px;
+  }
+</style>

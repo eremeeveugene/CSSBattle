@@ -1,0 +1,41 @@
+<div class="rect">
+  <div class="line"></div>
+  <div class="line vertical"></div>
+  <div class="circle"></div>
+</div>
+<style>
+  body {
+    background: #4763b1;
+    display: grid;
+  }
+
+  .rect {
+    position: relative;
+    display: grid;
+    background: #fff;
+    place-self: center;
+    width: 118px;
+    height: 118px;
+    place-items: center;
+  }
+
+  .rect * {
+    position: absolute;
+    background: #4763b1;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .line {
+    height: 20px;
+    width: 100%;
+  }
+
+  .vertical {
+    transform: rotate(90deg);
+  }
+</style>

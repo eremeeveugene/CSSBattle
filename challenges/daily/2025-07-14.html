@@ -1,0 +1,36 @@
+<div class="grid">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<style>
+  body {
+    background: #504b72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-rows: 60px 20px 60px 20px 60px;
+    grid-template-columns: 100px 120px 100px;
+  }
+
+  .grid div:nth-child(odd) {
+    background: #fffbcc;
+  }
+</style>

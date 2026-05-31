@@ -1,0 +1,56 @@
+<f>
+  <a></a>
+  <b></b>
+</f>
+<g>
+  <r></r>
+  <y></y>
+</g>
+<style>
+  body {
+    display: flex;
+    background: #a84a4b;
+    place-content: center;
+    place-items: center;
+    gap: 40px;
+  }
+
+  f,
+  g {
+    display: grid;
+    height: 160px;
+  }
+
+  a,
+  g,
+  b {
+    width: 40px;
+  }
+
+  a {
+    border: solid #f5e3b5;
+    border-width: 40px 40px 0 40px;
+    border-radius: 60px 60px 0 0;
+  }
+
+  g {
+    gap: 20px;
+  }
+
+  r,
+  b {
+    background: #30383f;
+    height: 40px;
+  }
+
+  b {
+    position: absolute;
+    place-self: center;
+    margin-top: 40px;
+  }
+
+  y {
+    background: #f5e3b5;
+    height: 100px;
+  }
+</style>

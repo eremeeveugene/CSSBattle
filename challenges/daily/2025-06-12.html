@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="circle bottom"></div>
+  <div class="rect left"></div>
+  <div class="rect right"></div>
+  <div class="circle top"></div>
+  <div class="rect middle"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #5a9f48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .circle {
+    position: absolute;
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 30px solid #282828;
+  }
+
+  .circle.top {
+    transform: translateY(-150px);
+  }
+
+  .circle.bottom {
+    transform: translateY(-20px);
+  }
+
+  .rect {
+    position: absolute;
+    background: #5a9f48;
+    width: 100px;
+    height: 300px;
+  }
+
+  .rect.left {
+    transform: translateX(-100px);
+  }
+
+  .rect.right {
+    transform: translateX(100px);
+  }
+
+  .rect.middle {
+    transform: translateY(-100px);
+  }
+</style>

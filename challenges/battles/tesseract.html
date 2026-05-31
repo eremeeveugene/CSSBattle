@@ -1,0 +1,52 @@
+<div class="rectangle">
+  <div class="rotated-square">
+    <div class="inner-square">
+      <div class="circle"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  body {
+    margin: 0;
+    background: #222730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rectangle {
+    background: #4caab3;
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rotated-square {
+    background: #222730;
+    width: 250px;
+    aspect-ratio: 1;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner-square {
+    background: #4caab3;
+    width: 150px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle {
+    background: #393e46;
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+</style>

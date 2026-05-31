@@ -1,0 +1,88 @@
+<div class="content">
+  <div class="rectangles">
+    <div class="rectangle-horizontal"></div>
+    <div class="vertical-rectangles">
+      <div class="rectangle-vertical-blue"></div>
+      <div class="rectangle-vertical"></div>
+    </div>
+  </div>
+  <div class="circles">
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+</div>
+
+<style>
+  body {
+    margin: 0px;
+    display: flex;
+    background: #5aa4b7;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    margin: 45px 0px;
+    background: #5aa4b7;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    width: 400px;
+    height: 300px;
+  }
+
+  .rectangles {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: start;
+    justify-items: end;
+  }
+
+  .rectangle-horizontal {
+    background: #ebf6f0;
+    width: 180px;
+    height: 60px;
+  }
+
+  .vertical-rectangles {
+    position: relative;
+    width: 100px;
+    height: 180px;
+  }
+
+  .rectangle-vertical,
+  .rectangle-vertical-blue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 180px;
+    border-top-left-radius: 30px;
+  }
+
+  .rectangle-vertical {
+    background: #ebf6f0;
+    transform: translateY(-60px);
+  }
+
+  .rectangle-vertical-blue {
+    background: #5aa4b7;
+    transform: translate(-30px, -60px);
+    width: 120px;
+  }
+
+  .circles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .circle {
+    background: #5aa4b7;
+    width: 40px;
+    aspect-ratio: 1/1;
+    border: 30px solid #ebf6f0;
+    border-radius: 100%;
+  }
+</style>

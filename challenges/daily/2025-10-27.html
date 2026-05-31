@@ -1,0 +1,34 @@
+<div class="arc"></div>
+<div class="rect"></div>
+<style>
+  body {
+    background: #fffce2;
+    display: grid;
+    place-content: center;
+  }
+
+  body * {
+    width: 300px;
+  }
+
+  .arc {
+    background: #7c3219;
+    height: 150px;
+    border-radius: 150px 150px 0 0;
+    display: grid;
+  }
+
+  .arc::after {
+    content: "";
+    place-self: end center;
+    background: #c1a162;
+    width: 140px;
+    height: 70px;
+    border-radius: 70px 70px 0 0;
+  }
+
+  .rect {
+    height: 70px;
+    background: #c1a162;
+  }
+</style>

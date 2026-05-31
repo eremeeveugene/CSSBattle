@@ -1,0 +1,39 @@
+<div class="item">
+  <div></div>
+  <div class="end"></div>
+</div>
+<style>
+  body {
+    background: #fef6e2;
+    margin: 0;
+    display: grid;
+  }
+
+  .item {
+    width: 400px;
+    height: 250px;
+    place-self: center;
+    display: grid;
+  }
+
+  .item::after {
+    content: "";
+    background: #fef6e2;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    place-self: center;
+    border-radius: 50%;
+  }
+
+  .item * {
+    position: absolute;
+    background: #ed736e;
+    width: 120px;
+    height: 120px;
+  }
+
+  .end {
+    place-self: end;
+  }
+</style>
