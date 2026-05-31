@@ -12,6 +12,51 @@ const daily = fs
   .readdirSync(path.join(challengesDir, "daily"))
   .filter((f) => f.endsWith(".html"));
 
+// Parse README to build a slug → { name, url } map for battles
+// Normalize: lowercase, replace & with n, strip non-alphanumeric
+function normalize(str) {
+  return str.toLowerCase().replace(/&/g, "n").replace(/[^a-z0-9]/g, "");
+}
+
+const readme = fs.readFileSync("README.md", "utf8");
+
+const battlesSection = readme.match(/<summary><strong>Battles<\/strong>[\s\S]*?<\/details>/)?.[0] || "";
+const battlesMeta = {};
+for (const match of battlesSection.matchAll(/- \[([^\]]+)\]\((https?:\/\/[^)]+)\)/g)) {
+  const [, name, url] = match;
+  battlesMeta[normalize(name)] = { name, url };
+}
+
+const dailySection = readme.match(/<summary><strong>Daily<\/strong>[\s\S]*?<\/details>/)?.[0] || "";
+const dailyMeta = {};
+for (const match of dailySection.matchAll(/- \[([^\]]+)\]\((https?:\/\/[^)]+)\)/g)) {
+  const [, name, url] = match;
+  dailyMeta[name] = url; // key is the date string e.g. "2025-05-28"
+}
+
+// Build enriched battles data: { file, name, url }
+const battlesData = battles
+  .map((file) => {
+    const stem = file.replace(".html", "");
+    const meta = battlesMeta[normalize(stem)];
+    const url = meta ? meta.url : null;
+    const numMatch = url && url.match(/\/play\/(\d+)$/);
+    return {
+      file,
+      num: numMatch ? parseInt(numMatch[1], 10) : Infinity,
+      name: meta ? meta.name : stem.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
+      url,
+    };
+  })
+  .sort((a, b) => a.num - b.num);
+
+const dailyData = daily
+  .map((file) => {
+    const stem = file.replace(".html", "");
+    return { file, name: stem, url: dailyMeta[stem] || null };
+  })
+  .reverse();
+
 if (battles.length === 0 && daily.length === 0) {
   console.warn("⚠️ No .html files found in source/challenges/battles/ or daily/");
   process.exit(0);
@@ -146,11 +191,27 @@ const html = `<!DOCTYPE html>
       width: 400px;
       flex-shrink: 0;
     }
+    .card-header {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
     .card-title {
-      margin-bottom: 8px;
       font-weight: bold;
       font-size: 14px;
+      color: var(--text);
+    }
+    .card-link {
+      display: inline-block;
+      margin-bottom: 8px;
+      font-size: 11px;
       color: var(--subtext);
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .card-link:hover {
+      text-decoration: underline;
     }
     iframe {
       border: 1px solid var(--border);
@@ -193,8 +254,8 @@ const html = `<!DOCTYPE html>
     }
 
     const data = {
-      battles: ${JSON.stringify(battles)},
-      daily: ${JSON.stringify(daily)},
+      battles: ${JSON.stringify(battlesData)},
+      daily: ${JSON.stringify(dailyData)},
     };
 
     const BATCH = 20;
@@ -202,17 +263,20 @@ const html = `<!DOCTYPE html>
     let activeTab = 'battles';
 
     function renderBatch(tab) {
-      const files = data[tab];
+      const items = data[tab];
       const index = state[tab];
-      const end = Math.min(index + BATCH, files.length);
+      const end = Math.min(index + BATCH, items.length);
       const grid = document.getElementById('grid-' + tab);
       const fragment = document.createDocumentFragment();
       for (let i = index; i < end; i++) {
-        const file = files[i];
-        const name = file.replace('.html', '');
+        const { file, name, url, num } = items[i];
         const card = document.createElement('div');
         card.className = 'card';
-        card.innerHTML = \`<div class="card-title">\${name}</div><iframe src="challenges/\${tab}/\${file}" scrolling="no" loading="lazy"></iframe>\`;
+        const title = (num && num !== Infinity) ? \`#\${num} \${name}\` : name;
+        const linkHtml = url
+          ? \`<a class="card-link" href="\${url}" target="_blank" rel="noopener">\${url}</a>\`
+          : '';
+        card.innerHTML = \`<div class="card-header"><span class="card-title">\${title}</span></div>\${linkHtml}<iframe src="challenges/\${tab}/\${file}" scrolling="no" loading="lazy"></iframe>\`;
         fragment.appendChild(card);
       }
       grid.appendChild(fragment);
