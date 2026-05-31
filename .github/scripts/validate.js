@@ -8,6 +8,7 @@ const CHALLENGES_DIR = path.join("source", "challenges");
 const EXPECTED_DIR = path.join("ui-tests", "expected-result");
 const ACTUAL_DIR = path.join("ui-tests", "actual-result");
 const DIFF_DIR = path.join("ui-tests", "diff-result");
+const SUBFOLDERS = ["battles", "daily"];
 const VIEWPORT = { width: 400, height: 300 };
 const THRESHOLD = 0.1;
 const ALLOWED_PIXELS = 10;
@@ -15,33 +16,39 @@ const ALLOWED_PIXELS = 10;
 (async () => {
   const inputFile = process.argv[2];
 
-  let htmlFiles = fs
-    .readdirSync(CHALLENGES_DIR)
-    .filter((f) => f.endsWith(".html"));
+  // Collect { subfolder, file } entries from both subfolders
+  let entries = SUBFOLDERS.flatMap((sub) =>
+    fs
+      .readdirSync(path.join(CHALLENGES_DIR, sub))
+      .filter((f) => f.endsWith(".html"))
+      .map((f) => ({ sub, file: f }))
+  );
 
   if (inputFile) {
     const normalizedFile = inputFile.endsWith(".html")
       ? inputFile
       : `${inputFile}.html`;
 
-    if (!htmlFiles.includes(normalizedFile)) {
+    const match = entries.find((e) => e.file === normalizedFile);
+    if (!match) {
       console.error(
-        `❌ File not found in challenges directory: ${normalizedFile}`,
+        `❌ File not found in battles or daily directory: ${normalizedFile}`,
       );
       process.exit(1);
     }
 
-    htmlFiles = [normalizedFile];
+    entries = [match];
   }
 
-  if (htmlFiles.length === 0) {
+  if (entries.length === 0) {
     console.log("No HTML files found in challenges directory.");
     process.exit(0);
   }
 
-  await fs.ensureDir(EXPECTED_DIR);
-  await fs.ensureDir(ACTUAL_DIR);
-  await fs.ensureDir(DIFF_DIR);
+  for (const sub of SUBFOLDERS) {
+    await fs.ensureDir(path.join(ACTUAL_DIR, sub));
+    await fs.ensureDir(path.join(DIFF_DIR, sub));
+  }
 
   const browser = await puppeteer.launch({
     headless: true,
@@ -61,17 +68,17 @@ const ALLOWED_PIXELS = 10;
 
   let hasMismatch = false;
 
-  for (const file of htmlFiles) {
-    const filePath = path.join(CHALLENGES_DIR, file);
+  for (const { sub, file } of entries) {
+    const filePath = path.join(CHALLENGES_DIR, sub, file);
     const fileUrl = `file://${path.resolve(filePath)}`;
 
-    console.log(`🧪 Testing: ${file}`);
+    console.log(`🧪 Testing: ${sub}/${file}`);
     await page.goto(fileUrl, { waitUntil: "load" });
 
-    const screenshotPath = path.join(ACTUAL_DIR, file.replace(".html", ".png"));
+    const screenshotPath = path.join(ACTUAL_DIR, sub, file.replace(".html", ".png"));
     await page.screenshot({ path: screenshotPath });
 
-    const expectedPath = path.join(EXPECTED_DIR, file.replace(".html", ".png"));
+    const expectedPath = path.join(EXPECTED_DIR, sub, file.replace(".html", ".png"));
 
     if (!fs.existsSync(expectedPath)) {
       console.error(`❌ Missing expected result for ${file}: ${expectedPath}`);
@@ -86,7 +93,7 @@ const ALLOWED_PIXELS = 10;
       actualImg.width !== expectedImg.width ||
       actualImg.height !== expectedImg.height
     ) {
-      console.error(`❌ Dimension mismatch in ${file}`);
+      console.error(`❌ Dimension mismatch in ${sub}/${file}`);
       hasMismatch = true;
       continue;
     }
@@ -109,14 +116,14 @@ const ALLOWED_PIXELS = 10;
 
     if (diffPixels > ALLOWED_PIXELS) {
       hasMismatch = true;
-      const diffPath = path.join(DIFF_DIR, file.replace(".html", ".diff.png"));
+      const diffPath = path.join(DIFF_DIR, sub, file.replace(".html", ".diff.png"));
       fs.writeFileSync(diffPath, PNG.sync.write(diff));
       console.error(
-        `❌ Visual mismatch in ${file} – ${diffPixels} pixels differ`,
+        `❌ Visual mismatch in ${sub}/${file} – ${diffPixels} pixels differ`,
       );
     } else {
       console.log(
-        `✅ ${file} matches (within tolerance, ${diffPixels} pixels differ)`,
+        `✅ ${sub}/${file} matches (within tolerance, ${diffPixels} pixels differ)`,
       );
     }
   }

@@ -45,7 +45,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 ## Solutions
 
 <details>
-  <summary><strong>Solutions</strong></summary>
+  <summary><strong>Battles</strong></summary>
   <p>
 
 - [Simply Square](https://cssbattle.dev/play/1)
@@ -113,6 +113,13 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [Another Tree](https://cssbattle.dev/play/228)
 - [Flower](https://cssbattle.dev/play/229)
 - [Crosshair](https://cssbattle.dev/play/231)
+
+  </p>
+</details>
+
+<details>
+  <summary><strong>Daily</strong></summary>
+  <p>
 - [2025-05-28](https://cssbattle.dev/play/9leyzc3mjABLZpgaVnzP)
 - [2025-05-29](https://cssbattle.dev/play/CvNROnWqTk2boFBkxy0A)
 - [2025-05-30](https://cssbattle.dev/play/2ZHacHNgLjfK91OZFvXX)

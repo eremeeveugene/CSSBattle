@@ -2,17 +2,221 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CSS Battle Solutions</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>CSS Battle Challenge Viewer</title>
+  <style>
+    :root {
+      --bg: #f7f7f7;
+      --surface: #ffffff;
+      --text: #111111;
+      --subtext: #444444;
+      --border: #cccccc;
+      --shadow: rgba(0,0,0,0.1);
+      --nav-bg: #ffffff;
+      --tab-active-bg: #111111;
+      --tab-active-text: #ffffff;
+    }
+    [data-theme="dark"] {
+      --bg: #1a1a1a;
+      --surface: #2a2a2a;
+      --text: #f0f0f0;
+      --subtext: #aaaaaa;
+      --border: #444444;
+      --shadow: rgba(0,0,0,0.4);
+      --nav-bg: #2a2a2a;
+      --tab-active-bg: #f0f0f0;
+      --tab-active-text: #111111;
+    }
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      padding-top: 76px;
+      background: var(--bg);
+      color: var(--text);
+      transition: background 0.2s, color 0.2s;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 56px;
+      background: var(--nav-bg);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 2px 6px var(--shadow);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 20px;
+      z-index: 100;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    h1 {
+      margin: 0;
+      font-size: 18px;
+      margin-right: 16px;
+    }
+    .tab {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--subtext);
+      border-radius: 20px;
+      padding: 5px 16px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+    .tab.active {
+      background: var(--tab-active-bg);
+      color: var(--tab-active-text);
+      border-color: var(--tab-active-bg);
+    }
+    .spacer { flex: 1; }
+    .theme-toggle {
+      position: relative;
+      width: 56px;
+      height: 28px;
+    }
+    .theme-toggle input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+      position: absolute;
+    }
+    .theme-toggle .track {
+      position: absolute;
+      inset: 0;
+      background: #b0c4de;
+      border-radius: 28px;
+      cursor: pointer;
+      transition: background 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 5px;
+      font-size: 13px;
+    }
+    .theme-toggle input:checked + .track {
+      background: #3a3a5c;
+    }
+    .theme-toggle .knob {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 22px;
+      height: 22px;
+      background: white;
+      border-radius: 50%;
+      transition: transform 0.3s;
+      pointer-events: none;
+    }
+    .theme-toggle input:checked + .track + .knob {
+      transform: translateX(28px);
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .grid.hidden { display: none; }
+    .card {
+      background: var(--surface);
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px var(--shadow);
+      width: 400px;
+      flex-shrink: 0;
+    }
+    .card-title {
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 14px;
+      color: var(--subtext);
+    }
+    iframe {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      width: 400px;
+      height: 300px;
+      display: block;
+      overflow: hidden;
+    }
+  </style>
 </head>
 <body>
-  <h1>CSS Battle Solutions</h1>
-  <ul class="battle-list">
-    <li><a href="challenges/battle-1.html" target="_blank">Battle 1</a></li>
-    <li><a href="challenges/battle-2.html" target="_blank">Battle 2</a></li>
-    <li><a href="challenges/battle-3.html" target="_blank">Battle 3</a></li>
-    <!-- Add more as needed -->
-  </ul>
+  <nav>
+    <h1>CSS Battle</h1>
+    <button class="tab active" onclick="switchTab('battles', this)">Battles</button>
+    <button class="tab" onclick="switchTab('daily', this)">Daily</button>
+    <div class="spacer"></div>
+    <label class="theme-toggle" aria-label="Toggle theme">
+      <input type="checkbox" id="theme-checkbox" onchange="toggleTheme(this)" />
+      <span class="track"><span>☀️</span><span>🌙</span></span>
+      <span class="knob"></span>
+    </label>
+  </nav>
+  <div class="grid" id="grid-battles"></div>
+  <div class="grid hidden" id="grid-daily"></div>
+  <div id="sentinel" style="height:1px"></div>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', saved);
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('theme-checkbox').checked = saved === 'dark';
+      });
+    })();
+
+    function toggleTheme(cb) {
+      const theme = cb.checked ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    }
+
+    const data = {
+      battles: ["acid-rain.html","amegakure.html","another-tree.html","balanced.html","barbell-bridge.html","bee.html","bell.html","blossom.html","boxception.html","building-blocks.html","carrom.html","christmass-tree.html","command-key.html","corona-virus.html","crosshair.html","cups-n-balls.html","danger-noodle.html","diamond-cut.html","door-knob.html","earth.html","elephant.html","equals.html","fidget-spinner.html","flower.html","fox-head.html","gift-box.html","horizon.html","ice-cream.html","interleaved.html","junction.html","lock-up.html","looped-frame.html","mandala.html","max-volume.html","missing-slice.html","mountains.html","not-simply-square.html","odoo.html","pastel-logo.html","piano.html","pokeball.html","push-button.html","push-owl.html","pythagoras.html","ripples.html","sharingan.html","sheep.html","simply-square.html","smiley.html","stairway.html","stay-at-home.html","stripes.html","suffocate.html","sunset-horizon.html","sunset.html","supernova.html","switches.html","tesseract.html","tight-corner.html","totally-triangle.html","tunnel.html","ukulele.html","ups-n-downs.html","video-reel.html","wash-your-hands.html","windmill.html","wrench.html"],
+      daily: ["2025-05-28.html","2025-05-29.html","2025-05-30.html","2025-05-31.html","2025-06-01.html","2025-06-02.html","2025-06-03.html","2025-06-04.html","2025-06-05.html","2025-06-06.html","2025-06-07.html","2025-06-08.html","2025-06-09.html","2025-06-10.html","2025-06-11.html","2025-06-12.html","2025-06-13.html","2025-06-14.html","2025-06-15.html","2025-06-16.html","2025-06-17.html","2025-06-18.html","2025-06-19.html","2025-06-20.html","2025-06-21.html","2025-06-22.html","2025-06-23.html","2025-06-24.html","2025-06-25.html","2025-06-26.html","2025-06-27.html","2025-06-28.html","2025-06-29.html","2025-06-30.html","2025-07-01.html","2025-07-02.html","2025-07-03.html","2025-07-04.html","2025-07-05.html","2025-07-06.html","2025-07-07.html","2025-07-08.html","2025-07-09.html","2025-07-10.html","2025-07-11.html","2025-07-12.html","2025-07-13.html","2025-07-14.html","2025-07-15.html","2025-07-16.html","2025-07-17.html","2025-07-18.html","2025-07-19.html","2025-07-20.html","2025-07-21.html","2025-07-22.html","2025-07-23.html","2025-07-24.html","2025-07-25.html","2025-07-26.html","2025-07-27.html","2025-07-28.html","2025-07-29.html","2025-07-30.html","2025-07-31.html","2025-08-01.html","2025-08-02.html","2025-08-03.html","2025-08-04.html","2025-08-05.html","2025-08-07.html","2025-08-08.html","2025-08-09.html","2025-08-10.html","2025-08-11.html","2025-08-12.html","2025-08-13.html","2025-08-14.html","2025-08-15.html","2025-08-16.html","2025-08-17.html","2025-08-18.html","2025-08-19.html","2025-08-20.html","2025-08-21.html","2025-08-22.html","2025-08-23.html","2025-08-24.html","2025-08-25.html","2025-08-26.html","2025-08-27.html","2025-08-28.html","2025-08-29.html","2025-08-30.html","2025-08-31.html","2025-09-01.html","2025-09-02.html","2025-09-03.html","2025-09-04.html","2025-09-05.html","2025-09-06.html","2025-09-07.html","2025-09-08.html","2025-09-09.html","2025-09-10.html","2025-09-11.html","2025-09-12.html","2025-09-13.html","2025-09-14.html","2025-09-15.html","2025-09-16.html","2025-09-17.html","2025-09-18.html","2025-09-19.html","2025-09-20.html","2025-09-21.html","2025-09-22.html","2025-09-23.html","2025-09-24.html","2025-09-25.html","2025-09-26.html","2025-09-27.html","2025-09-28.html","2025-09-29.html","2025-09-30.html","2025-10-01.html","2025-10-02.html","2025-10-03.html","2025-10-04.html","2025-10-05.html","2025-10-06.html","2025-10-07.html","2025-10-08.html","2025-10-09.html","2025-10-10.html","2025-10-11.html","2025-10-12.html","2025-10-13.html","2025-10-14.html","2025-10-15.html","2025-10-16.html","2025-10-17.html","2025-10-18.html","2025-10-19.html","2025-10-20.html","2025-10-21.html","2025-10-22.html","2025-10-23.html","2025-10-24.html","2025-10-25.html","2025-10-26.html","2025-10-27.html","2025-10-28.html","2025-10-29.html","2025-10-30.html","2025-10-31.html","2025-11-01.html","2025-11-02.html","2025-11-03.html","2025-11-04.html","2025-11-05.html","2025-11-06.html","2025-11-07.html","2025-11-08.html","2025-11-09.html","2025-11-10.html","2025-11-11.html","2025-11-12.html","2025-11-13.html","2025-11-14.html","2025-11-15.html","2025-11-16.html","2025-11-17.html","2025-11-18.html","2025-11-19.html","2025-11-20.html","2025-11-21.html","2025-11-22.html","2025-11-23.html","2025-11-24.html","2025-11-25.html","2025-11-26.html","2025-11-27.html","2025-11-28.html","2025-11-29.html","2025-11-30.html","2025-12-01.html","2025-12-02.html","2025-12-03.html","2025-12-04.html","2025-12-05.html","2025-12-06.html","2025-12-07.html","2025-12-08.html","2025-12-09.html","2025-12-10.html","2025-12-11.html","2025-12-12.html","2025-12-13.html","2025-12-14.html","2025-12-15.html","2025-12-16.html","2025-12-17.html","2025-12-18.html","2025-12-19.html","2025-12-20.html","2025-12-21.html","2025-12-22.html","2025-12-23.html","2025-12-24.html","2025-12-25.html","2025-12-26.html","2025-12-27.html","2025-12-28.html","2025-12-29.html","2025-12-30.html","2025-12-31.html","2026-01-01.html","2026-01-02.html","2026-01-03.html","2026-01-04.html","2026-01-05.html","2026-01-06.html","2026-01-07.html","2026-01-08.html","2026-01-09.html","2026-01-10.html","2026-01-11.html","2026-01-12.html","2026-01-13.html","2026-01-14.html","2026-01-15.html","2026-01-16.html","2026-01-17.html","2026-01-18.html","2026-01-19.html","2026-01-20.html","2026-01-21.html","2026-01-22.html","2026-01-23.html","2026-01-24.html","2026-01-25.html","2026-01-26.html","2026-01-27.html","2026-01-28.html","2026-01-29.html","2026-01-30.html","2026-01-31.html","2026-02-01.html","2026-02-02.html","2026-02-03.html","2026-02-05.html","2026-02-06.html","2026-02-07.html","2026-02-08.html","2026-02-09.html","2026-02-10.html","2026-02-11.html","2026-02-12.html","2026-02-13.html","2026-02-14.html","2026-02-15.html","2026-02-16.html","2026-02-17.html","2026-02-18.html","2026-02-19.html","2026-02-20.html","2026-02-21.html","2026-02-22.html","2026-02-23.html","2026-02-24.html","2026-02-25.html","2026-02-26.html","2026-02-27.html","2026-02-28.html","2026-03-01.html","2026-03-02.html","2026-03-03.html","2026-03-04.html","2026-03-05.html","2026-03-06.html","2026-03-07.html","2026-03-08.html","2026-03-09.html","2026-03-10.html","2026-03-11.html","2026-03-12.html","2026-03-13.html","2026-03-14.html","2026-03-15.html","2026-03-16.html","2026-03-17.html","2026-03-18.html","2026-03-19.html","2026-03-20.html","2026-03-21.html","2026-03-22.html","2026-03-23.html","2026-03-24.html","2026-03-25.html","2026-03-26.html","2026-03-27.html","2026-03-28.html","2026-03-29.html","2026-03-30.html","2026-03-31.html","2026-04-01.html","2026-04-02.html","2026-04-03.html","2026-04-04.html","2026-04-05.html","2026-04-06.html","2026-04-07.html","2026-04-08.html","2026-04-09.html","2026-04-10.html","2026-04-11.html","2026-04-12.html","2026-04-13.html","2026-04-14.html","2026-04-15.html","2026-04-16.html","2026-04-17.html","2026-04-18.html","2026-04-19.html","2026-04-20.html","2026-04-21.html","2026-04-22.html","2026-04-23.html","2026-04-24.html","2026-04-25.html","2026-04-26.html","2026-04-27.html","2026-04-28.html","2026-04-29.html","2026-04-30.html","2026-05-01.html","2026-05-02.html","2026-05-03.html","2026-05-04.html","2026-05-05.html","2026-05-06.html","2026-05-07.html","2026-05-08.html","2026-05-09.html","2026-05-10.html","2026-05-11.html","2026-05-12.html","2026-05-13.html","2026-05-14.html","2026-05-15.html","2026-05-16.html","2026-05-17.html","2026-05-18.html","2026-05-19.html","2026-05-20.html","2026-05-21.html","2026-05-22.html","2026-05-23.html","2026-05-24.html","2026-05-25.html","2026-05-26.html","2026-05-27.html","2026-05-28.html","2026-05-29.html","2026-05-30.html","2026-05-31.html"],
+    };
+
+    const BATCH = 20;
+    const state = { battles: 0, daily: 0 };
+    let activeTab = 'battles';
+
+    function renderBatch(tab) {
+      const files = data[tab];
+      const index = state[tab];
+      const end = Math.min(index + BATCH, files.length);
+      const grid = document.getElementById('grid-' + tab);
+      const fragment = document.createDocumentFragment();
+      for (let i = index; i < end; i++) {
+        const file = files[i];
+        const name = file.replace('.html', '');
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `<div class="card-title">${name}</div><iframe src="challenges/${tab}/${file}" scrolling="no" loading="lazy"></iframe>`;
+        fragment.appendChild(card);
+      }
+      grid.appendChild(fragment);
+      state[tab] = end;
+    }
+
+    function switchTab(tab, btn) {
+      document.getElementById('grid-' + activeTab).classList.add('hidden');
+      document.getElementById('grid-' + tab).classList.remove('hidden');
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      activeTab = tab;
+      if (state[tab] === 0) renderBatch(tab);
+    }
+
+    renderBatch('battles');
+
+    const observer = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting && state[activeTab] < data[activeTab].length) {
+        renderBatch(activeTab);
+      }
+    }, { rootMargin: '400px' });
+    observer.observe(document.getElementById('sentinel'));
+  </script>
 </body>
 </html>
