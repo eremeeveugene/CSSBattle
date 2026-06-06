@@ -1,0 +1,66 @@
+<i>
+  <l s></l>
+  <l></l>
+  <m></m>
+  <g></g>
+  <g s></g>
+</i>
+<z>
+  <c></c>
+  <d></d>
+</z>
+<style>
+  body {
+    display: grid;
+    background: #0d2a58;
+  }
+
+  i,
+  z {
+    display: flex;
+    place-self: center;
+    position: absolute;
+    height: 230px;
+  }
+
+  i {
+    gap: 10px;
+  }
+
+  z {
+    gap: 150px;
+  }
+
+  l,
+  g {
+    background: #d9d9d9;
+    width: 30px;
+  }
+
+  g {
+    background: #5a9f48;
+  }
+
+  [s] {
+    height: 200px;
+    align-self: center;
+  }
+
+  m {
+    width: 50px;
+  }
+
+  c,
+  d {
+    width: 85px;
+    border: solid #5a9f48;
+    border-width: 30px 0 30px 30px;
+    border-radius: 150px 0 0 150px;
+  }
+
+  d {
+    border: solid #d9d9d9;
+    border-width: 30px 30px 30px 0;
+    border-radius: 0 150px 150px 0;
+  }
+</style>
