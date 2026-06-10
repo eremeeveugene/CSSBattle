@@ -1,0 +1,53 @@
+<l>
+  <h></h>
+  <v></v>
+</l>
+<r>
+  <h></h>
+  <e></e>
+</r>
+<style>
+  body {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    gap: 40px;
+  }
+
+  * {
+    background: #4c4c6b;
+  }
+
+  l,
+  r {
+    display: grid;
+    background: #fae29e;
+    height: 200px;
+  }
+
+  l {
+    border-radius: 70px 70px 0 0;
+  }
+
+  r {
+    border-radius: 0 0 70px 70px;
+  }
+
+  h {
+    width: 140px;
+    height: 30px;
+    align-self: center;
+  }
+
+  v,
+  e {
+    position: absolute;
+    width: 30px;
+    height: 160px;
+    justify-self: center;
+  }
+
+  e {
+    align-self: end;
+  }
+</style>
