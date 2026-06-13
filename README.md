@@ -501,6 +501,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [2026-06-10](https://cssbattle.dev/play/UyIHaMHngnvBrD7ecqUs)
 - [2026-06-11](https://cssbattle.dev/play/dzlLXaBViRAZUK7t6jye)
 - [2026-06-12](https://cssbattle.dev/play/M2KEnIkEKWN35WaC6pzf)
+- [2026-06-13](https://cssbattle.dev/play/bntxlo7Wue1WgUtO6vJB)
 
   </p>
 </details>

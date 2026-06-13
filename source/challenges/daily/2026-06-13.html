@@ -1,0 +1,65 @@
+<a>
+  <o></o>
+  <e></e>
+</a>
+<b>
+  <c></c>
+  <o></o>
+</b>
+<a>
+  <o></o>
+  <e></e>
+</a>
+<style>
+  body {
+    display: flex;
+    background: #efeade;
+  }
+
+  body,
+  a,
+  b {
+    place-items: center;
+    place-content: center;
+  }
+
+  a,
+  b {
+    display: grid;
+    gap: 10px;
+    margin: 0 0 100px 0;
+  }
+  a {
+    margin-bottom: 100px;
+  }
+
+  b {
+    margin-top: 100px;
+  }
+
+  o,
+  c,
+  e {
+    background: #594f7c;
+    height: 50px;
+  }
+
+  o {
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  c,
+  e {
+    width: 100px;
+    border-radius: 50px 50px 0 0;
+  }
+
+  e {
+    border-radius: 0 0 50px 50px;
+  }
+
+  h {
+    height: 90px;
+  }
+</style>
