@@ -1,0 +1,70 @@
+<r>
+  <a></a>
+</r>
+<e>
+  <m></m>
+</e>
+<e>
+  <n></n>
+</e>
+<r>
+  <a></a>
+</r>
+<style>
+  body {
+    grid-template-columns: 90px 90px;
+    gap: 20px;
+    place-content: center;
+  }
+
+  &,
+  a {
+    background: #2d696f;
+  }
+
+  body,
+  r,
+  e {
+    display: grid;
+  }
+
+  r,
+  e {
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+  }
+  r,
+  m,
+  n {
+    background: #81a5a9;
+  }
+
+  a,
+  m,
+  n {
+    border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  a {
+    place-self: center;
+    width: 30px;
+    height: 30px;
+  }
+
+  m,
+  n {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+
+  m {
+    justify-self: end;
+  }
+
+  n {
+    align-self: end;
+  }
+</style>
