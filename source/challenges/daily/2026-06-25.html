@@ -1,0 +1,38 @@
+<l></l>
+<m></m>
+<n></n>
+<p></p>
+<style>
+  body {
+    display: grid;
+  }
+
+  body * {
+    position: absolute;
+    place-self: center;
+    border: 40px solid#328FC1;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  l {
+    translate: -30px -40px;
+    clip-path: inset(0 50% 0 0);
+  }
+
+  m {
+    translate: 40px -30px;
+    clip-path: inset(0 0 50% 0);
+  }
+
+  p {
+    translate: 30px 40px;
+    clip-path: inset(0 0 0 50%);
+  }
+
+  n {
+    translate: -40px 30px;
+    clip-path: inset(50% 0 0 0);
+  }
+</style>
