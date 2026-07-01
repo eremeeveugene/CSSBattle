@@ -1,0 +1,64 @@
+<a>
+  <c></c>
+  <d></d>
+</a>
+<b>
+  <c></c>
+  <d></d>
+</b>
+<style>
+  body {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    gap: 20px;
+  }
+
+  a,
+  b,
+  c {
+    width: 120px;
+  }
+
+  a,
+  b,
+  d {
+    height: 120px;
+  }
+
+  a,
+  b {
+    display: grid;
+    * {
+      position: absolute;
+      background: #d9bb61;
+    }
+  }
+
+  a,
+  a * {
+    border-radius: 60px 0;
+
+    d {
+      justify-self: end;
+    }
+  }
+
+  b,
+  b * {
+    border-radius: 0 60px;
+
+    * {
+      background: #394257;
+    }
+  }
+
+  c {
+    align-self: end;
+    height: 60px;
+  }
+
+  d {
+    width: 60px;
+  }
+</style>
