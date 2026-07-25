@@ -1,0 +1,57 @@
+<o>
+  <a></a>
+  <b></b>
+  <c></c>
+  <z></z>
+</o>
+<style>
+  body,
+  o {
+    display: grid;
+  }
+
+  &,
+  z {
+    background: #94b31f;
+  }
+
+  & * {
+    place-self: center;
+  }
+
+  o {
+    background: #fff;
+    overflow: hidden;
+  }
+
+  o,
+  o * {
+    position: absolute;
+    height: 240px;
+    aspect-ratio: 1;
+  }
+
+  o,
+  z {
+    border-radius: 50%;
+  }
+
+  a,
+  b,
+  c {
+    width: 30px;
+    background: #5f5f1e;
+  }
+
+  b {
+    rotate: 45deg;
+  }
+
+  c {
+    rotate: -45deg;
+  }
+
+  z {
+    height: 180px;
+  }
+</style>
