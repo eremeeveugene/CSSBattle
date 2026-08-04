@@ -1,0 +1,44 @@
+<f>
+  <c></c>
+  <c></c>
+</f>
+<r>
+  <c></c>
+  <c></c>
+</r>
+<style>
+  body {
+    display: grid;
+
+    &,
+    r c {
+      background: #325853;
+    }
+
+    f,
+    r {
+      display: flex;
+      grid-area: 1/1;
+      place-self: center;
+      margin-top: -30px;
+      gap: 60px;
+    }
+
+    r {
+      background: #d99795;
+      width: 90px;
+      height: 110px;
+      place-content: center;
+      gap: 40px;
+      overflow: clip;
+      border: 10px solid #325853;
+    }
+
+    c {
+      padding: 25px;
+      margin: auto;
+      border-radius: 50%;
+      background: #d8d8d8;
+    }
+  }
+</style>
