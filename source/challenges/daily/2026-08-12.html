@@ -1,0 +1,39 @@
+<r></r>
+<c></c>
+<l></l>
+<style>
+  body {
+    display: grid;
+    place-content: center;
+
+    &,
+    l {
+      background: #469dba;
+    }
+
+    r,
+    c {
+      width: 200px;
+    }
+
+    r {
+      border: solid #394257;
+      border-width: 0 50px;
+      height: 120px;
+    }
+
+    c {
+      height: 80px;
+      border: solid #fae29e;
+      border-width: 0 50px 50px 50px;
+      border-radius: 0 0 150px 150px;
+    }
+
+    l {
+      place-self: center;
+      position: absolute;
+      width: 40px;
+      height: 100%;
+    }
+  }
+</style>
