@@ -1,0 +1,53 @@
+<e>
+  <b g></b>
+  <s y></s>
+  <w></w>
+  <s g></s>
+  <b y></b>
+</e>
+<f>
+  <b y></b>
+  <s g></s>
+  <w></w>
+  <s y></s>
+  <b g></b>
+</f>
+<style>
+  body {
+    display: grid;
+    gap: 30px;
+    background: #4c4c6b;
+    place-content: center;
+  }
+
+  f,
+  e {
+    display: flex;
+  }
+
+  e {
+    place-items: end;
+  }
+
+  b {
+    width: 50px;
+    height: 120px;
+  }
+
+  s {
+    width: 20px;
+    height: 50px;
+  }
+
+  w {
+    width: 160px;
+  }
+
+  [g] {
+    background: #4a9a86;
+  }
+
+  [y] {
+    background: #fae29e;
+  }
+</style>
