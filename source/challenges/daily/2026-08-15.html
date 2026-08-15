@@ -1,0 +1,68 @@
+<g>
+  <r></r>
+  <a></a>
+  <b></b>
+  <c></c>
+  <d></d>
+</g>
+<style>
+  body {
+    margin: 0;
+
+    &,
+    g {
+      display: grid;
+    }
+
+    g,
+    g * {
+      position: absolute;
+    }
+
+    g {
+      width: 300px;
+      height: 300px;
+
+      * {
+        width: 115px;
+        height: 115px;
+        background: #fff;
+      }
+    }
+
+    g,
+    r {
+      place-self: center;
+    }
+
+    r {
+      width: 150px;
+      height: 150px;
+      background: #394257;
+      border: 10px solid #fff;
+      outline: 40px solid #d9bb61;
+    }
+
+    b {
+      right: 0;
+    }
+
+    c {
+      bottom: 0;
+    }
+
+    d {
+      place-self: end;
+    }
+
+    a,
+    d {
+      border-radius: 40px 0;
+    }
+
+    b,
+    c {
+      border-radius: 0 40px;
+    }
+  }
+</style>
