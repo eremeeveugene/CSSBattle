@@ -1,0 +1,53 @@
+<f>
+  <c></c>
+  <c></c>
+  <l></l>
+</f>
+<f>
+  <c></c>
+  <c></c>
+  <l></l>
+</f>
+<f>
+  <c></c>
+  <c></c>
+  <l></l>
+</f>
+<style>
+  body {
+    display: grid;
+    gap: 20px;
+
+    &,
+    l {
+      background: #6592cf;
+    }
+
+    &,
+    f {
+      place-content: center;
+    }
+
+    f {
+      display: flex;
+      gap: 170px;
+      place-items: center;
+
+      * {
+        border-radius: 20px;
+      }
+    }
+
+    c {
+      width: 40px;
+      height: 70px;
+      background: #243d83;
+    }
+
+    l {
+      position: absolute;
+      width: 230px;
+      height: 20px;
+    }
+  }
+</style>
