@@ -1,0 +1,33 @@
+<a>
+  <b></b>
+</a>
+<a>
+  <b></b>
+</a>
+<style>
+  body {
+    background: #51a499;
+    place-content: center;
+
+    &,
+    a {
+      display: grid;
+    }
+
+    a {
+      border: solid #282828;
+      border-width: 0 60px 20px 60px;
+    }
+
+    a + a {
+      rotate: 180deg;
+    }
+
+    b {
+      width: 40px;
+      height: 40px;
+      border: solid #eac049;
+      border-width: 0 20px 40px;
+    }
+  }
+</style>
