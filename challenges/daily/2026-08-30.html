@@ -1,0 +1,48 @@
+<a>
+  <o></o>
+</a>
+<b>
+  <o></o>
+</b>
+<c>
+  <o></o>
+</c>
+<style>
+  body {
+    &,
+    a,
+    b,
+    c {
+      display: grid;
+    }
+
+    > * {
+      position: absolute;
+      place-self: center;
+      border: 20px solid #243d83;
+    }
+
+    a {
+      translate: -40px -40px;
+    }
+
+    c {
+      translate: 40px 40px;
+    }
+
+    a,
+    o {
+      z-index: 1;
+    }
+
+    &,
+    o {
+      background: #57c4c4;
+    }
+
+    o {
+      width: 160px;
+      height: 80px;
+    }
+  }
+</style>
