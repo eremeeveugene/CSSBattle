@@ -1,0 +1,29 @@
+<o></o>
+<style>
+  body {
+    display: grid;
+    background: #ffd0bd;
+
+    o {
+      width: 60px;
+      height: 140px;
+      place-self: center;
+      border: 20px solid #6b86e1;
+      border-radius: 50px;
+      color: #6b86e1;
+
+      &::before {
+        content: "";
+        display: grid;
+        height: 20px;
+        margin-top: 60px;
+        background: currentColor;
+        box-shadow:
+          -80px 10px,
+          80px -10px,
+          -60px -30px,
+          60px 30px;
+      }
+    }
+  }
+</style>
