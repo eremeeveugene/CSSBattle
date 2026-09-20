@@ -600,6 +600,7 @@ Check out my [CSSBattle](https://cssbattle.dev/player/eremeeveugene) profile to 
 - [2026-09-17](https://cssbattle.dev/play/FI82QbLNuW9WtU2AemyW)
 - [2026-09-18](https://cssbattle.dev/play/bgsT1tukudFAfXdKJGD2)
 - [2026-09-19](https://cssbattle.dev/play/LXVlYbdUHfOS5mrqkEh0)
+- [2026-09-20](https://cssbattle.dev/play/2R2qUfqneVtkaggWFkh5)
 
   </p>
 </details>
