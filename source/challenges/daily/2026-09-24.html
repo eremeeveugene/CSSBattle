@@ -1,0 +1,38 @@
+<i>
+  <a></a>
+  <b></b>
+  <c></c>
+  <a></a>
+</i>
+<style>
+  body {
+    &,
+    i {
+      display: grid;
+    }
+
+    &,
+    a {
+      background: #fade8b;
+    }
+
+    i {
+      grid-template: 80px 80px / 80px 80px;
+      place-self: center;
+      gap: 80px;
+      background: #3a4b86;
+
+      * {
+        border: solid #fade8b;
+      }
+
+      b {
+        border-width: 0 0 20px 20px;
+      }
+
+      c {
+        border-width: 20px 20px 0 0;
+      }
+    }
+  }
+</style>
