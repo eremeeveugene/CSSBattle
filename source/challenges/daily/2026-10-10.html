@@ -1,0 +1,51 @@
+<h>
+  <r></r>
+  <l></l>
+  <r></r>
+</h>
+<g>
+  <r></r>
+  <l></l>
+  <r></r>
+</g>
+<style>
+  body {
+    display: flex;
+    background: #042f38;
+    place-items: center;
+    place-content: center;
+    gap: 30px;
+    margin: 0;
+
+    g,
+    h {
+      display: grid;
+      gap: 15px;
+      width: 180px;
+
+      r {
+        width: 20px;
+        height: 40px;
+        background: #d9d9d9;
+      }
+
+      l {
+        height: 20px;
+        background: #bfa148;
+      }
+    }
+
+    h {
+      width: 190px;
+
+      r {
+        background: #bfa148;
+        place-self: end;
+      }
+
+      l {
+        background: #d9d9d9;
+      }
+    }
+  }
+</style>
