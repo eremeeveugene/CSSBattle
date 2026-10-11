@@ -1,0 +1,43 @@
+<l></l>
+<g>
+  <t></t>
+  <k></k>
+</g>
+<style>
+  body {
+    background: #fae29e;
+    place-content: center;
+
+    l {
+      background: #d16161;
+      margin-top: 24px;
+      width: 30px;
+      height: 160px;
+    }
+
+    &,
+    g {
+      display: grid;
+      place-items: center;
+    }
+
+    g {
+      align-items: start;
+
+      * {
+        grid-area: 1 / 1;
+        border: solid #0000;
+      }
+
+      t {
+        border-width: 84px 84px 0;
+        border-top-color: #3f4869;
+      }
+
+      k {
+        border-width: 42px 42px 0;
+        border-top-color: #d16161;
+      }
+    }
+  }
+</style>
