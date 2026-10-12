@@ -1,0 +1,47 @@
+<h></h>
+<v></v>
+<t></t>
+<b></b>
+<style>
+  body {
+    background: #84b9c7;
+
+    & {
+      display: grid;
+      place-items: center;
+      place-content: center;
+    }
+
+    * {
+      grid-area: 1 / 1;
+      aspect-ratio: 1;
+    }
+
+    h,
+    v {
+      width: 260px;
+      height: 160px;
+      border-block: 30px solid #ecd5e4;
+    }
+
+    v {
+      rotate: 90deg;
+    }
+
+    t,
+    b {
+      width: 60px;
+      background: #1e5260;
+    }
+
+    t {
+      translate: -50px -50px;
+      border-radius: 0 0 100%;
+    }
+
+    b {
+      translate: 50px 50px;
+      border-radius: 100% 0 0;
+    }
+  }
+</style>
