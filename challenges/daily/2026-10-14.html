@@ -1,0 +1,42 @@
+<r>
+  <a></a>
+  <b></b>
+  <c></c>
+</r>
+<style>
+  body {
+    display: grid;
+
+    &,
+    r * {
+      background: #9f6766;
+    }
+
+    r {
+      display: flex;
+      margin: auto;
+      height: 160px;
+      gap: 45px;
+      background: #bde4c1;
+
+      * {
+        width: 20px;
+        height: 80px;
+      }
+
+      a {
+        border-radius: 0 0 10px;
+      }
+
+      c {
+        border-radius: 0 0 0 10px;
+      }
+
+      b {
+        width: 50px;
+        height: 60px;
+        border-radius: 0 0 9in 9in;
+      }
+    }
+  }
+</style>
