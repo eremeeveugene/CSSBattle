@@ -1,0 +1,50 @@
+<a>
+  <c></c>
+  <c></c>
+  <c></c>
+  <d></d>
+  <c></c>
+  <c></c>
+  <c></c>
+  <c></c>
+</a>
+<b>
+  <c></c>
+  <c></c>
+</b>
+<style>
+  body {
+    > * {
+      position: absolute;
+      place-self: center;
+    }
+
+    &,
+    a,
+    b {
+      display: grid;
+    }
+
+    a {
+      translate: 0 25px;
+      grid: 20px 20px / repeat(4, 20px);
+      gap: 30px 20px;
+      padding: 60px 25px 40px;
+      background: #d9d9d9;
+    }
+
+    b {
+      translate: 0 -60px;
+      grid: 40px / 20px 20px;
+      gap: 90px;
+    }
+
+    c {
+      background: #8c8c8c;
+    }
+
+    d {
+      background: #ca5348;
+    }
+  }
+</style>
