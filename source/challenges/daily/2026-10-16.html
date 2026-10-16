@@ -1,0 +1,57 @@
+<f>
+  <b></b>
+  <r></r>
+  <w></w>
+  <b></b>
+  <r></r>
+</f>
+<c></c>
+<z>
+  <b></b>
+  <r></r>
+</z>
+<style>
+  body {
+    display: grid;
+    background: #f3ead2;
+    place-items: start center;
+    place-content: start center;
+    margin: 0;
+
+    f,
+    z {
+      display: flex;
+      height: 60px;
+      gap: 10px;
+
+      * {
+        width: 20px;
+      }
+
+      b {
+        background: #4c455b;
+      }
+
+      r {
+        background: #d96c7b;
+      }
+    }
+
+    w {
+      width: 100px;
+    }
+
+    z {
+      translate: 0 -20px;
+    }
+
+    c {
+      z-index: 1;
+      margin-top: 10px;
+      background: #4c455b;
+      width: 220px;
+      height: 110px;
+      border-radius: 0 0 110px 110px;
+    }
+  }
+</style>
