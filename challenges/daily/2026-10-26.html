@@ -1,0 +1,59 @@
+<a><r></r><s></s><p></p><i></i></a>
+<a><r></r><s></s><p></p><i></i></a>
+<style>
+  body {
+    background: #479582;
+
+    &,
+    a {
+      display: grid;
+    }
+
+    * {
+      grid-area: 1/1;
+      place-self: center;
+    }
+
+    a + a {
+      rotate: 180deg;
+    }
+
+    r,
+    i {
+      border: 20px solid #2834ba;
+    }
+
+    s,
+    p {
+      background: #2834ba;
+    }
+
+    r {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      translate: -40px -80px;
+    }
+
+    s {
+      width: 20px;
+      height: 160px;
+      translate: -80px;
+      box-shadow: 80px 0 #2834ba;
+    }
+
+    p {
+      width: 60px;
+      height: 40px;
+      border-radius: 30px 30px 0 0;
+      translate: -80px 80px;
+    }
+
+    i {
+      width: 20px;
+      height: 20px;
+      border-width: 0 10px;
+      translate: -80px 110px;
+    }
+  }
+</style>
