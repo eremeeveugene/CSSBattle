@@ -1,0 +1,35 @@
+<o></o>
+<a></a>
+<b></b>
+<style>
+  body {
+    display: grid;
+    background: #f7f2bc;
+
+    * {
+      grid-area: 1/1;
+      place-self: center;
+      background: #30acce;
+      aspect-ratio: 1;
+    }
+
+    o {
+      width: 120px;
+      border-radius: 50%;
+      translate: 0 10px;
+    }
+
+    a,
+    b {
+      width: 80px;
+      border-radius: 80px 0 0;
+      translate: -20px -30px;
+    }
+
+    b {
+      background: #1d5260;
+      border-radius: 0 80px 0 0;
+      translate: 20px -30px;
+    }
+  }
+</style>
