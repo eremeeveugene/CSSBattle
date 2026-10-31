@@ -1,0 +1,33 @@
+<a></a>
+<a></a>
+<c></c>
+<style>
+  body {
+    display: grid;
+    background: #62306D;
+
+    * {
+      grid-area: 1/1;
+      place-self: center;
+      width: 200px;
+      aspect-ratio: 1;
+      border: 30px solid #F7EC7D;
+    }
+
+    a {
+      border-radius: 0 0 80px 0;
+      border-width: 0 30px 30px 0;
+      translate: -35px -35px;
+    }
+
+    a + a {
+      scale: -1;
+      translate: 35px 35px;
+    }
+
+    c {
+      border-radius: 50%;
+      width: 100px;
+    }
+  }
+</style>
