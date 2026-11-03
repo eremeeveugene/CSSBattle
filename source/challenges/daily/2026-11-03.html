@@ -1,0 +1,45 @@
+<a></a>
+<a></a>
+<i></i>
+<i></i>
+<i></i>
+<style>
+  body {
+    display: grid;
+    background: #eed9d9;
+
+    * {
+      grid-area: 1/1;
+      place-self: center;
+    }
+
+    a {
+      width: 50px;
+      height: 220px;
+      background: #668884;
+      translate: 0 -10px;
+    }
+
+    a + a {
+      width: 120px;
+      height: 20px;
+      translate: 0 110px;
+    }
+
+    i {
+      border: 25px solid transparent;
+      border-right: 30px solid #eed9d9;
+      border-left: 0;
+      translate: 10px -75px;
+    }
+
+    i + i {
+      translate: 10px 25px;
+    }
+
+    i + i + i {
+      translate: -10px -25px;
+      scale: -1;
+    }
+  }
+</style>
