@@ -1,0 +1,41 @@
+<b></b>
+<a></a>
+<a></a>
+<a></a>
+<style>
+  * {
+    background: #2f5a76;
+  }
+
+  body {
+    display: grid;
+
+    * {
+      grid-area: 1/1;
+      place-self: center;
+      border: 20px solid #de6b67;
+      border-bottom: 0;
+    }
+
+    b {
+      width: 300px;
+      translate: 0 90px;
+    }
+
+    a {
+      width: 30px;
+      height: 190px;
+      border-radius: 35px 35px 0 0;
+      translate: 0 -5px;
+    }
+
+    a + a {
+      height: 70px;
+      translate: -105px 55px;
+    }
+
+    a + a + a {
+      translate: 105px 55px;
+    }
+  }
+</style>
