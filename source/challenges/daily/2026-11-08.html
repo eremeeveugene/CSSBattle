@@ -1,0 +1,33 @@
+<b></b>
+<r>
+  <a></a>
+  <a></a>
+</r>
+<style>
+  body {
+    display: grid;
+    background: #FAE29E;
+    place-content: center;
+    gap: 30px;
+
+    b, a {
+      border: solid #469DBA;
+      border-width: 30px 30px 0 0;
+      width: 90px;
+      height: 90px;
+    }
+
+    b {
+      height: 0;
+    }
+
+    r {
+      display: flex;
+      gap: 30px;
+
+      a + a {
+        width: 0;
+      }
+    }
+  }
+</style>
