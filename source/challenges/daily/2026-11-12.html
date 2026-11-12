@@ -1,33 +1,35 @@
-<l></l>
-<r></r>
+<l>
+  <l></l>
+</l>
 <h></h>
 <style>
   body {
-    background: #EE7667;
     display: grid;
+
+    &, h {
+      background: #EE7667;
+    }
 
     * {
       position: absolute;
       place-self: center;
     }
 
-    l, r {
-      background: #F2EAA8;
+    l {
       width: 80px;
       height: 220px;
+      background: #F2EAA8;
       rotate: 45deg;
-    }
 
-    r {
-      rotate: -45deg;
+      l {
+        rotate: 90deg;
+      }
     }
 
     h {
-      background: #EE7667;
-      border: 20px solid #F2EAA8;
-      border-width: 0 30px;
       width: 180px;
       height: 30px;
+      border-inline: 30px solid #F2EAA8;
     }
   }
 </style>
