@@ -1,35 +1,33 @@
-<x></x>
-<y></y>
-<b></b>
+<l></l>
+<r></r>
+<h></h>
 <style>
   body {
+    background: #EE7667;
     display: grid;
-    place-items: center;
 
-    &, b {
-      background: #EE7667;
+    * {
+      position: absolute;
+      place-self: center;
     }
 
-    x, y {
+    l, r {
+      background: #F2EAA8;
       width: 80px;
       height: 220px;
-      background: #F2EAA8;
       rotate: 45deg;
     }
 
-    x, y, b {
-      grid-area: 1 / 1;
-    }
-
-    y {
+    r {
       rotate: -45deg;
     }
 
-    b {
+    h {
+      background: #EE7667;
+      border: 20px solid #F2EAA8;
+      border-width: 0 30px;
       width: 180px;
       height: 30px;
-      z-index: 1;
-      border-inline: 30px solid #F2EAA8;
     }
   }
 </style>
