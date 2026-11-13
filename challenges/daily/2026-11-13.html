@@ -1,0 +1,43 @@
+<z>
+  <a></a>
+  <b><i></i></b>
+</z>
+<s>
+  <a></a>
+  <b><i></i></b>
+</s>
+<style>
+  body {
+    place-content: center;
+    gap: 20px;
+    background: #411C56;
+
+    &, z, s, b {
+      display: grid;
+    }
+
+    a, b, i {
+      background: #B7D7CD;
+    }
+
+    a, b {
+      width: 130px;
+      height: 40px;
+      border: 10px solid #C06C88;
+    }
+
+    b {
+      margin: -10px 0 0 70px;
+    }
+
+    i {
+      width: 60px;
+      height: 10px;
+      margin-top: -10px;
+    }
+
+    s {
+      scale: 1 -1;
+    }
+  }
+</style>
